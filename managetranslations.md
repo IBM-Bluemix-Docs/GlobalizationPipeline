@@ -11,7 +11,7 @@ lastupdated: "2017-06-1"
 {:screen:.screen}
 {:codeblock:.codeblock}
 
-# Managing bundle translations
+# Managing translations
 {: #managetranslations}
 
 
