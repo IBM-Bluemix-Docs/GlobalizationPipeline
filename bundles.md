@@ -80,7 +80,7 @@ Example:
 ``` 
 
 In addition, a resource file must also adhere to these guidelines:
-* Each key can be a maximum of 255 characters.
+* Each key can be a maximum of 1023 characters.
 * Each value can be a maximum of 8191 characters.
 * Each bundle can contain a maximum of 1000 key / value pairs.
 
