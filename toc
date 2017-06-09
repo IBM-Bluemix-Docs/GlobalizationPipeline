@@ -33,14 +33,7 @@ GlobalizationPipeline
     importetrbundles.md
     bundles.md
     modifybundles.md
-	
-    {: .topicgroup}
-    managetranslations.md
-        machineconfig.md
-        edittranslations.md
-        humantranslation.md
-        adduser.md
-	
+    managetranslations.md	
     using_service_credentials.md
     {: .navgroup-end}
 
