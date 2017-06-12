@@ -13,8 +13,7 @@ lastupdated: "2016-07-13"
 
 # {{site.data.keyword.GlobalizationPipeline_short}} tutorial
 {: #globalizationpipeline_tutorial}
-Last updated: 13 July 2016
-{: .last-updated}
+
 
 For video tutorial of {{site.data.keyword.GlobalizationPipeline_short}}, see [{{site.data.keyword.GlobalizationPipeline_short}} tutorial](https://www.youtube.com/watch?v=r_w7IvPNtH0){: new_window}.
 

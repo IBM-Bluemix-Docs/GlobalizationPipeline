@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2016-03-27"
+lastupdated: "2016-07-12"
 
 ---
 
@@ -88,3 +88,4 @@ In addition, ask native language speakers to review and edit the machine transla
 
 * **Avoid text in graphics.**
 * **Avoid using formatting for emphasis.**
+

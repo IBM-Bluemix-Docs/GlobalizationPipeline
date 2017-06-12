@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2016-08-25"
+lastupdated: "2016-08-30"
 
 ---
 
@@ -15,7 +15,8 @@ lastupdated: "2016-08-25"
 # {{site.data.keyword.GlobalizationPipeline_short}} troubleshooting
 {: #globalizationpipelinets}
 
-Here are some answers to common questions about using {{site.data.keyword.GlobalizationPipeline_full}}. 
+
+Here are some answers to common questions about using {{site.data.keyword.GlobalizationPipeline_short}}. 
 {:shortdesc}
 
 
@@ -74,6 +75,7 @@ Ensure that the resource file conforms to the following guidelines:
 * Each value can be a maximum of 2048 characters.
 * Each translation project can contain a maximum of 500 key / value pairs.
 * A resource file can be no larger than 2 MB.
+
 
 
 
