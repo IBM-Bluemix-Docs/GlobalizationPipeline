@@ -28,7 +28,7 @@ You can use the {{site.data.keyword.GlobalizationPipeline_short}} service to tra
 
 Before you start to work with translation on {{site.data.keyword.GlobalizationPipeline_short}}, you can choose a suitable translation plan.
 
-There are two translation plans available on {{site.data.keyword.GlobalizationPipeline_short}}, the Standard plan and Professional plan. Both these plans provide integrated unlimited basic machine translation as well as the capability to integrate with other machine translation engines for an additional charge. In the Professional plan, {{site.data.keyword.GlobalizationPipeline_short}} additionally offers a professional translation review and editing service. You can switch between {{site.data.keyword.GlobalizationPipeline_short}} plans within Bluemix with all data reserved. 
+There are two translation plans available on {{site.data.keyword.GlobalizationPipeline_short}}, the Standard plan and Professional plan. Both these plans provide integrated unlimited basic machine translation as well as the capability to integrate with other machine translation engines for an additional charge. In the Professional plan, {{site.data.keyword.GlobalizationPipeline_short}} additionally offers a professional translation review and editing service. You can switch between {{site.data.keyword.GlobalizationPipeline_short}} plans within {{site.data.keyword.Bluemix_notm}} with all data reserved. 
 
 
 ## Estimating {{site.data.keyword.GlobalizationPipeline_short}} Data Usage
@@ -42,7 +42,7 @@ According to the formula, the size of a typical bundle is `(length of key + leng
 
 For example, if you have 100 key/value pairs and translate them to 9 languages, the estimated storage size is 0.0005 100 (9+1) = 0.5 MB. The actual size may be different depending on actual key/value size and metadata stored along with the translation.
 
-Use the Bluemix [pricing calculator](https://console.ng.bluemix.net/?direct=classic/#/pricing/cloudOEPaneId=pricing&paneId=pricingSheet&orgGuid=127a45f4-4461-4d5b-a26b-6dc2fdd1a3a2&spaceGuid=208fb1ff-413b-4fd9-9615-e8226062d0f3) to determine your monthly service costs.
+Use the {{site.data.keyword.Bluemix_notm}} [pricing calculator](https://console.ng.bluemix.net/?direct=classic/#/pricing/cloudOEPaneId=pricing&paneId=pricingSheet&orgGuid=127a45f4-4461-4d5b-a26b-6dc2fdd1a3a2&spaceGuid=208fb1ff-413b-4fd9-9615-e8226062d0f3) to determine your monthly service costs.
 
 **Note**: Using the Professional plan review feature will increase your data usage beyond what is stated above.
 
