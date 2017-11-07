@@ -27,5 +27,5 @@ This section provides necessary related links for your reference.
 {: #general}
 
 * [Integrate Globalization Pipeline with Delivery Pipeline](https://hub.jazz.net/docs/deploy_ext/#globalize)
-* [IBM Bluemix Pricing Sheet](https://www.ng.bluemix.net/#/pricing)
-* [IBM Bluemix Prerequisites](https://developer.ibm.com/bluemix/support/#prereqs)
+* [IBM {{site.data.keyword.Bluemix_notm}} Pricing Sheet](https://www.ng.bluemix.net/#/pricing)
+* [IBM {{site.data.keyword.Bluemix_notm}} Prerequisites](https://developer.ibm.com/bluemix/support/#prereqs)
