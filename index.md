@@ -19,7 +19,7 @@ lastupdated: "2017-07-19"
 {{site.data.keyword.GlobalizationPipeline_full}} is an {{site.data.keyword.Bluemix}} service that enables app developers to rapidly release translated applications to global customers. {{site.data.keyword.GlobalizationPipeline_short}} provides machine translation, human review and editing, and APIs and SDKs to seamlessly integrate translation into your DevOps and Continuous Development infrastructure, eliminating manual and siloed operations associated with traditional translation process.
 {:shortdesc}
 
-You can use the {{site.data.keyword.GlobalizationPipeline_short}} service to translate any app deployed and hosted on {{site.data.keyword.Bluemix}}, or unbound to translate apps hosted on other cloud platforms.
+You can use the {{site.data.keyword.GlobalizationPipeline_short}} service to translate any app deployed and hosted on {{site.data.keyword.Bluemix_notm}}, or unbound to translate apps hosted on other cloud platforms.
 
 {{site.data.keyword.GlobalizationPipeline_short}} offers both a dashboard interface to manage your app translation and a RESTful API that fully automates the translation process. For information about the {{site.data.keyword.GlobalizationPipeline_short}} API, see [API Reference](https://gp-rest.ng.bluemix.net/translate/swagger/index.html){: new_window}. 
 
