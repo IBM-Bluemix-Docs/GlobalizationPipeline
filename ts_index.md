@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -62,7 +62,7 @@ Ensure that the resource file being uploaded is of one of these types.
 The resource file I am trying to upload is not accepted.
 {:shortdesc}
 
-When adding or updating a resource file to a translation project, an error is occurring because a portion of the file is to large.
+When adding or updating a resource file to a translation project, an error is occurring because a portion of the file is too large.
 {: tsSymptoms}
 
 {{site.data.keyword.GlobalizationPipeline_short}} can only accept resource files that meet certain size requirements.
@@ -70,9 +70,9 @@ When adding or updating a resource file to a translation project, an error is oc
 
 Ensure that the resource file conforms to the following guidelines:
 {: tsResolve}
-* Each key can be a maximum of 256 characters.
-* Each value can be a maximum of 2048 characters.
-* Each translation project can contain a maximum of 500 key / value pairs.
+* Each key can be a maximum of 1024 characters.
+* Each value can be a maximum of 8192 characters.
+* Each translation project can contain a maximum of 1000 key / value pairs.
 * A resource file can be no larger than 2 MB.
 
 
@@ -90,4 +90,17 @@ Machine translation engines are designed to work with natural language and might
 {: tsCauses}
 
 {{site.data.keyword.GlobalizationPipeline_short}} currently recognizes the pattern "{}" commonly used to represent variables and will preserve the original format of the content contained within.
+{: tsResolve}
+
+
+## I want to send a bundle for professional review, however, I don't see the Translation Requests tab.
+{: #problem6}
+
+If you want to utilize {{site.data.keyword.GlobalizationPipeline_short}}'s professional review feature, you need to be using the Professional plan. See [Managing Translation](https://console-regional.ng.bluemix.net/docs/services/GlobalizationPipeline/managetranslations.html) for more information.
+{: tsResolve}
+
+## I want to use the Globalization Pipeline API instead of the dashboard. How do I get started?
+{: #problem7}
+
+The {{site.data.keyword.GlobalizationPipeline_short}} API provides you with all the features of the dashboard, plus support for additional resource file formats and more. To get started using the API, consult the [API Swagger docs](https://gp-rest.ng.bluemix.net/translate/swagger/index.html).
 {: tsResolve}
