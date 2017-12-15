@@ -22,9 +22,6 @@ GlobalizationPipeline
 	
     cmd_line.md
     tutorial.md
-    integratewithgh.md
-    integratingdevops.md
-    integratingtoms.md
     relatedlinks.md
     {: .navgroup-end}
 
@@ -35,6 +32,11 @@ GlobalizationPipeline
     modifybundles.md
     managetranslations.md	
     using_service_credentials.md
+    integratewithgh.md
+    integratingmaven.md
+    integratingjenkins.md
+    integratingdevops.md
+    integratingtoms.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
