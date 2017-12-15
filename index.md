@@ -16,7 +16,7 @@ lastupdated: "2017-07-19"
 # Getting started with {{site.data.keyword.GlobalizationPipeline_short}}
 {: #globalizationpipeline}
 
-{{site.data.keyword.GlobalizationPipeline_full}} is an {{site.data.keyword.Bluemix}} service that enables app developers to rapidly release translated applications to global customers. {{site.data.keyword.GlobalizationPipeline_short}} provides machine translation, human review and editing, and APIs and SDKs to seamlessly integrate translation into your DevOps and Continuous Development infrastructure, eliminating manual and siloed operations associated with traditional translation process.
+{{site.data.keyword.GlobalizationPipeline_full}} is an {{site.data.keyword.Bluemix}} service that enables app developers to rapidly release translated applications to global customers. {{site.data.keyword.GlobalizationPipeline_short}} serves as a translation repository providing machine translation, human review and editing, and APIs and SDKs to seamlessly integrate translation into your DevOps and Continuous Development infrastructure, eliminating manual and siloed operations associated with traditional translation process.
 {:shortdesc}
 
 You can use the {{site.data.keyword.GlobalizationPipeline_short}} service to translate any app deployed and hosted on {{site.data.keyword.Bluemix_notm}}, or unbound to translate apps hosted on other cloud platforms.
