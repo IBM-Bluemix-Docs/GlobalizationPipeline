@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -80,8 +80,8 @@ Example:
 ``` 
 
 In addition, a resource file must also adhere to these guidelines:
-* Each key can be a maximum of 1023 characters.
-* Each value can be a maximum of 8191 characters.
+* Each key can be a maximum of 1024 characters.
+* Each value can be a maximum of 8192 characters.
 * Each bundle can contain a maximum of 1000 key / value pairs.
 
 As you create bundles, they are added to the **Bundles** tab where you can perform additional tasks such as adding or deleting languages, viewing the translated content, and making monior edits to the translated content. 
