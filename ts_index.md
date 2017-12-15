@@ -12,7 +12,7 @@ lastupdated: "2017-07-19"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# {{site.data.keyword.GlobalizationPipeline_short}} troubleshooting
+# FAQ
 {: #globalizationpipelinets}
 
 Here are some answers to common questions about using {{site.data.keyword.GlobalizationPipeline_full}}. 
