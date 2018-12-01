@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="GlobalizationPipeline" audience="service" href="/docs/services/GlobalizationPipeline/index.html"}
+{: .toc subcollection="GlobalizationPipeline" audience="service" href="/docs/services/GlobalizationPipeline/index.html" path="services/GlobalizationPipeline"}
 GlobalizationPipeline
 
     {: .navgroup id="learn"}
