@@ -86,7 +86,7 @@ In addition, a resource file must also adhere to these guidelines:
 
 As you create bundles, they are added to the **Bundles** tab where you can perform additional tasks such as adding or deleting languages, viewing the translated content, and making monior edits to the translated content. 
 
-{{site.data.keyword.GlobalizationPipeline_short}} translates your bundle contents into the languages by using the default machine translation engine. Optionally you can choose an alternative machine translation engine as described in the [Machine translation configuration](managetranslations.html#machineconfig) section. The default engine supports the following target languages:
+{{site.data.keyword.GlobalizationPipeline_short}} translates your bundle contents into the languages by using the default machine translation engine. Optionally you can choose an alternative machine translation engine as described in the [Machine translation configuration](/docs/services/GlobalizationPipeline/managetranslations.html#machineconfig) section. The default engine supports the following target languages:
 
 <table>
 <thead>
@@ -127,7 +127,7 @@ As you create bundles, they are added to the **Bundles** tab where you can perfo
 
 **Note:** {{site.data.keyword.GlobalizationPipeline_short}}'s default machine translation engine only provides support for English as a source language. However, alternative machine translation engines available for configuration within {{site.data.keyword.GlobalizationPipeline_short}} support the translation of other non-English source languages/language pairs.
 
-Once you have translated your bundle contents using machine translation, you can make minor edits within {{site.data.keyword.GlobalizationPipeline_short}} or you can submit bundles for human review and editing by professional translators. For details about submitting a request for human review and editing, see [Creating chargeable human translation request](managetranslations.html#humantranslation). 
+Once you have translated your bundle contents using machine translation, you can make minor edits within {{site.data.keyword.GlobalizationPipeline_short}} or you can submit bundles for human review and editing by professional translators. For details about submitting a request for human review and editing, see [Creating chargeable human translation request](/docs/services/GlobalizationPipeline/managetranslations.html#humantranslation). 
 
 
 
