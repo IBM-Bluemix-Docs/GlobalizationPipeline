@@ -20,6 +20,7 @@ GlobalizationPipeline
         [Ruby Client](https://github.com/IBM-Bluemix/gp-ruby-client)
         [Python Client](https://github.com/IBM-Bluemix/gp-python-client)
 	
+    gpactivitytracker.md
     cmd_line.md
     tutorial.md
     relatedlinks.md
