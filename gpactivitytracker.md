@@ -3,7 +3,7 @@
 copyright:
   years: 2016, 2019
 
-lastupdated: "2019-02-28"
+lastupdated: "2019-03-20"
 
 ---
 
@@ -167,4 +167,7 @@ The following table lists the actions that are related to instances and generate
 {: #gp_at_ui}
 
 {{site.data.keyword.cloudaccesstrailshort}} events are available in the {{site.data.keyword.cloudaccesstrailshort}} **space domain** that is available in the {{site.data.keyword.Bluemix_notm}} region where the {{site.data.keyword.GlobalizationPipeline_short}} service is provisioned. The {{site.data.keyword.cloudaccesstrailshort}} service instance and the {{site.data.keyword.GlobalizationPipeline_short}} instance must be provisioned in the same CF space.
+
+For RC instances of {{site.data.keyword.GlobalizationPipeline_short}}, the Activity Tracker events are available in the Activity Tracker **account** domain that where the events are generated in the {{site.data.keyword.Bluemix_notm}} region. 
+
 
