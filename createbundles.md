@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2017-12-15"
+  years: 2015, 2017
+lastupdated: "2017-05-26"
 
 
 ---
@@ -15,7 +15,7 @@ lastupdated: "2017-12-15"
 # Creating a bundle
 {: #createbundles}
 
-To get started with translation, you create bundles and upload resource files of your app that need to be translated by {{site.data.keyword.GlobalizationPipeline_short}}. The resource files can be either Java Properties, AMD I18N, or JSON files and must contain content in the form of key/value pairs that represent the UI strings from your app.  For more details and examples of supported file types, see [Working with bundles](./bundles.html){: new_window}.
+To get started with translation, you create bundles and upload resource files of your app that need to be translated by {{site.data.keyword.GlobalizationPipeline_short}}. The resource files can be either Java Properties, AMD I18N, or JSON files and must contain content in the form of key/value pairs that represent the UI strings from your app.  For more details and examples of supported file types, see [Working with bundles](/docs/services/GlobalizationPipeline/bundles.html){: new_window}.
 
 To create a bundle, complete the following steps:
 
@@ -45,7 +45,7 @@ To create a bundle, complete the following steps:
 <tr>
 <td><strong>Resource File</strong></td>
 <td>No</td>
-<td>A <a href=https://console-regional.ng.bluemix.net/docs/services/GlobalizationPipeline/bundles.html#globalizationpipeline_workingwithbundles>resource file</a> to translate. The maximum file size is limited to 2MB. Specified resource files will be uploaded.</td>
+<td>A <a href=https://new-console.stage1.ng.bluemix.net/docs/services/GlobalizationPipeline/bundles.html>resource file</a> to translate. The maximum file size is limited to 2MB. Specified resource files will be uploaded.</td>
 </tr>
 <tr>
 <td><strong>File format</strong></td>
@@ -60,7 +60,7 @@ To create a bundle, complete the following steps:
 </tbody>
 </table>
 
-<p><strong>Note:</strong> To change the language service that provides machine translation for your bundles, click the <a href=https://console-regional.ng.bluemix.net/docs/services/GlobalizationPipeline/managetranslations.html#machineconfig>MT Configuration</a> tab to view other supported machine translation engines.</p></li>
+<p><strong>Note:</strong> To change the language service that provides machine translation for your bundles, click the <strong>Machine Translation Configuration</strong> tab to view other supported machine translation engines.</p></li>
 
 <li>Click <strong>save</strong></li></ol>
 

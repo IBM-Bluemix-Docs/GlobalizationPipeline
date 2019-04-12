@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2017-07-19"
+lastupdated: "2016-07-13"
 
 ---
 
@@ -13,6 +13,8 @@ lastupdated: "2017-07-19"
 
 # Using {{site.data.keyword.GlobalizationPipeline_short}} outside of {{site.data.keyword.Bluemix_notm}}
 {: #globalizationpipeline_external}
+Last updated: 13 July 2016
+{: .last-updated}
 
 Many {{site.data.keyword.Bluemix_notm}} services, including {{site.data.keyword.GlobalizationPipeline_short}} can be used from an on-premise application hosting environment or even from another cloud platform without having to host the application on {{site.data.keyword.Bluemix_notm}}.
 {:shortdesc}

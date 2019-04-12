@@ -23,7 +23,7 @@ lastupdated: "2019-03-20"
 Use the {{site.data.keyword.cloudaccesstrailfull}} service to track how users and applications interact with the IBM {{site.data.keyword.GlobalizationPipeline_short}} in the {{site.data.keyword.Bluemix}}.
 {:shortdesc}
 
-The {{site.data.keyword.cloudaccesstrailfull_notm}} service records user-initiated activities that change the state of a service in the {{site.data.keyword.Bluemix_notm}}. For more information, see [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker/index.html#getting-started-with-cla).
+The {{site.data.keyword.cloudaccesstrailfull_notm}} service records user-initiated activities that change the state of a service in the {{site.data.keyword.Bluemix_notm}}. For more information, see [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker/index.html).
 
 
 
@@ -146,7 +146,7 @@ The following table lists the actions that are related to translation configurat
 |g11n-pipeline.config-mts.read|Gets all MT service bindings.|
 |g11n-pipeline.config-mt.read|Gets the MT service binding data.|
 |g11n-pipeline.config-translations.read|Gets all translation configurations.|
-|g11n-pipeline.config-translation.read|Gets the translation configuraiton.|
+|g11n-pipeline.config-translation.read|Gets the translation configuration.|
 |g11n-pipeline.config-mt.update|Puts the specified MT service binding data. If the specified binding data already exists, it is replaced by the specified MT service binding data.|
 |g11n-pipeline.config-mt.delete|Deletes the specified MT service binding data.|
 |g11n-pipeline.config-translation.update|Puts the translation configuration for the specified language pair. If the configuration for the pair already exists, it is replaced by the specified configuration.|
@@ -168,6 +168,4 @@ The following table lists the actions that are related to instances and generate
 
 {{site.data.keyword.cloudaccesstrailshort}} events are available in the {{site.data.keyword.cloudaccesstrailshort}} **space domain** that is available in the {{site.data.keyword.Bluemix_notm}} region where the {{site.data.keyword.GlobalizationPipeline_short}} service is provisioned. The {{site.data.keyword.cloudaccesstrailshort}} service instance and the {{site.data.keyword.GlobalizationPipeline_short}} instance must be provisioned in the same CF space.
 
-For RC instances of {{site.data.keyword.GlobalizationPipeline_short}}, the Activity Tracker events are available in the Activity Tracker **account** domain that where the events are generated in the {{site.data.keyword.Bluemix_notm}} region. 
-
-
+For RC instances of {{site.data.keyword.GlobalizationPipeline_short}}, the Activity Tracker events are available in the Activity Tracker **account** domain where the events are generated in the {{site.data.keyword.Bluemix_notm}} region.
