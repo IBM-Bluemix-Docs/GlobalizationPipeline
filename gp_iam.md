@@ -56,8 +56,8 @@ For information about assigning user roles in the UI, see [Managing IAM access](
 {: #gp_iam_apicalls}
 
 To generate or to get the service credentials, follow the following steps.
-1. Log on to your {{site.data.keyword.Bluemix}} account in [{{site.data.keyword.Bluemix}} dashboard](https://console.bluemix.net/).
-2. Click the service instance in [{{site.data.keyword.Bluemix}} dashboard](https://console.bluemix.net/).
+1. Log on to your {{site.data.keyword.Bluemix}} account in [{{site.data.keyword.Bluemix}} dashboard](https://cloud.ibm.com/).
+2. Click the service instance in [{{site.data.keyword.Bluemix}} dashboard](https://cloud.ibm.com/).
 3. Click **Service credentials** to open your service instance. 
 4. Click **New Credential** to follow the prompt to create new credentials.
 5. Click **View credentials** after creating the credential.
