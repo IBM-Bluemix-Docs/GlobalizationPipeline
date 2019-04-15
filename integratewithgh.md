@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2016-09-19"
+lastupdated: "2017-07-19"
 
 ---
 
@@ -14,4 +14,4 @@ lastupdated: "2016-09-19"
 # Integrating {{site.data.keyword.GlobalizationPipeline_short}} with GitHub Atom
 {: #integratewithgh}
 
-{{site.data.keyword.GlobalizationPipeline_full}} is available as a GitHub Atom package. This package enables you to translate your application strings from within this popular code editor. Click [here](https://atom.io/packages/gp-atom) for details.
+{{site.data.keyword.GlobalizationPipeline_full}} is available as a GitHub Atom package. This package enables you to translate your application strings from within this popular code editor. Click for [details of integrating {{site.data.keyword.GlobalizationPipeline_short}} with GitHub Atom](https://atom.io/packages/gp-atom).

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2017-06-21"
+lastupdated: "2017-07-19"
 
 ---
 
@@ -23,7 +23,7 @@ Once you have created bundles and started generating translations for your appli
 <li>How to assign user roles and access restrictions to the people that will need to access to your translations?</li>
 </ul>
 
-**Note**: For a Standard plan user, if you want to create human translation request, you can switch to the Professional plan. You can still view your human translation request data within a Standard plan, but the human translation request is only available for Professional plan users.
+**Note**: For a Standard plan user, if you want to create human translation request, you can switch to the Professional plan. You can still view your human translation request data within a Standard plan, but the human translation request is only available for Professional plan users. 
 
 ## Machine translation configuration
 {: #machineconfig}
@@ -46,7 +46,7 @@ After a machine translation service has been added to {{site.data.keyword.Global
 
 4. Click **Save** to return to the **Machine Translation Configuration** tab.
 
-Once an alternative service has been configured with {{site.data.keyword.GlobalizationPipeline_short}}, all target languages that have been assigned to that engine will begin to be generated using that engine.
+Once an alternative service has been configured with {{site.data.keyword.GlobalizationPipeline_short}}, all target languages that have been assigned to that engine will begin to be generated using that engine. 
 
 To stop using an alternative machine translation engine:
 
@@ -71,39 +71,39 @@ To view and edit the translations for a target language:
 3. In the Actions column, click the **Modify the translation** icon ![Select the Modify the translation icon to edit the translations of a particular key/value pair.](images/editIcon.png) to edit a machine-translated value.
 4. Edit the translation and click **Update** to update the original translated value with your edit.
 
-![The modify translation dialog window provides a simple way to edit translations.](images/editTranslation.png)
+![The modify translation dialog window provides a simple way to edit translations.](images/editTranslation.png) 
 
-***Tip:***
+***Tip:*** 
 1. When you work with large bundles that include many translatable keys, finding a particular value might be difficult. On the target language translation page, you can quickly search across all keys, source, and translations using the **Search for...** box.
-![Use the search box to search the keys, source, translations, or all three within a target language.](images/search.png)
+![Use the search box that is provided on the target language translation page to search the keys, source, translations, or all three within a target language.](images/search.png) 
 
 2. {{site.data.keyword.GlobalizationPipeline_short}} dashboard provides string filter function for you to select what kind of strings to show when you wan to view bundle details. Click on the default **Show all strings** tab, you can choose from showing all strings, reviewed strings only , or unreviewed strings only.
-![Use the string filter function to choose from showing all strings, reviewed strings only , or unreviewed strings only.](images/stringfilter.png)
+![Use the string filter function to choose from howing all strings, reviewed strings only , or unreviewed strings only.](images/stringfilter.png)
 
 ## Creating chargeable human translation requests
 {: #humantranslation}
 
-Where quality is paramount, you may wish to engage professional translators to review your machine translation. For an additional charge in the Professional plan of {{site.data.keyword.GlobalizationPipeline_short}}, you can submit your machine translated bundles for human review and editing. To do this, switch from the Standard plan to the Professional plan, create a human translation request and submit your target bundles to IBM's professional translation services. You can use this capability to further refine the quality and consistency of your translations. Languages that are available for human review and editing are the same as the languages supported by the machine translation engines available through {{site.data.keyword.GlobalizationPipeline_short}}.
+Where quality is paramount, you may wish to engage professional translators to review your machine translation. For an additional charge in the Professional plan of {{site.data.keyword.GlobalizationPipeline_short}}, you can submit your machine translated bundles for human review and editing. To do this, switch from the Standard plan to the Professional plan, create a human translation request and submit your target bundles to IBM's professional translation services. You can use this capability to further refine the quality and consistency of your translations. Languages that are available for human review and editing are the same as the languages supported by the machine translation engines available through {{site.data.keyword.GlobalizationPipeline_short}}. 
 
 
-To create a translation request, complete the following steps:
+To create a translation request, complete the following steps: 
 
 1. Switch to **the {{site.data.keyword.GlobalizationPipeline_short}} Professional plan**.
 
 2. Click the **Translation request** tab on the dashboard, and click **New Request**.
 
-3. Select your target bundle and target languages for translation.
+3. Select your target bundle and target languages for translation. 
 
-4. Verify the bundle ID, target languages and source word count for translation.
+4. Verify the bundle ID, target languages and source wordcount for translation. 
 
 5. Provide necessary information about your request. Fields that are marked with asterisks must be filled in.
 
 6. Confirm and submit the request.
 
-**Note**: You are highly recommended to provide additional context for your translation content in the **Special instruction** field during step 5. This can help human translators to better understand your content and deliver quality translation result.
+**Note**: You are highly recommended to provide additional context for your translation content in the **Special instruction** field during step 5. This can help human translators to better understand your content and deliver quality translation result. 
 ![You are highly recommended to provide enough additional context in the Special instruction field.](images/specialinstruction.png)
 
-You can view all your translation requests and track the status from the dashboard.
+You can view all your translation requests and track the status from the dashboard. 
 ![Sample translation request user interface for your reference.](images/translationrequest.png)
 
 **Note**: There are 5 states for each translation request. You can refer to the following table to help track the status of your translation request.
@@ -129,13 +129,13 @@ To generate a *JSON (.json)* report or XLIFF for your request, click the **Downl
 
 As you manage your translations, you may wish to grant access to additional API users based on the tasks they need to perform. For example, you may want to enable a translator to edit the translation, but not be able to modify the bundle information.
 
-| **Role type** | **View translations** | **Edit translations** | **Modify bundle information** | **Create professional translation requests** | **View professional translation requests** |
+| Role type | View translations? | Edit translations? | Modify bundle information? |
 |-----------|--------------------|--------------------|----------------------------|
-| Reader    | Yes | No | No | No | No |
-| Translator | Yes | Yes | No | No | Yes |
-| Administrator | Yes | Yes | Yes | Yes | Yes |
+| Reader | Yes | No | No |
+| Translator | Yes | Yes | No |
+| Administrator | Yes | Yes | Yes |
 
-If you create more API users, you can restrict their access to one or more specific bundles, or grant them access to all of the available bundles using {{site.data.keyword.GlobalizationPipeline_short}} Authentication.
+If you create more API users, you can restrict their access to one or more specific bundles, or grant them access to all of the available bundles.
 
 To grant an API user access to bundles in a {{site.data.keyword.GlobalizationPipeline_short}} service instance:
 
@@ -148,10 +148,10 @@ To grant an API user access to bundles in a {{site.data.keyword.GlobalizationPip
 
 ![Complete the forum in order to create a new API user.](images/newUser.png)
 
-An API user ID and password are generated and displayed. Copy and save those credentials; after you close the window, you cannot access them again. The credentials can be used for RESTful service via [SDKs](https://github.com/IBM-Bluemix/gp-common).
+An API user ID and password are generated and displayed. Copy and save those credentials; after you close the window, you cannot access them again. The credentials can be used for RESTful service via [SDKs](https://github.com/IBM-Bluemix/gp-common). 
 
 To reset the API user password:
 
 1. On the {{site.data.keyword.GlobalizationPipeline_short}} dashboard, click the **API Users** tab.
-2. Click the **Reset Password** icon ![Select this icon to reset the API users password](images/resetPW.png) to reset password for a specific user ID.
-3. Click **Yes**.
+2. Click the **Reset Password** icon ![Select this icon to reset the API users password](images/resetPW.png) to reset password for a specific user ID. 
+3. Click **Yes**. 

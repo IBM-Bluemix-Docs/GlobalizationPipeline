@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2016-03-27"
+  years: 2015, 2018
+lastupdated: "2017-07-19"
 
 ---
 
@@ -40,7 +40,7 @@ In addition, ask native language speakers to review and edit the machine transla
 * **Avoid marketing slogans:** Marketing slogans often rely on the audience's understanding of a particular culture. Avoid these kinds of slogans because machine translation engines are likely to have trouble translating them accurately.
 * **Ensure that list items are complete and parallel:** For example, if one item begins with a verb, make sure that all items begin with a verb.
 * **Avoid using please and thank you:** These words can seem out of place or even patronizing in some cultures.
-* **Write dates in non-numeric format:** Numeric date formats vary depending on country. Write out the month name, day, and year. For example use 1 September 2003 instead of 9/01/03, which might be interpreted as either 1 September 2003 or as 9 January 2003.
+* **Write dates in non numeric format:** Numeric date formats vary depending on country. Write out the month name, day, and year. For example use 1 September 2003 instead of 9/01/03, which might be interpreted as either 1 September 2003 or as 9 January 2003.
 
 ## Grammar tips
 {: #grammartips}
@@ -57,7 +57,7 @@ In addition, ask native language speakers to review and edit the machine transla
 * **Ensure that the elements of a sentence are parallel:** For example, use all nouns or all verbs in an in-sentence list; don't mix nouns and verbs.
 * **Do not omit necessary words:** For example, instead of "The file names are displayed in uppercase characters and the file extensions in lowercase," use "The file names are displayed in uppercase characters and the file extensions are displayed in lowercase characters." Use the word "that" to provide clarification as necessary. For example, replace "If you determine the problem is a missing file" with "If you determine that the problem is a missing file."
 * **Do not use a dash parenthetically:** For example, do not write "When you get to this point - the point when all data has been loaded - you need to test the system." Replace dashes with commas, or rewrite the sentence.
-
+ 
 ## Terminology tips
 {: #terminologytips}
 
