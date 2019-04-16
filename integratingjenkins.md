@@ -14,8 +14,8 @@ lastupdated: "2017-12-13"
 # Integrating {{site.data.keyword.GlobalizationPipeline_short}} with Jenkins
 {: #integratingjenkins}
 
-The {{site.data.keyword.GlobalizationPipeline_short}} Jenkins Plugin enables you to integrate {{site.data.keyword.GlobalizationPipeline_short}} with Jenkins jobs and builds. 
+The {{site.data.keyword.GlobalizationPipeline_short}} Jenkins Plugin enables you to integrate {{site.data.keyword.GlobalizationPipeline_short}} with Jenkins jobs and builds.
 
-The plugin can upload translatable resource bundles from any Jenkins job workspace to an instance of {{site.data.keyword.GlobalizationPipeline_short}} and download translated resource bundles to a Jenkins job workspace. 
+The plugin can upload translatable resource bundles from any Jenkins job workspace to an instance of {{site.data.keyword.GlobalizationPipeline_short}} and download translated resource bundles to a Jenkins job workspace.
 
-For more information of {{site.data.keyword.GlobalizationPipeline_short}} Jenkins plugin, see the [Jenkins Plugin User Guide](https://github.com/IBM-Cloud/gp-jenkins/blob/master/README.md).
+For more information of {{site.data.keyword.GlobalizationPipeline_short}} Jenkins plugin, see the [Jenkins Plugin User Guide](http://jenkinsci.github.io/ibm-g11n-pipeline-plugin).
