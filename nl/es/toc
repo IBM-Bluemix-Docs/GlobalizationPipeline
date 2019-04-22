@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="GlobalizationPipeline" audience="service" href="/docs/services/GlobalizationPipeline/index.html"}
+{: .toc subcollection="GlobalizationPipeline" audience="service" href="/docs/services/GlobalizationPipeline/index.html" path="services/GlobalizationPipeline"}
 GlobalizationPipeline
 
     {: .navgroup id="learn"}
@@ -10,7 +10,7 @@ GlobalizationPipeline
 
     {: .navgroup id="reference"}
     [API REST](https://gp-rest.ng.bluemix.net/translate/swagger/index.html)
-	
+
     {: .topicgroup}
     SDK
         [Cliente Java](https://github.com/IBM-Bluemix/gp-java-client)
@@ -19,7 +19,7 @@ GlobalizationPipeline
         [Cliente AngularJS](https://github.com/IBM-Bluemix/gp-angular-client)
         [Cliente Ruby](https://github.com/IBM-Bluemix/gp-ruby-client)
         [Cliente Python](https://github.com/IBM-Bluemix/gp-python-client)
-	
+
     cmd_line.md
     tutorial.md
     integratewithgh.md
@@ -33,7 +33,7 @@ GlobalizationPipeline
     importetrbundles.md
     bundles.md
     modifybundles.md
-    managetranslations.md	
+    managetranslations.md
     using_service_credentials.md
     {: .navgroup-end}
 
