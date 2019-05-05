@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2017-06-21"
 
 ---
 
@@ -23,7 +23,7 @@ Uma vez criados os pacotes configuráveis e iniciada a geração de traduções 
 <li>Como designar funções de usuário e restrições de acesso para as pessoas que precisarão acessar suas traduções?</li>
 </ul>
 
-**Nota**: para um usuário do plano Padrão, se você desejar criar solicitação de tradução humana, será possível alternar para o plano Profissional. Ainda assim será possível visualizar seus dados de solicitação de tradução humana em um plano Padrão, mas a solicitação de tradução humana estará disponível somente para usuários do plano Profissional. 
+**Nota**: para um usuário do plano Padrão, se você desejar criar solicitação de tradução humana, será possível alternar para o plano Profissional. Ainda assim será possível visualizar seus dados de solicitação de tradução humana em um plano Padrão, mas a solicitação de tradução humana estará disponível somente para usuários do plano Profissional.
 
 ## Configuração da tradução de máquina
 {: #machineconfig}
@@ -47,7 +47,7 @@ Após um serviço de tradução de máquina ter sido incluído no {{site.data.ke
 
 4. Clique em **Salvar** para retornar à guia **Configuração de tradução de máquina**.
 
-Depois que um serviço alternativo tiver sido configurado com o {{site.data.keyword.GlobalizationPipeline_short}}, todos os idiomas de destino que tiverem sido designados a esse mecanismo começarão a ser gerados usando esse mecanismo. 
+Depois que um serviço alternativo tiver sido configurado com o {{site.data.keyword.GlobalizationPipeline_short}}, todos os idiomas de destino que tiverem sido designados a esse mecanismo começarão a ser gerados usando esse mecanismo.
 
 Para parar de usar um mecanismo de tradução de máquina alternativo:
 
@@ -77,30 +77,30 @@ Para visualizar e editar as traduções de um idioma de destino:
 3. Na coluna Ações, clique no ícone **Modificar a tradução** ![Selecione o ícone Modificar a tradução para editar as traduções de um determinado par de chave/valor.](images/editIcon.png) para editar um valor traduzido por máquina.
 4. Edite a tradução e clique em **Atualizar** para atualizar o valor traduzido original com sua edição.
 
-![A janela de diálogo Modificar tradução fornece uma maneira simples de editar traduções.](images/editTranslation.png) 
+![A janela de diálogo Modificar tradução fornece uma maneira simples de editar traduções.](images/editTranslation.png)
 
-***Dica:*** 
-1. Quando você trabalha com pacotes configuráveis grandes que incluem muitas chaves traduzíveis, a descoberta de um valor específico pode ser difícil. Na página de tradução do idioma de destino, é possível procurar rapidamente entre todas as chaves, origens e traduções usando a caixa **Procurar...**.
-![Use a caixa de procura fornecida na página de tradução do idioma de destino para procurar as chaves, origens, traduções ou todas as três em um idioma de destino.](images/search.png) 
+***Dica:***
+1. Quando você trabalha com pacotes configuráveis grandes que incluem muitas chaves traduzíveis, a descoberta de um valor específico pode ser difícil. Na página de tradução de idioma de destino, é possível procurar rapidamente entre todas as chaves, origens e traduções usando a caixa **Procurar por...**.
+![Use a caixa de procura para procurar as chaves, a origem, as traduções ou as três em um idioma de destino.](images/search.png)
 
-2. O painel do {{site.data.keyword.GlobalizationPipeline_short}} fornece a função de filtragem de sequência para você selecionar quais tipos de sequência mostrar quando desejar visualizar detalhes do pacote configurável. Clique na guia padrão **Mostrar todas as sequências**, é possível escolher entre mostrar todas as sequências, somente as sequências revisadas ou somente as sequências não revisadas.
-![Use a função de filtragem de sequência para escolher entre mostrar todas as sequências, somente as sequências revisadas ou somente as sequências não revisadas.](images/stringfilter.png)
+2. O painel do {{site.data.keyword.GlobalizationPipeline_short}} fornece a função de filtragem de sequência para você selecionar quais tipos de sequência mostrar quando desejar visualizar detalhes do pacote configurável. Clique na guia **Mostrar todas as sequências**, é possível escolher mostrar todas as sequências, somente as sequências revisadas ou as sequências não revisadas.
+![Use a função de filtragem de sequência para escolher se mostrar todas as sequências, somente as sequências revisadas ou as sequências não revisadas.](images/stringfilter.png)
 
 ## Criando solicitações de tradução humana debitável
 {: #humantranslation}
 
-Onde a qualidade é crucial, você talvez deseje encaixar os tradutores profissionais para revisar sua tradução de máquina. Para um encargo adicional no plano Profissional do {{site.data.keyword.GlobalizationPipeline_short}}, é possível enviar seus pacotes configuráveis traduzidos por máquina para revisão e edição humana. Para fazer isso, alterne do plano Padrão para o plano Profissional, crie uma solicitação de tradução humana e envie seus pacotes configuráveis de destino para os serviços de tradução profissional da IBM. É possível usar esse recurso para refinar melhor a qualidade e consistência de suas traduções. Os idiomas que estão disponíveis para revisão e edição humana são os mesmos que os idiomas suportados pelos mecanismos de tradução de máquina disponíveis por meio do {{site.data.keyword.GlobalizationPipeline_short}}. 
+Onde a qualidade é crucial, você talvez deseje encaixar os tradutores profissionais para revisar sua tradução de máquina. Para um encargo adicional no plano Profissional do {{site.data.keyword.GlobalizationPipeline_short}}, é possível enviar seus pacotes configuráveis traduzidos por máquina para revisão e edição humana. Para fazer isso, alterne do plano Padrão para o plano Profissional, crie uma solicitação de tradução humana e envie seus pacotes configuráveis de destino para os serviços de tradução profissional da IBM. É possível usar esse recurso para refinar melhor a qualidade e consistência de suas traduções. Os idiomas que estão disponíveis para revisão e edição humana são os mesmos que os idiomas suportados pelos mecanismos de tradução de máquina disponíveis por meio do {{site.data.keyword.GlobalizationPipeline_short}}.
 
 
-Para criar uma solicitação de tradução, conclua as etapas a seguir: 
+Para criar uma solicitação de tradução, conclua as etapas a seguir:
 
 1. Alterne para **o plano Profissional do {{site.data.keyword.GlobalizationPipeline_short}}**.
 
 2. Clique na guia **Solicitação de tradução** no painel e clique em **Nova solicitação**.
 
-3. Selecione seu pacote configurável de destino e os idiomas de destino para tradução. 
+3. Selecione seu pacote configurável de destino e os idiomas de destino para tradução.
 
-4. Verifique o ID de pacote configurável, os idiomas de destino e a contagem de palavras de origem para tradução. 
+4. Verifique o ID do pacote configurável, os idiomas de destino e a contagem de palavras de origem para tradução.
 
 5. Forneça as informações necessárias sobre sua solicitação. Os campos marcados com asteriscos devem ser preenchidos.
 
@@ -135,13 +135,13 @@ Para gerar um relatório *JSON (.json)* ou XLIFF para sua solicitação, clique 
 
 À medida que gerencia suas traduções, você poderá desejar conceder acesso a usuários da API adicionais com base nas tarefas que eles precisam executar. Por exemplo, talvez você queira permitir que um tradutor edite a tradução, mas não possa modificar as informações do pacote configurável.
 
-| Tipo de função | Visualizar traduções? | Editar traduções? | Modificar informações do pacote configurável? |
+| **Tipo de função** | **Visualizar traduções** | **Editar traduções** | **Modificar informações do pacote configurável** | **Criar solicitações de tradução profissional** | **Visualizar solicitações de tradução profissional** |
 |-----------|--------------------|--------------------|----------------------------|
-| Reader | Sim | NÃO | NÃO |
-| Translator | Sim | Sim | NÃO |
-| Administrador | Sim | Sim | Sim |
+| Reader    | Sim | NÃO | NÃO | NÃO | NÃO |
+| Translator | Sim | Sim | NÃO | NÃO | Sim |
+| Administrador | Sim | Sim | Sim | Sim | Sim |
 
-Se você criar mais usuários da API, será possível restringir o acesso deles a um ou mais pacotes configuráveis específicos, ou conceder a eles acesso a todos os pacotes configuráveis disponíveis.
+Se você criar mais usuários da API, será possível restringir seu acesso a um ou mais pacotes configuráveis específicos ou conceder a eles acesso a todos os pacotes configuráveis disponíveis usando a autenticação do {{site.data.keyword.GlobalizationPipeline_short}}.
 
 Para conceder a um usuário da API acesso a pacotes configuráveis em uma instância
 de serviço do {{site.data.keyword.GlobalizationPipeline_short}}:
@@ -155,11 +155,11 @@ de serviço do {{site.data.keyword.GlobalizationPipeline_short}}:
 
 ![Conclua o fórum para criar um novo usuário da API.](images/newUser.png)
 
-Um ID e uma senha do usuário da API são gerados e exibidos. Copie e salve essas credenciais; depois de fechar a janela, não será possível acessá-las novamente. As credenciais podem ser usadas para serviço RESTful via [SDKs](https://github.com/IBM-Bluemix/gp-common). 
+Um ID e uma senha do usuário da API são gerados e exibidos. Copie e salve essas credenciais; depois de fechar a janela, não será possível acessá-las novamente. As credenciais podem ser usadas para serviço RESTful via [SDKs](https://github.com/IBM-Bluemix/gp-common).
 
 Para reconfigurar a senha de usuário da API:
 
 1. No painel do {{site.data.keyword.GlobalizationPipeline_short}}, clique na guia **Usuários da API**.
-2. Clique no ícone **Reconfiguração de senha** ![Selecione este ícone para reconfigurar a senha de usuários da API](images/resetPW.png) para reconfigurar a senha para um ID do usuário específico. 
+2. Clique no ícone **Reconfiguração de senha** ![Selecione este ícone para reconfigurar a senha de usuários da API](images/resetPW.png) para reconfigurar a senha para um ID do usuário específico.
 3. Clique
-em **Sim**. 
+em **Sim**.

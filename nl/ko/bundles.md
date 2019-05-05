@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2017-06-16"
 
 ---
 
@@ -58,7 +58,7 @@ define({
        appExitMsg: "Are you sure you want to quit the application?"
     }
 });
-``` 
+```
 * 파일 유형: *JSON(.json)*<br>
 예:
 ```js
@@ -77,16 +77,16 @@ define({
   "topics": "Topics",
   "appExitMsg": "Are you sure you want to quit the application?"
 }
-``` 
+```
 
 또한, 리소스 파일이 다음 가이드라인을 지켜야 합니다.
 * 각 키는 최대 1023자일 수 있습니다.
 * 각 값은 최대 8191자일 수 있습니다.
 * 각 번들에는 최대 1000개의 키/값 쌍이 포함될 수 있습니다.
 
-번들을 작성하면, 언어를 추가하거나 삭제하고, 번역된 컨텐츠를 보고, 번역된 컨텐츠를 일부 편집하는 등의 추가 태스크를 수행할 수 있는 **번들** 탭에 추가됩니다.  
+번들을 작성하면 언어를 추가하거나 삭제하고, 번역된 컨텐츠를 보고, 번역된 컨텐츠를 일부 편집하는 등의 추가 태스크를 수행할 수 있는 **번들** 탭에 해당 번들이 추가됩니다.  
 
-{{site.data.keyword.GlobalizationPipeline_short}}에서는 기본 기계 번역 엔진을 사용하여 번들 컨텐츠를 언어로 번역합니다. 선택적으로 [기계 번역 구성](managetranslations.html#machineconfig) 섹션에 설명된 대로 대체 기계 번역 엔진을 선택할 수 있습니다. 기본 엔진에서는 다음과 같은 대상 언어를 지원합니다.
+{{site.data.keyword.GlobalizationPipeline_short}}에서는 기본 기계 번역 엔진을 사용하여 번들 컨텐츠를 언어로 번역합니다. 선택적으로 [기계 번역 구성](/docs/services/GlobalizationPipeline/managetranslations.html#machineconfig) 섹션에 설명된 대로 대체 기계 번역 엔진을 선택할 수 있습니다. 기본 엔진에서는 다음과 같은 대상 언어를 지원합니다.
 
 <table>
 <thead>
@@ -127,7 +127,7 @@ define({
 
 **참고:** {{site.data.keyword.GlobalizationPipeline_short}}의 기본 기계 번역 엔진은 소스 언어로 영어만 지원합니다. 그러나 {{site.data.keyword.GlobalizationPipeline_short}} 내의 구성에 사용 가능한 대체 기계 번역 엔진은 영어가 아닌 다른 소스 언어/언어 쌍의 번역을 지원합니다.
 
-기계 번역을 사용하여 번들 컨텐츠를 번역하고 나면 {{site.data.keyword.GlobalizationPipeline_short}} 내에서 일부 편집하거나 번들을 제출하여 검토하고 전문 번역가가 편집할 수 있습니다. 인간이 검토하고 편집하도록 요청을 제출하는 데 대한 자세한 정보는 [비용이 청구되는 인간 번역 요청 작성](managetranslations.html#humantranslation)을 참조하십시오. 
+기계 번역을 사용하여 번들 컨텐츠를 번역하고 나면 {{site.data.keyword.GlobalizationPipeline_short}} 내에서 일부 편집하거나 번들을 제출하여 검토하고 전문 번역가가 편집할 수 있습니다. 인간이 검토하고 편집하도록 요청을 제출하는 데 대한 자세한 정보는 [비용이 청구되는 인간 번역 요청 작성](/docs/services/GlobalizationPipeline/managetranslations.html#humantranslation)을 참조하십시오.
 
 
 
@@ -143,5 +143,3 @@ define({
 작업할 번들을 선택한 후 해당 번역의 상태를 보고 언어를 추가하거나 제거하고 번역을 편집하거나 리소스 파일에 대한 업데이트를 제공할 수 있습니다.
 
 번들이 이제 필요하지 않으면 **번들** 탭에서 이를 삭제할 수 있습니다. 번들과 연관된 모든 번역도 삭제됩니다.
-
-

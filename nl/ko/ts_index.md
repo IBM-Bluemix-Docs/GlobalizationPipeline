@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2016-08-25"
 
 ---
 
@@ -12,10 +12,10 @@ lastupdated: "2017-07-19"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# {{site.data.keyword.GlobalizationPipeline_short}} 문제점 해결
+# FAQ
 {: #globalizationpipelinets}
 
-다음은 {{site.data.keyword.GlobalizationPipeline_full}} 사용에 대한 일반적인 질문에 대한 답변입니다.
+다음은 {{site.data.keyword.GlobalizationPipeline_full}} 사용에 대한 일반적인 질문에 대한 답변입니다. 
 {:shortdesc}
 
 
@@ -31,7 +31,7 @@ lastupdated: "2017-07-19"
 종종 제품 이름 또는 고유 명사는 특히 이름에 실제 단어가 포함된 경우 다른 언어로 적절히 번역되지 않습니다. 이러한 유형의 단어 및 구문 번역 시, 특정 언어로 해당 단어의 의미에 따라 번역된 텍스트의 의미가 영어 이름과 다를 수 있습니다.
 {: tsCauses}
 
-사용하기 전에 제품 이름의 번역을 테스트하고, 문제점이 발견되면 그에 따라 텍스트 또는 번역을 수정하십시오. 기계 번역 사용 시 쓰기 스타일 팁에 대해서는 [기계 번역 팁](./tips.html#globalizationpipeline_tips)을 참조하십시오.
+사용하기 전에 제품 이름의 번역을 테스트하고, 문제점이 발견되면 그에 따라 텍스트 또는 번역을 수정하십시오. 기계 번역 사용 시 쓰기 스타일 팁에 대해서는 [기계 번역 팁](/docs/services/GlobalizationPipeline/tips.html#globalizationpipeline_tips)을 참조하십시오.
 {: tsResolve}
 
 

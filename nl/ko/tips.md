@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2016-03-27"
 
 ---
 
@@ -25,7 +25,7 @@ lastupdated: "2017-07-19"
 ## 쓰기 스타일 팁
 {: #writingstyletips}
 
-* **짧은 길이부터 중간 길이의 단순 문장 사용(5 - 20개의 단어):** 기계 번역 엔진에서는 종종 세미콜론이 있는 문장을 포함하여 복합적이고 복잡한 문장을 번역하기가 어렵습니다. 한 문장에 하나의 의미를 나타내십시오. 문장에 두 개의 능동형 동사가 포함되어 두 개의 의미를 나타내는 경우 문장을 두 개의 문장으로 구분하십시오. 또한 기계 번역 엔진은 충분한 문맥을 제공할 수 없을 정도로 짧은 문장은 구문 분석하기 어렵습니다. 
+* **짧은 길이부터 중간 길이의 단순 문장 사용(5 - 20개의 단어):** 기계 번역 엔진에서는 종종 세미콜론이 있는 문장을 포함하여 복합적이고 복잡한 문장을 번역하기가 어렵습니다. 한 문장에 하나의 의미를 나타내십시오. 문장에 두 개의 능동형 동사가 포함되어 두 개의 의미를 나타내는 경우 문장을 두 개의 문장으로 구분하십시오. 또한 기계 번역 엔진은 충분한 문맥을 제공할 수 없을 정도로 짧은 문장은 구문 분석하기 어렵습니다.
 * **구문 금지:** 가능한 경우 항상 완전한 문장을 사용하십시오. 구문은 표제 및 하위 표제에는 사용될 수 있지만, 간결한 표제 스타일 쓰기는 피하십시오. 완전한 문장을 사용하여 목록을 소개하십시오.
 * **숙어, 속어 및 전문용어 금지:** 글자 그대로의 번역으로 뜻이 통하지 않는 구문을 바꾸십시오. 예를 들어, "on the fly"를 "dynamic"으로 "on the other hand"를 "alternatively"로 "keep in mind"를 "remember"로 바꾸십시오.
 * **유머, 풍자, 구어적 표현, 이모티콘 및 은유를 피하십시오.**
@@ -57,7 +57,7 @@ lastupdated: "2017-07-19"
 * **문장의 요소가 유사한지 확인:** 예를 들어, 문장 내 목록에 모두 명사 또는 모두 동사를 사용하십시오. 명사 및 동사를 혼용하지 마십시오.
 * **필수 단어 생략 금지:** 예를 들어, "The file names are displayed in uppercase characters and the file extensions in lowercase" 대신 "The file names are displayed in uppercase characters and the file extensions are displayed in lowercase characters"를 사용하십시오. 단어 "that"을 사용하여 필요에 따라 의미를 명확하게 하십시오. 예를 들어, "If you determine the problem is a missing file"을 "If you determine that the problem is a missing file"로 바꾸십시오.
 * **대시를 삽입구로 사용 금지:** 예를 들어, "When you get to this point - the point when all data has been loaded - you need to test the system"을 쓰지 마십시오. 대시를 쉼표로 바꾸거나 문장을 다시 쓰십시오.
- 
+
 ## 용어 팁
 {: #terminologytips}
 

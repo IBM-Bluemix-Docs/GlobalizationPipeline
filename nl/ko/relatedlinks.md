@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2019
+lastupdated: "2019-04-16"
 
 
 ---
@@ -15,7 +15,7 @@ lastupdated: "2017-07-19"
 # 관련 링크
 {: #relatedlinks}
 
-이 섹션에서는 참조용 필수 관련 링크를 제공합니다.  
+이 섹션에서는 참조용 필수 관련 링크를 제공합니다.
 
 ## 튜토리얼 및 샘플
 {: #samples}
@@ -27,5 +27,4 @@ lastupdated: "2017-07-19"
 {: #general}
 
 * [Delivery Pipeline과 Globalization Pipeline 통합](https://hub.jazz.net/docs/deploy_ext/#globalize)
-* [IBM Bluemix 가격 책정 시트](https://www.ng.bluemix.net/#/pricing)
-* [IBM Bluemix 전제조건](https://developer.ibm.com/bluemix/support/#prereqs)
+* [{{site.data.keyword.Bluemix_notm}} 가격 시트](https://www.ng.bluemix.net/#/pricing)

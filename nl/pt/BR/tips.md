@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2016-03-27"
 
 ---
 
@@ -43,7 +43,7 @@ escritas em um só idioma:** mecanismos de tradução de máquina podem assumir 
 * **Evite slogans de marketing:** os slogans de marketing geralmente confiam no entendimento do público de uma determinada cultura. Evite esses tipos de slogans porque mecanismos de tradução de máquina provavelmente terão problema para traduzi-los com precisão.
 * **Assegure-se de que itens de lista sejam completos e paralelos:** por exemplo, se um item começar com verbo, certifique-se de que todos os itens comecem com verbo.
 * **Evite usar por favor e obrigado:** essas palavras podem parecer fora de lugar ou até paternalistas em algumas culturas.
-* **Escreva datas em formato não numérico:** formatos numéricos para datas variam dependendo do país. Escreva o nome do mês, o dia e o ano. Por exemplo, use 1 de setembro de 2003, em vez de 9/01/03, que poderá ser interpretado como 1 de setembro de 2003 ou como 9 de janeiro de 2003.
+* **Grave datas em formato não numérico:** os formatos numéricos de data variam, dependendo do país. Escreva o nome do mês, o dia e o ano. Por exemplo, use 1 de setembro de 2003, em vez de 9/01/03, que poderá ser interpretado como 1 de setembro de 2003 ou como 9 de janeiro de 2003.
 
 ## Dicas de gramática
 {: #grammartips}
@@ -66,7 +66,7 @@ sejam paralelos:** por exemplo, use só substantivos ou só verbos em uma lista 
 * **Não omita palavras necessárias:** por exemplo, em vez de "The file names are displayed in uppercase characters and the file extensions in lowercase", use "The file names are displayed in uppercase characters and the file extensions are displayed in lowercase characters". Use a palavra "that" para fornecer esclarecimento, conforme necessário. Por exemplo, substitua "If you determine the problem is a missing file" por "If you determine that the problem is a missing file".
 * **Não use um traço com função de parênteses:** por exemplo, não escreva "When you get to this point - the point when all data has been loaded - you need to test the system". Substitua os traços por vírgulas ou reescreva a
 sentença.
- 
+
 ## Dicas de terminologia
 {: #terminologytips}
 

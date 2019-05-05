@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2017-05-26"
 
 
 ---
@@ -18,7 +18,7 @@ lastupdated: "2017-07-19"
 Para iniciar a tradução, você cria pacotes configuráveis e faz upload de arquivos de recursos de seu app que precisam ser traduzidos pelo {{site.data.keyword.GlobalizationPipeline_short}}. Os arquivos de recursos podem ser de propriedades Java, AMD I18N ou JSON e
 devem ter conteúdo na forma de pares de chave/valor que representem as sequências da IU
 do seu app.  Para obter mais detalhes e exemplos de tipos de arquivos suportados, consulte
-[Trabalhando com pacotes configuráveis](./bundles.html){: new_window}.
+[Trabalhando com pacotes configuráveis](/docs/services/GlobalizationPipeline/bundles.html){: new_window}.
 
 Para criar um pacote configurável, conclua as etapas a seguir:
 
@@ -65,7 +65,7 @@ Para criar um pacote configurável, conclua as etapas a seguir:
 </tbody>
 </table>
 
-<p><strong>Nota:</strong> para mudar o serviço de idioma que fornece tradução de máquina para seus pacotes configuráveis, clique na guia <a href=https://new-console.stage1.ng.bluemix.net/docs/services/GlobalizationPipeline/managing_translations.html#globalizationpipeline_service_to_service>Configuração de MT</a> para visualizar outros mecanismos de tradução de máquina suportados.</p></li>
+<p><strong>Nota:</strong> para mudar o serviço de idioma que fornece tradução de máquina para seus pacotes configuráveis, clique na guia <strong>Configuração de tradução de máquina</strong> para visualizar outros mecanismos de tradução de máquina suportados.</p></li>
 
 <li>Clique em <strong>salvar</strong></li></ol>
 
