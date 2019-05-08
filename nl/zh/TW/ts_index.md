@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2016-08-25"
 
 ---
 
@@ -12,7 +12,7 @@ lastupdated: "2017-07-19"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# {{site.data.keyword.GlobalizationPipeline_short}} 疑難排解
+# 常見問題
 {: #globalizationpipelinets}
 
 以下是 {{site.data.keyword.GlobalizationPipeline_full}} 常見使用問題的一些回答。
@@ -31,7 +31,7 @@ lastupdated: "2017-07-19"
 產品名稱或專有名詞通常不會適當地翻譯成其他語言，特別是名稱包含實際單字時。翻譯這些類型的單字和詞組時，根據這些單字在特定語言的意義，翻譯文字可能會與英文名稱的意義不同。
 {: tsCauses}
 
-請先測試產品名稱的翻譯，再使用它們，而且，如果發現問題，請從而修改文字或翻譯。如需使用機器翻譯的撰寫樣式提示，請參閱[機器翻譯提示](./tips.html#globalizationpipeline_tips)。
+請先測試產品名稱的翻譯，再使用它們，而且，如果發現問題，請相應地修改文字或翻譯。如需使用機器翻譯的撰寫樣式提示，請參閱[機器翻譯提示](/docs/services/GlobalizationPipeline/tips.html#globalizationpipeline_tips)。
 {: tsResolve}
 
 
@@ -42,7 +42,7 @@ lastupdated: "2017-07-19"
 不接受我正在嘗試上傳的資源檔。
 {:shortdesc}
 
-將資源檔新增至新的翻譯軟體組或更新要翻譯的現有資源檔時，我接收到錯誤。
+將資源檔新增至新的翻譯組合或更新要翻譯的現有資源檔時，我接收到錯誤。
 {: tsSymptoms}
 
 {{site.data.keyword.GlobalizationPipeline_short}} 只接受下列類型的資源檔：Java™ .properties、JSON 和 AMD I18N。

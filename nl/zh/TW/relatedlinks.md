@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2019
+lastupdated: "2019-04-16"
 
 
 ---
@@ -15,7 +15,7 @@ lastupdated: "2017-07-19"
 # 相關鏈結
 {: #relatedlinks}
 
-本節提供必要的相關鏈結供您參考。 
+本節提供必要的相關鏈結供您參考。
 
 ## 指導教學及範例
 {: #samples}
@@ -27,5 +27,4 @@ lastupdated: "2017-07-19"
 {: #general}
 
 * [整合 Globalization Pipeline 與 Delivery Pipeline](https://hub.jazz.net/docs/deploy_ext/#globalize)
-* [IBM Bluemix 定價單](https://www.ng.bluemix.net/#/pricing)
-* [IBM Bluemix 必要條件](https://developer.ibm.com/bluemix/support/#prereqs)
+* [{{site.data.keyword.Bluemix_notm}} 定價單](https://www.ng.bluemix.net/#/pricing)

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2016-03-27"
 
 ---
 
@@ -35,12 +35,12 @@ lastupdated: "2017-07-19"
 * **避免使用代名詞：**盡可能重複名詞或名詞詞組。代名詞 "it" 特別有問題。
 * **盡可能撰寫主動語態：**主動句通常會比被動句更為清楚。例如，撰寫 "The utility determines which path is most efficient"，而非 "The most efficient path is determined"。
 * **避免使用文化特定資訊。**
-* **請注意，機器翻譯引擎可能會翻譯產品名稱：**許多國家/地區會保留原始英文產品名稱，但機器翻譯引擎可能會嘗試翻譯產品名稱，特別是名稱包含實際單字時。請先測試產品名稱的翻譯，再使用該產品名稱。如果發現問題，請從而修改文字或翻譯。
+* **請注意，機器翻譯引擎可能會翻譯產品名稱：**許多國家/地區會保留原始英文產品名稱，但機器翻譯引擎可能會嘗試翻譯產品名稱，特別是名稱包含實際單字時。請先測試產品名稱的翻譯，再使用該產品名稱。如果發現問題，請相應地修改文字或翻譯。
 * **確定使用一種語言撰寫所有資訊：**機器翻譯引擎可能會假設所有資訊都是使用單一語言，即使文字包括另一種語言的一個以上單字。例如，如果文字包括 "en route"（法文），則機器翻譯引擎仍然會嘗試將這些單字當成英文單字來進行翻譯。
 * **避免使用銷售廣告詞：**銷售廣告詞通常會根據使用對象對特定文化的瞭解。因為機器翻譯引擎可能無法精確地翻譯這些類型的廣告詞，所以請避免使用它們。
 * **確定清單項目完整且相似：**例如，如果其中一個項目的開頭是動詞，請確定所有項目的開頭都是動詞。
 * **避免使用 please 和 thank you：**這些單字並不恰當，在某些文化中甚至有屈尊俯就的意思。
-* **以非數值格式撰寫日期：**數值日期格式會根據國家/地區而不同。寫下月份名稱、日和年份。例如，使用 1 September 2003 而非 9/01/03，後者可能會解譯為 2003 年 9 月 1 日或 2003 年 1 月 9 日。
+* **以非數值格式撰寫日期：**數值日期格式會根據國家/地區而不同。撰寫完整的月份名稱、日和年份。例如，使用 1 September 2003 而非 9/01/03，後者可能會解譯為 2003 年 9 月 1 日或 2003 年 1 月 9 日。
 
 ## 文法提示
 {: #grammartips}
@@ -57,7 +57,7 @@ lastupdated: "2017-07-19"
 * **確定句子元素的相似：**例如，在 in-sentence 清單中全部使用名詞或動詞；請不要混合使用名詞和動詞。
 * **不要省略必要單字：**例如，使用 "The file names are displayed in uppercase characters and the file extensions are displayed in lowercase characters"，而非 "The file names are displayed in uppercase characters and the file extensions in lowercase"。請使用 "that" 這個字，以在必要時釐清。例如，將 "If you determine the problem is a missing file" 取代為 "If you determine that the problem is a missing file"。
 * **不要附加性地插入橫線：**例如，請不要撰寫 "When you get to this point - the point when all data has been loaded - you need to test the system"。請將橫線取代為逗點，或重寫句子。
- 
+
 ## 術語提示
 {: #terminologytips}
 

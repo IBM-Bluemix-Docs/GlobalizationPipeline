@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2016-03-27"
 
 ---
 
@@ -57,7 +57,7 @@ lastupdated: "2017-07-19"
 * **确保句子的成分是类似的：**例如，使用句子列表中的所有名词或所有动词；不混合名词和动词。
 * **不省略必要的单词：**例如，使用“The file names are displayed in uppercase characters and the file extensions are displayed in lowercase characters”，而不是“The file names are displayed in uppercase characters and the file extensions in lowercase”。必要时使用单词“that”以使句子清晰明了。例如，将“If you determine the problem is a missing file”替换为“If you determine that the problem is a missing file”。
 * **不要使用破折号作为插入语：**例如，不要写“When you get to this point - the point when all data has been loaded - you need to test the system”。将破折号替换为逗号，或者重写该句子。
- 
+
 ## 术语提示
 {: #terminologytips}
 
@@ -67,7 +67,7 @@ lastupdated: "2017-07-19"
 * **使用一致和标准化的大小写、断字和构词：**例如，写“fix pack”而不是“Fix Pack”。
 * **除非术语是专有名称，否则使用小写字母。**
 * **避免使用特殊符号：**如果您需要使用 # 符号，请不要指英镑符号，而是指数字符号 (#)。
-* **避免使用缩写：**机器翻译引擎可能会识别常见缩写（如 IBM 和 DB2），但是它们无法识别所有缩写。尽可能避免使用缩写。不要使用拉丁文缩写，如“i.e.”和“etc”。
+* **避免使用缩写：**机器翻译引擎可能会识别常见缩写（如 IBM 和 Db2），但是它们无法识别所有缩写。尽可能避免使用缩写。不要使用拉丁文缩写，如“i.e.”和“etc”。
 
 ## 标点提示
 {: #punctuationtips}

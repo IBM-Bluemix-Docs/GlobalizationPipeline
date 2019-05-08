@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2016-03-27"
 
 ---
 
@@ -40,7 +40,7 @@ Bitten Sie zusätzlich Muttersprachler darum, die automatische Übersetzung zu �
 * **Vermeiden Sie die Verwendung von Slogans:** Marketing-Slogan basieren häufig darauf, dass die Zielgruppe ein bestimmtes kulturelles Wissen hat. Vermeiden Sie diese Art von Slogans, da die Engines für automatische Übersetzung voraussichtlich Schwierigkeiten damit haben werden, diese korrekt zu übersetzen.
 * **Stellen Sie sicher, dass Listenelemente vollständig sind und eine parallele Struktur aufweisen:** Wenn ein Element mit einem Verb beginnst, stellen Sie sicher, dass alle Elemente mit einem Verb beginnen.
 * **Vermeiden Sie die Verwendung von 'please' und 'thank you':** Diese Wörter können in einigen Kulturen unpassend oder gar herablassend wirken.
-* **Schreiben Sie Daten nicht im numerischen Format:** Das numerische Datumsformat ist von Land zu Land unterschiedlich. Schreiben Sie den Monatsnamen, den Tag und das Jahr. Schreiben Sie beispielsweise '1 September 2003' anstelle von '9/01/03', was möglicherweise als 1. September 2003 oder als 9. Januar 2003 interpretiert wird.
+* **Schreiben Sie Datumsangaben nicht im numerischen Format:** Numerische Datumsformate variieren abhängig vom jeweiligen Land. Schreiben Sie den Monatsnamen, den Tag und das Jahr. Schreiben Sie beispielsweise '1 September 2003' anstelle von '9/01/03', was möglicherweise als 1. September 2003 oder als 9. Januar 2003 interpretiert wird.
 
 ## Tipps zur Grammatik
 {: #grammartips}
@@ -57,7 +57,7 @@ Bitten Sie zusätzlich Muttersprachler darum, die automatische Übersetzung zu �
 * **Stellen Sie sicher, dass die Elemente eines Satzes eine parallele Struktur aufweisen:** Verwenden Sie bei Aufzählungen in einem Satz beispielsweise nur Nomen oder nur Verben. Mischen Sie Nomen und Verben nicht.
 * **Lassen Sie notwendige Wörter nicht aus:** Schreiben Sie beispielsweise anstelle von "The file names are displayed in uppercase characters and the file extensions in lowercase." den Satz "The file names are displayed in uppercase characters and the file extensions are displayed in lowercase characters." Verwenden Sie das Wort "that", um gegebenenfalls eine Erläuterung anzugeben. Ersetzen Sie beispielsweise "If you determine the problem is a missing file" durch "If you determine that the problem is a missing file."
 * **Verwenden Sie den Gedankenstrich nicht für zusätzliche Erläuterungen: ** Schreiben Sie beispielsweise nicht "When you get to this point - the point when all data has been loaded - you need to test the system." Ersetzen Sie die Gedankenstriche durch Kommas oder schreiben Sie den Satz neu.
- 
+
 ## Tipps zur Terminologie
 {: #terminologytips}
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2017
-lastupdated: "2017-07-19"
+  years: 2016, 2018
+lastupdated: "2016-09-5"
 
 ---
 
@@ -15,4 +15,4 @@ lastupdated: "2017-07-19"
 {: #integratingtoms}
 
 
-{{site.data.keyword.GlobalizationPipeline_full}} ist als Erweiterung für Microsoft Visual Studio Code verfügbar. Mit dieser Erweiterung können Sie Ihre Anwendungszeichenfolgen im Codeeditor übersetzen. Details finden Sie in [Blog - Einführung](https://developer.ibm.com/bluemix/2016/08/31/ibm-globalization-pipeline-and-microsoft-visual-studio-code/) und [Video - Einführung](https://www.youtube.com/watch?v=fUfmnx2KqyU).
+{{site.data.keyword.GlobalizationPipeline_full}} ist als Erweiterung für Microsoft Visual Studio Code verfügbar. Mit dieser Erweiterung können Sie Ihre Anwendungszeichenfolgen im Codeeditor übersetzen. Details hierzu finden Sie in diesem [Blog](https://developer.ibm.com/bluemix/2016/08/31/ibm-globalization-pipeline-and-microsoft-visual-studio-code/) und diesem [Video](https://www.youtube.com/watch?v=fUfmnx2KqyU). 

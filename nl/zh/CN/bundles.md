@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2017-06-16"
 
 ---
 
@@ -58,7 +58,7 @@ define({
        appExitMsg: "Are you sure you want to quit the application?"
     }
 });
-``` 
+```
 * 文件类型：*JSON (.json)*<br>
 示例：
 ```js
@@ -77,7 +77,7 @@ define({
   "topics": "Topics",
   "appExitMsg": "Are you sure you want to quit the application?"
 }
-``` 
+```
 
 此外，资源文件还必须遵循以下准则：
 * 每个键最多可为 1023 个字符。
@@ -86,7 +86,7 @@ define({
 
 当您创建束时，它们会添加到**束**选项卡中，您可在该选项卡中执行其他任务，如添加或删除语言、查看已翻译的内容，以及对已翻译的内容进行一些小修改。 
 
-{{site.data.keyword.GlobalizationPipeline_short}} 可使用缺省机器翻译引擎，将束内容翻译为语言。或者，您可以选择替代的机器翻译引擎，如[机器翻译配置](managetranslations.html#machineconfig)一节中所述。缺省引擎支持以下目标语言：
+{{site.data.keyword.GlobalizationPipeline_short}} 可使用缺省机器翻译引擎，将束内容翻译为语言。或者，您可以选择替代的机器翻译引擎，如[机器翻译配置](/docs/services/GlobalizationPipeline/managetranslations.html#machineconfig)一节中所述。缺省引擎支持以下目标语言：
 
 <table>
 <thead>
@@ -127,7 +127,7 @@ define({
 
 **注：**{{site.data.keyword.GlobalizationPipeline_short}} 的缺省机器翻译引擎仅提供对将英语作为源语言的支持。但可在 {{site.data.keyword.GlobalizationPipeline_short}} 中配置替代的机器翻译引擎来支持其他非英语源语言/语言对。
 
-使用机器翻译对束内容进行翻译后，可以在 {{site.data.keyword.GlobalizationPipeline_short}} 中进行一些小修改，或者提交束供专业翻译人员复查和编辑。有关提交人工复查和编辑的请求，请参阅[创建收费人工翻译请求](managetranslations.html#humantranslation)。 
+使用机器翻译对束内容进行翻译后，可以在 {{site.data.keyword.GlobalizationPipeline_short}} 中进行一些小修改，或者提交束供专业翻译人员复查和编辑。有关提交人工复查和编辑的请求，请参阅[创建收费人工翻译请求](/docs/services/GlobalizationPipeline/managetranslations.html#humantranslation)。
 
 
 
@@ -143,5 +143,3 @@ define({
 在您选择要使用的束之后，您可以查看其翻译的状态、添加或移除语言、编辑翻译或提供资源文件的更新。
 
 如果您不再需要某个束，那么您可以将其从**束**选项卡中删除。同时也会删除与该束相关联的所有翻译。
-
-

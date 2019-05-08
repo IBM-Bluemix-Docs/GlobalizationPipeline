@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2017-06-21"
 
 ---
 
@@ -23,9 +23,9 @@ Wenn Sie Bundles erstellt und mit der Generierung von Übersetzungen für Ihre A
 <li>Zuweisen von Benutzerrollen und Zugriffsbeschränkungen zu den Personen, die Zugriff auf Ihre Übersetzungen benötigen</li>
 </ul>
 
-**Hinweis**: Benutzer eines Standardplans können zu einem Professional-Plan wechseln, wenn sie eine Anforderung für eine Humanübersetzung erstellen möchten. Innerhalb eines Standardplans ist es weiterhin möglich, die Daten der Anforderung für eine Humanübersetzung anzuzeigen, das Anfordern einer Humanübersetzung steht nur Benutzern eines Professional-Plans zur Verfügung. 
+**Hinweis**: Benutzer eines Standardplans können zu einem Professional-Plan wechseln, wenn sie eine Anforderung für eine Humanübersetzung erstellen möchten. Innerhalb eines Standardplans ist es weiterhin möglich, die Daten der Anforderung für eine Humanübersetzung anzuzeigen, das Anfordern einer Humanübersetzung steht nur Benutzern eines Professional-Plans zur Verfügung.
 
-## Konfiguration zur automatischen Übersetzung
+## Konfiguration der Maschinenübersetzung
 {: #machineconfig}
 
 {{site.data.keyword.GlobalizationPipeline_full}} unterstützt die Fähigkeit zur Integration alternativer Services für automatische Übersetzung, um automatische Übersetzungen für Ihre Bundles auszuführen. Das Hinzufügen eines alternativen Service kann vorteilhaft sein, wenn die von {{site.data.keyword.GlobalizationPipeline_short}} verwendete Standard-Engine eine bestimmte Sprache, die Sie benötigen, nicht anbietet oder wenn Sie automatische Übersetzungen bevorzugen, die von einer anderen Engine generiert wurden. Die Verwendung von und die Gebühren für alternative Services werden unter den Bedingungen des jeweiligen Service aufgeführt.
@@ -46,7 +46,7 @@ Nachdem der Service für automatische Übersetzung zu {{site.data.keyword.Global
 
 4. Klicken Sie auf **Speichern**, um zur Registerkarte **Automatische Übersetzung - Konfiguration** zurückzukehren.
 
-Sobald ein alternativer Service für {{site.data.keyword.GlobalizationPipeline_short}} konfiguriert wurde, werden alle Zielsprachen, die dieser Engine zugeordnet wurden, mithilfe der Engine generiert. 
+Sobald ein alternativer Service für {{site.data.keyword.GlobalizationPipeline_short}} konfiguriert wurde, werden alle Zielsprachen, die dieser Engine zugeordnet wurden, mithilfe der Engine generiert.
 
 Gehen Sie wie folgt vor, um die Verwendung der alternativen Engine für automatische Übersetzung zu stoppen:
 
@@ -71,11 +71,11 @@ Gehen Sie wie folgt vor, um die Übersetzungen für eine Zielsprache anzuzeigen 
 3. Klicken Sie in der Aktionsspalte auf das Symbol **Übersetzung ändern** ![Mit dem Symbol für das Ändern der Übersetzung kann die Übersetzung eines bestimmten Schlüssel/Wert-Paars bearbeitet werden](images/editIcon.png), um einen automatisch übersetzten Wert zu bearbeiten.
 4. Bearbeiten Sie die Übersetzung und klicken Sie auf **Aktualisieren**, um den ursprünglich übersetzten Wert durch Ihre Bearbeitung zu aktualisieren.
 
-![Das Dialogfeld zum Ändern der Übersetzung bietet eine einfache Möglichkeit, Übersetzungen zu bearbeiten.](images/editTranslation.png) 
+![Das Dialogfeld zum Ändern der Übersetzung bietet eine einfache Möglichkeit, Übersetzungen zu bearbeiten.](images/editTranslation.png)
 
-***Tipp:*** 
+***Tipp:***
 1. Wenn Sie mit großen Bundles arbeiten, die zahlreiche übersetzbare Schlüssel enthalten, kann das Suchen nach einem bestimmten Wert schwierig sein. Auf der Seite mit den Zielsprachenübersetzungen können Sie schnell über alle Schlüssel, Quellen und/oder Übersetzungen hinweg suchen, indem Sie das Feld **Suchen nach....** verwenden.
-![Mithilfe des Suchfelds auf der Seite mit den Zielsprachenübersetzungen können die Schlüssel, Quellen und/oder Übersetzungen für eine Zielsprache durchsucht werden.](images/search.png) 
+![Mithilfe des Suchfelds können die Schlüssel, Quellen und/oder Übersetzungen für eine Zielsprache durchsucht werden.](images/search.png)
 
 2. Das {{site.data.keyword.GlobalizationPipeline_short}}-Dashboard stellt eine Zeichenfolgefilterfunktion bereit, mit der Sie auswählen können, welche Zeichenfolgen beim Anzeigen von Bundledetails dargestellt werden sollen. Die Standardregisterkarte ist **Alle Zeichenfolge anzeigen**; Sie können die Anzeige aller Zeichenfolgen, nur der überprüften Zeichenfolgen oder nur der nicht überprüften Zeichenfolgen auswählen.
 ![Mit der Zeichenfolgefilterfunktion kann die Anzeige aller Zeichenfolgen, nur der überprüften Zeichenfolgen oder nur der nicht überprüften Zeichenfolgen ausgewählt werden.](images/stringfilter.png)
@@ -83,18 +83,18 @@ Gehen Sie wie folgt vor, um die Übersetzungen für eine Zielsprache anzuzeigen 
 ## Gebührenpflichtige Anforderungen für Humanübersetzungen erstellen
 {: #humantranslation}
 
-Wo es in besonderem Maße auf Qualität ankommt, können Sie Humanübersetzer damit beauftragen, die automatische Übersetzung zu überprüfen. Gegen eine zusätzliche Gebühr im Rahmen des Professional-Plans von {{site.data.keyword.GlobalizationPipeline_short}} können Sie die automatisch übersetzten Bundles zur Überprüfung und Bearbeitung durch einen Humanübersetzer übergeben. Hierzu müssen Sie vom Standardplan zum Professonal-Plan wechseln, eine Anforderung für eine Humanübersetzung erstellen und die Zielbundles an die Humanübersetzungsservices von IBM übergeben. Sie können diese Möglichkeit nutzen, um die Qualität und Konistenz Ihrer Übersetzungen zu optimieren. Die Sprachen, die für die Überprüfung und Bearbeitung durch einen Humanübersetzer verfügbar sind, sind dieselben, die auch von den Engines zur automatischen Übersetzung unterstützt werden, die mit {{site.data.keyword.GlobalizationPipeline_short}} bereitgestellt werden. 
+Wo es in besonderem Maße auf Qualität ankommt, können Sie Humanübersetzer damit beauftragen, die automatische Übersetzung zu überprüfen. Gegen eine zusätzliche Gebühr im Rahmen des Professional-Plans von {{site.data.keyword.GlobalizationPipeline_short}} können Sie die automatisch übersetzten Bundles zur Überprüfung und Bearbeitung durch einen Humanübersetzer übergeben. Hierzu müssen Sie vom Standardplan zum Professonal-Plan wechseln, eine Anforderung für eine Humanübersetzung erstellen und die Zielbundles an die Humanübersetzungsservices von IBM übergeben. Sie können diese Möglichkeit nutzen, um die Qualität und Konistenz Ihrer Übersetzungen zu optimieren. Die Sprachen, die für die Überprüfung und Bearbeitung durch einen Humanübersetzer verfügbar sind, sind dieselben, die auch von den Engines zur automatischen Übersetzung unterstützt werden, die mit {{site.data.keyword.GlobalizationPipeline_short}} bereitgestellt werden.
 
 
-Führen Sie die folgenden Schritte aus, um eine Übersetzungsanforderung zu erstellen: 
+Führen Sie die folgenden Schritte aus, um eine Übersetzungsanforderung zu erstellen:
 
 1. Wechseln Sie zum **Professional-Plan von {{site.data.keyword.GlobalizationPipeline_short}}**.
 
 2. Klicken Sie auf die Registerkarte **Übersetzungsanforderung** im Dashboard und klicken Sie dann auf **Neue Anforderung**.
 
-3. Wählen Sie das Zielbundle und die Zielsprachen für die Übersetzung aus. 
+3. Wählen Sie das Zielbundle und die Zielsprachen für die Übersetzung aus.
 
-4. Überprüfen Sie die Bundle-ID, die Zielsprachen und die Anzahl der Wörter im Quellentext. 
+4. Überprüfen Sie die Bundle-ID, die Zielsprachen und die Anzahl der Wörter im Quellentext.
 
 5. Geben Sie die erforderlichen Informationen zu Ihrer Anforderung an. Felder, die mit einem Stern gekennzeichnet sind, müssen ausgefüllt werden.
 
@@ -110,15 +110,14 @@ Führen Sie die folgenden Schritte aus, um eine Übersetzungsanforderung zu erst
 
 | Status | E-Mail-Benachrichtigung | Erläuterung zum Status |
 |--------|--------------------|--------------------|
-| Entwurf | Nein | Die Übersetzungsanforderung wurde erstellt, jedoch noch nicht übergeben. Es ist noch möglich, den Inhalt der Übersetzungsanforderung zu ändern oder die Übersetzungsanforderung zu löschen. |
-| Übergeben | Ja | Die Übersetzungsanforderung wurde übergeben und ihr Inhalt kann nicht mehr geändert werden.|
-| Bearbeitung gestartet | Ja | Die Nachbearbeitung der Übersetzungsanforderung durch den Humanübersetzer wurde gestartet.|
-| Bearbeitung fertiggestellt | Ja | Die Nachbearbeitung der Übersetzungsanforderung durch den Humanübersetzer wurde fertiggestellt. Sie müssen noch warten, bis die übersetzten Zeichenfolgen wieder mit den Masterressourcenzeichenfolgen zusammengeführt wurden.|
-| Zusammengeführt | Ja | Das Ergebnis der Nachbearbeitung durch den Humanübersetzer wurde mit den Masterressourcenzeichenfolgen zusammengeführt. Die Übersetzungsanforderung ist fertiggestellt. Zu diesem Zeitpunkt können Sie einen Bericht generieren. Sie können die Übersetzungsanforderung zu zukünftigen Referenzzwecken speichern oder löschen, um Speicherplatz zu sparen. Das Löschen der Übersetzungsanforderung hat keine Auswirkung auf die zusammengeführten Übersetzungsergebnisse.|
+| Entwurf  | Nein | Die Übersetzungsanforderung wurde erstellt, jedoch noch nicht übergeben. Es ist noch möglich, den Inhalt der Übersetzungsanforderung zu ändern oder die Übersetzungsanforderung zu löschen. |
+| Übergeben | Ja | Die Übersetzungsanforderung wurde übergeben und ihr Inhalt kann nicht mehr geändert werden. |
+| Bearbeitung gestartet | Ja | Die Nachbearbeitung der Übersetzungsanforderung durch den Humanübersetzer wurde gestartet. |
+| Bearbeitung fertiggestellt | Ja | Die Nachbearbeitung der Übersetzungsanforderung durch den Humanübersetzer wurde fertiggestellt. Sie müssen noch warten, bis die übersetzten Zeichenfolgen wieder mit den Masterressourcenzeichenfolgen zusammengeführt wurden. |
+| Zusammengeführt | Ja | Das Ergebnis der Nachbearbeitung durch den Humanübersetzer wurde mit den Masterressourcenzeichenfolgen zusammengeführt. Die Übersetzungsanforderung ist fertiggestellt. Zu diesem Zeitpunkt können Sie einen Bericht generieren. Sie können die Übersetzungsanforderung zu zukünftigen Referenzzwecken speichern oder löschen, um Speicherplatz zu sparen. Das Löschen der Übersetzungsanforderung hat keine Auswirkung auf die zusammengeführten Übersetzungsergebnisse. |
 
 Wenn Sie Details zur Übersetzungsanforderung anzeigen möchten, klicken Sie auf das Symbol
 **Anforderungsdetails anzeigen** ![Mit dem Symbol für die Anzeige von Anforderungsdetails können die Übersetzungen in die Zielsprachen angezeigt werden](images/viewProjectDetailIcon.png) in der Spalte **Aktionen**.
-
 
 ![Details der Übersetzungsanforderung anzeigen](images/viewtr.png)
 
@@ -131,13 +130,13 @@ Wenn Sie einen Bericht im *JSON-Format (.json)* oder eine XLIFF-Datei für Ihre 
 
 Bei der Verwaltung Ihrer Übersetzungen möchten Sie möglicherweise weiteren API-Benutzern, auf Grundlage der von ihnen auszuführenden Aufgaben, Zugriff gewähren. Sie möchten beispielsweise einem Übersetzer ermöglichen, die Übersetzung zu bearbeiten, dieser soll jedoch nicht die Bundle-Information ändern können.
 
-| Rollentyp | Übersetzungen anzeigen? | Übersetzungen bearbeiten? | Bundle-Information ändern? |
+| **Rollentyp** | **Übersetzungen anzeigen** | **Übersetzungen bearbeiten** | **Bundle-Informationen ändern** | **Anforderungen für professionelle Übersetzung erstellen** | **Anforderungen für professionelle Übersetzung anzeigen** |
 |-----------|--------------------|--------------------|----------------------------|
-| Leser | Ja | Nein | Nein |
-| Übersetzer | Ja | Ja | Nein |
-| Administrator | Ja | Ja | Ja |
+| Leser     | Ja | Nein | Nein | Nein | Nein |
+| Übersetzer | Ja | Ja | Nein | Nein | Ja |
+| Administrator | Ja | Ja | Ja | Ja | Ja |
 
-Wenn Sie mehr API-Benutzer erstellen, können Sie deren Zugriff auf ein oder mehrere spezifische Bundle einschränken oder ihnen Zugriff auf alle verfügbaren Bundles gewähren.
+Wenn Sie mehr API-Benutzer erstellen, können Sie deren Zugriff auf ein oder mehrere spezifische Bundles einschränken oder ihnen Zugriff auf alle verfügbaren Bundles gewähren, indem Sie die {{site.data.keyword.GlobalizationPipeline_short}}-Authentifizierung nutzen. 
 
 Gehen Sie wie folgt vor, um einem API-Benutzer Zugriff auf ein Bundle in einer Serviceinstanz von {{site.data.keyword.GlobalizationPipeline_short}} zu gewähren:
 
@@ -150,10 +149,10 @@ Gehen Sie wie folgt vor, um einem API-Benutzer Zugriff auf ein Bundle in einer S
 
 ![Füllen Sie das Formular aus, um einen neuen API-Benutzer zu erstellen.](images/newUser.png)
 
-Eine API-Benutzer-ID und ein Kennwort werden generiert und angezeigt. Kopieren und speichern Sie diese Berechtigungsnachweise. Nachdem Sie das Fenster geschlossen haben, können Sie nicht mehr auf diese Daten zugreifen. Die Berechtigungsnachweise können für den RESTful-Service über [SDKs](https://github.com/IBM-Bluemix/gp-common) verwendet werden. 
+Eine API-Benutzer-ID und ein Kennwort werden generiert und angezeigt. Kopieren und speichern Sie diese Berechtigungsnachweise. Nachdem Sie das Fenster geschlossen haben, können Sie nicht mehr auf diese Daten zugreifen. Die Berechtigungsnachweise können für den RESTful-Service über [SDKs](https://github.com/IBM-Bluemix/gp-common) verwendet werden.
 
 Gehen Sie wie folgt vor, um das API-Benutzerkennwort zurückzusetzen:
 
 1. Klicken Sie im {{site.data.keyword.GlobalizationPipeline_short}}-Dashboard auf die Registerkarte **API-Benutzer**.
-2. Klicken Sie auf das Symbol **Kennwort zurücksetzen** ![Mit diesem Symbol kann das API-Benutzerkennwort zurückgesetzt werden](images/resetPW.png), um das Kennwort für eine bestimmte Benutzer-ID zurückzusetzen. 
-3. Klicken Sie auf **Ja**. 
+2. Klicken Sie auf das Symbol **Kennwort zurücksetzen** ![Mit diesem Symbol kann das API-Benutzerkennwort zurückgesetzt werden](images/resetPW.png), um das Kennwort für eine bestimmte Benutzer-ID zurückzusetzen.
+3. Klicken Sie auf **Ja**.

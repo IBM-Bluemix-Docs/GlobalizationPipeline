@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2017-05-26"
 
 
 ---
@@ -15,7 +15,7 @@ lastupdated: "2017-07-19"
 # Bundle erstellen
 {: #createbundles}
 
-Beginnen Sie mit der Übersetzung, indem Sie Bundles und Uploadressourcendateien Ihrer App erstellen, die von {{site.data.keyword.GlobalizationPipeline_short}} übersetzt werden sollen. Die Ressourcendateien können entweder Java-Eigenschaften, AMD I18N oder JSON-Dateien sein und müssen den Inhalt in Form von Schlüssel/Wertpaaren enthalten, die die Zeichenfolgen der Benutzerschnittstelle Ihrer App darstellen.  Weitere Details und Beispiele unterstützter Dateitypen finden Sie unter [Mit Bundles arbeiten](./bundles.html){: new_window}.
+Beginnen Sie mit der Übersetzung, indem Sie Bundles und Uploadressourcendateien Ihrer App erstellen, die von {{site.data.keyword.GlobalizationPipeline_short}} übersetzt werden sollen. Die Ressourcendateien können entweder Java-Eigenschaften, AMD I18N oder JSON-Dateien sein und müssen den Inhalt in Form von Schlüssel/Wertpaaren enthalten, die die Zeichenfolgen der Benutzerschnittstelle Ihrer App darstellen.  Weitere Details und Beispiele unterstützter Dateitypen finden Sie unter [Mit Bundles arbeiten](/docs/services/GlobalizationPipeline/bundles.html){: new_window}.
 
 Führen Sie die folgenden Schritte aus, um ein Bundle zu erstellen:
 
@@ -60,7 +60,7 @@ Führen Sie die folgenden Schritte aus, um ein Bundle zu erstellen:
 </tbody>
 </table>
 
-<p><strong>Hinweis:</strong> Um den Sprachservice zu ändern, der die automatische Übersetzung für Ihre Bundle anbietet, klicken Sie auf die Registerkarte <a href=https://new-console.stage1.ng.bluemix.net/docs/services/GlobalizationPipeline/managing_translations.html#globalizationpipeline_service_to_service>MT-Konfiguration</a>, um andere unterstützte Engines für automatische Übersetzungen anzuzeigen.</p></li>
+<p><strong>Hinweis:</strong> Um den Sprachservice zu ändern, der die automatische Übersetzung für Ihre Bundle anbietet, klicken Sie auf die Registerkarte <strong>Konfiguration der Maschinenübersetzung</strong>, um andere unterstützte Engines für automatische Übersetzungen anzuzeigen.</p></li>
 
 <li>Klicken Sie auf <strong>Speichern</strong>.</li></ol>
 

@@ -10,7 +10,7 @@ GlobalizationPipeline
 
     {: .navgroup id="reference"}
     [REST API](https://gp-rest.ng.bluemix.net/translate/swagger/index.html)
-
+	
     {: .topicgroup}
     SDK
         [Java 用戶端](https://github.com/IBM-Bluemix/gp-java-client)
@@ -19,25 +19,32 @@ GlobalizationPipeline
         [AngularJS 用戶端](https://github.com/IBM-Bluemix/gp-angular-client)
         [Ruby 用戶端](https://github.com/IBM-Bluemix/gp-ruby-client)
         [Python 用戶端](https://github.com/IBM-Bluemix/gp-python-client)
-
+	
+    gpactivitytracker.md
+    gp_iam.md
     cmd_line.md
     tutorial.md
-    integratewithgh.md
-    integratingdevops.md
-    integratingtoms.md
     relatedlinks.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    gp_migration.md
+    gp_ha_dr.md
     createbundles.md
     importetrbundles.md
     bundles.md
     modifybundles.md
-    managetranslations.md
+    managetranslations.md	
     using_service_credentials.md
+    integratewithgh.md
+    integratingmaven.md
+    integratingjenkins.md
+    integratingdevops.md
+    integratingtoms.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    gp_release_note.md
     ts_index.md
     tips.md
     {: .navgroup-end}

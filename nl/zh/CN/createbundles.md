@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2017-05-26"
 
 
 ---
@@ -15,7 +15,7 @@ lastupdated: "2017-07-19"
 # 创建束
 {: #createbundles}
 
-要开始翻译，您创建束并上传需要 {{site.data.keyword.GlobalizationPipeline_short}} 翻译的应用程序的资源文件。资源文件可以是 Java 属性文件、AMD I18N 文件或 JSON 文件，且必须以代表应用程序中 UI 字符串的键值对形式包含内容。有关受支持文件类型的详细信息和示例，请参阅[使用束](./bundles.html){: new_window}。
+要开始翻译，您创建束并上传需要 {{site.data.keyword.GlobalizationPipeline_short}} 翻译的应用程序的资源文件。资源文件可以是 Java 属性文件、AMD I18N 文件或 JSON 文件，且必须以代表应用程序中 UI 字符串的键值对形式包含内容。有关受支持文件类型的详细信息和示例，请参阅[使用束](/docs/services/GlobalizationPipeline/bundles.html){: new_window}。
 
 要创建束，请完成以下步骤：
 
@@ -59,7 +59,7 @@ lastupdated: "2017-07-19"
 </tbody>
 </table>
 
-<p><strong>注：</strong>要更改针对束提供机器翻译的语言服务，请单击 <a href=https://new-console.stage1.ng.bluemix.net/docs/services/GlobalizationPipeline/managing_translations.html#globalizationpipeline_service_to_service>MT 配置</a>选项卡，以查看其他受支持的机器翻译引擎。</p></li>
+<p><strong>注：</strong>要更改针对束提供机器翻译的语言服务，请单击<strong>机器翻译配置</strong>选项卡，以查看其他受支持的机器翻译引擎。</p></li>
 
 <li>单击<strong>保存</strong></li></ol>
 

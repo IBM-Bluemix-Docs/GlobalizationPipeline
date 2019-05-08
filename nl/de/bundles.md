@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2017-06-16"
 
 ---
 
@@ -58,7 +58,7 @@ define({
        appExitMsg: "Are you sure you want to quit the application?"
     }
 });
-``` 
+```
 * Dateityp: *JSON (.json)*<br>
 Beispiel:
 ```js
@@ -77,7 +77,7 @@ Beispiel:
   "topics": "Topics",
   "appExitMsg": "Are you sure you want to quit the application?"
 }
-``` 
+```
 
 Zusätzlich muss eine Ressourcendatei die folgenden Richtlinien einhalten:
 * Jeder Schlüssel kann maximal 1023 Zeichen enthalten.
@@ -86,7 +86,7 @@ Zusätzlich muss eine Ressourcendatei die folgenden Richtlinien einhalten:
 
 Wenn Sie Bundles erstellen, werden diese zur Registerkarte **Bundles** hinzugefügt, auf der Sie zusätzliche Tasks, wie z. B. Hinzufügen oder Löschen von Sprachen, Anzeigen des übersetzten Inhalts und kleinere Bearbeitungsaktionen für den übersetzten Inhalt, durchführen können. 
 
-{{site.data.keyword.GlobalizationPipeline_short}} übersetzt den Bundleinhalt in die gewünschten Sprachen, indem die Standardengine für die automatische Übersetzung eingesetzt wird. Optional können Sie eine alternative Engine für automatische Übersetzung verwenden. Dies wird im Abschnitt über die [Konfiguration der automatischen Übersetzung](managetranslations.html#machineconfig) beschrieben. Die Standardengine unterstützt die folgenden Zielsprachen:
+{{site.data.keyword.GlobalizationPipeline_short}} übersetzt den Bundleinhalt in die gewünschten Sprachen, indem die Standardengine für die automatische Übersetzung eingesetzt wird. Optional können Sie eine alternative Engine für automatische Übersetzung verwenden. Dies wird im Abschnitt über die [Konfiguration der automatischen Übersetzung](/docs/services/GlobalizationPipeline/managetranslations.html#machineconfig) beschrieben. Die Standardengine unterstützt die folgenden Zielsprachen:
 
 <table>
 <thead>
@@ -127,7 +127,7 @@ Wenn Sie Bundles erstellen, werden diese zur Registerkarte **Bundles** hinzugef�
 
 **Anmerkung:** Die Standardengine für die automatische Übersetzung von {{site.data.keyword.GlobalizationPipeline_short}} bietet nur Unterstützung für Englisch als Quellensprache. Allerdings sind alternative Engines für die automatische Übersetzung zur Konfiguration innerhalb der {{site.data.keyword.GlobalizationPipeline_short}} verfügbar und unterstützen die Übersetzung weiterer Sprachenpaare außer Englisch.
 
-Nach dem Übersetzen des Bundleinhalts mithilfe der automatischen Übersetzung können Sie kleinere Bearbeitungsaktionen in {{site.data.keyword.GlobalizationPipeline_short}} vornehmen oder Sie können die Bundles zur Überprüfung und Bearbeitung an Humanübersetzer übergeben. Details zur Übergabe einer Anforderung für die Überprüfung und Bearbeitung durch einen Humanübersetzer finden Sie in [Gebührenpflichtige Anforderung für die Humanübersetzung](managetranslations.html#humantranslation). 
+Nach dem Übersetzen des Bundleinhalts mithilfe der automatischen Übersetzung können Sie kleinere Bearbeitungsaktionen in {{site.data.keyword.GlobalizationPipeline_short}} vornehmen oder Sie können die Bundles zur Überprüfung und Bearbeitung an Humanübersetzer übergeben. Details zur Übergabe einer Anforderung für die Überprüfung und Bearbeitung durch einen Humanübersetzer finden Sie in [Gebührenpflichtige Anforderung für die Humanübersetzung](/docs/services/GlobalizationPipeline/managetranslations.html#humantranslation).
 
 
 
@@ -143,5 +143,3 @@ Nach dem Übersetzen des Bundleinhalts mithilfe der automatischen Übersetzung k
 Nachdem Sie ein Bundle für die Arbeit ausgewählt haben, können Sie den Status der zugehörigen Übersetzungen anzeigen, Sprachen hinzufügen oder entfernen, die Übersetzungen bearbeiten oder Updates für die Ressourcendatei zur Verfügung stellen.
 
 Wenn Sie ein Bundle nicht mehr benötigen, können Sie es von der Registerkarte **Bundles** löschen. Alle Übersetzungen, die dem Bundle zugeordnet sind, werden ebenfalls gelöscht.
-
-

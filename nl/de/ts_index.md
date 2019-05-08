@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2016-08-25"
 
 ---
 
@@ -12,7 +12,7 @@ lastupdated: "2017-07-19"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# {{site.data.keyword.GlobalizationPipeline_short}} - Fehlerbehebung
+# Häufig gestellte Fragen
 {: #globalizationpipelinets}
 
 Hier finden Sie einige Antworten auf häufig gestellte Fragen zur Verwendung von {{site.data.keyword.GlobalizationPipeline_full}}. 
@@ -31,7 +31,7 @@ Bei der Übersetzung einer Ressourcendatei werden Zeichenfolgen mit bestimmten P
 Häufig werden Produktnamen und andere Eigennamen nicht korrekt in andere Sprachen übersetzt. Dies passiert insbesondere dann, wenn diese Namen normale Wörter enthalten. Bei der Übersetzung dieser Wörter oder Ausdrücke hat der übersetzte Text, abhängig von der Bedeutung dieser Wörter in einer bestimmten Sprache, möglicherweise eine andere Bedeutung als der englische Name.
 {: tsCauses}
 
-Testen Sie die Übersetzung von Produktnamen, bevor Sie diese verwenden. Falls Probleme auftreten, ändern Sie den Text oder die Übersetzung entsprechend. Hinweise zum Schreiben von Texten, die für die automatische Übersetzung vorgesehen sind, finden Sie unter [Tipps zur automatischen Übersetzung](./tips.html#globalizationpipeline_tips).
+Testen Sie die Übersetzung von Produktnamen, bevor Sie diese verwenden. Falls Probleme auftreten, ändern Sie den Text oder die Übersetzung entsprechend. Hinweise zum Schreiben von Texten, die für die automatische Übersetzung vorgesehen sind, finden Sie unter [Tipps zur automatischen Übersetzung](/docs/services/GlobalizationPipeline/tips.html#globalizationpipeline_tips).
 {: tsResolve}
 
 

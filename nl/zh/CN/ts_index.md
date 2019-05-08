@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2016-08-25"
 
 ---
 
@@ -12,7 +12,7 @@ lastupdated: "2017-07-19"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# {{site.data.keyword.GlobalizationPipeline_short}} 故障诊断
+# 常见问题
 {: #globalizationpipelinets}
 
 以下是有关使用 {{site.data.keyword.GlobalizationPipeline_full}} 常见问题的一些解答。
@@ -31,7 +31,7 @@ lastupdated: "2017-07-19"
 通常，产品名称或专有名称不会正确地翻译为其他语言，尤其是名称包含实际单词时更是如此。当翻译这些类型的单词或短语时，因这些单词在特定语言中的意思，翻译后的文本可能与英文名称具有不同的意思。
 {: tsCauses}
 
-在使用产品名称之前，请先测试产品名称的翻译，如果发现问题，请相应地修改文本或翻译。有关使用机器翻译时书写样式的提示，请参阅[机器翻译提示](./tips.html#globalizationpipeline_tips)。
+在使用产品名称之前，请先测试产品名称的翻译，如果发现问题，请相应地修改文本或翻译。有关使用机器翻译时书写样式的提示，请参阅[机器翻译提示](/docs/services/GlobalizationPipeline/tips.html#globalizationpipeline_tips)。
 {: tsResolve}
 
 

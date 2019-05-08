@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2019
+lastupdated: "2019-04-16"
 
 
 ---
@@ -15,7 +15,7 @@ lastupdated: "2017-07-19"
 # 関連リンク
 {: #relatedlinks}
 
-このセクションには、参照のために必要な関連リンクが示されています。 
+このセクションには、参照のために必要な関連リンクが示されています。
 
 ## チュートリアルとサンプル
 {: #samples}
@@ -27,5 +27,4 @@ lastupdated: "2017-07-19"
 {: #general}
 
 * [グローバリゼーション・パイプラインをデリバリー・パイプラインに統合する](https://hub.jazz.net/docs/deploy_ext/#globalize)
-* [IBM Bluemix の料金シート](https://www.ng.bluemix.net/#/pricing)
-* [IBM Bluemix の前提条件](https://developer.ibm.com/bluemix/support/#prereqs)
+* [{{site.data.keyword.Bluemix_notm}} 料金シート](https://www.ng.bluemix.net/#/pricing)

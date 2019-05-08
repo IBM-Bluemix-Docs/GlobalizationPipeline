@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2017-05-26"
 
 
 ---
@@ -12,17 +12,17 @@ lastupdated: "2017-07-19"
 {:screen:.screen}
 {:codeblock:.codeblock}
 
-# 建立軟體組
+# 建立組合
 {: #createbundles}
 
-若要開始使用翻譯，請建立軟體組，並針對需要由 {{site.data.keyword.GlobalizationPipeline_short}} 翻譯的應用程式，上傳其資源檔。資源檔可以是 Java Properties、AMD I18N 或 JSON 檔案，而且必須包含代表應用程式中使用者介面字串之鍵值組形式的內容。如需所支援檔案類型的詳細資料和範例，請參閱[使用軟體組](./bundles.html){: new_window}。
+若要開始使用翻譯，請建立組合，並針對需要由 {{site.data.keyword.GlobalizationPipeline_short}} 翻譯的應用程式，上傳其資源檔。資源檔可以是 Java Properties、AMD I18N 或 JSON 檔案，而且必須包含代表應用程式中使用者介面字串之鍵值組形式的內容。如需所支援檔案類型的詳細資料和範例，請參閱[使用組合](/docs/services/GlobalizationPipeline/bundles.html){: new_window}。
 
-若要建立軟體組，請完成下列步驟：
+若要建立組合，請完成下列步驟：
 
 <ol>
-<li>從<strong>概觀</strong>標籤中，按一下<strong>新建軟體組</strong>。</li>
+<li>從<strong>概觀</strong>標籤中，按一下<strong>新建組合</strong>。</li>
 
-<li>提供您軟體組的相關資訊：<table>
+<li>提供您組合的相關資訊：<table>
 <thead>
 <tr>
 <th>欄位</th>
@@ -32,9 +32,9 @@ lastupdated: "2017-07-19"
 </thead>
 <tbody>
 <tr>
-<td><strong>軟體組 ID</strong></td>
+<td><strong>組合 ID</strong></td>
 <td>是</td>
-<td>用來識別軟體組的唯一名稱。</td>
+<td>用來識別組合的唯一名稱。</td>
 </tr>
 <tr>
 <td><strong>來源語言</strong></td>
@@ -59,13 +59,13 @@ lastupdated: "2017-07-19"
 </tbody>
 </table>
 
-<p><strong>附註：</strong>若要變更提供軟體組之機器翻譯的語言服務，請按一下 <a href=https://new-console.stage1.ng.bluemix.net/docs/services/GlobalizationPipeline/managing_translations.html#globalizationpipeline_service_to_service>MT 配置</a>標籤，以檢視其他支援的機器翻譯引擎。</p></li>
+<p><strong>附註：</strong>要變更針對組合提供機器翻譯的語言服務，請按一下<strong>機器翻譯配置</strong>標籤，以檢視其他受支援的機器翻譯引擎。</p></li>
 
 <li>按一下<strong>儲存</strong></li></ol>
 
 
-建立軟體組之後，上傳的資源檔會翻譯為所有您指定的目標語言。新的軟體組會新增至「軟體組」標籤，您可以在其中執行下列動作：
+建立組合之後，上傳的資源檔會翻譯為所有您指定的目標語言。新的組合會新增至「組合」標籤，您可以在其中執行下列動作：
 
 * 新增或移除語言
 * 編輯產生的翻譯
-* 更新軟體組中所使用的來源檔，然後重新產生翻譯
+* 更新組合中所使用的原始檔，然後重新產生翻譯
