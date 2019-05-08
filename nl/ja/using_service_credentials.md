@@ -11,8 +11,7 @@ lastupdated: "2016-07-13"
 {:screen:.screen}
 {:codeblock:.codeblock}
 
-# {{site.data.keyword.Bluemix_notm}}
- 外部での{{site.data.keyword.GlobalizationPipeline_short}}の使用
+# {{site.data.keyword.Bluemix_notm}} 外部での{{site.data.keyword.GlobalizationPipeline_short}}の使用
 {: #globalizationpipeline_external}
 最終更新日: 2016 年 7 月 13 日
 {: .last-updated}
