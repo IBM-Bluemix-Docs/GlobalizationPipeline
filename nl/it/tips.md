@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2016-03-27"
 
 ---
 
@@ -27,7 +27,7 @@ In aggiunta, chiedi a dei madrelingua di controllare e modificare la machine tra
 
 * **Utilizza frasi semplici di media o breve lunghezza (5 - 20 parole):** i motori della machine translation hanno difficoltà a tradurre frasi complesse e composte, incluse frasi con punti e virgole. Comunica un pensiero per frase. Se una frase contiene due verbi attivi che comunicano due pensieri, dividi la frase in due. I motori della machine translation hanno anche problemi nell'analizzare frasi troppo corte per fornire abbastanza contenuto.
 * **Frasi da evitare:** Utilizza frasi complete se possibile. Le frasi sono accettabili per i titoli e sottotitoli ma evita di scrivere in modo telegrafico. Utilizza frasi complete per introdurre gli elenchi.
-* **Evita idiomi, gerghi e tecnicismi:** sostituisci la frasi per le quali una traduzione letterale non ha senso. Ad esempio, sostituisci "on the fly" con "dynamic," "on the other hand" con "alternatively," e "keep in mind" con "remember."
+* **Evita idiomi, gerghi e tecnicismi:** sostituisci la frasi per le quali una traduzione letterale non ha senso. Ad esempio, sostituisci "on the fly" con "dynamic", "on the other hand" con "alternatively" e "keep in mind" con "remember."
 * **Evita umorismo, sarcasmo, espressioni colloquiali, emoticon e metafore.**
 * **Devi essere conciso:** rimuovi ripetizioni e testo non necessari. Ad esempio, sostituisci "It is useful to remember that large values increase the response time" con "Large values increase the response time."
 * **Evita frasi scritte completamente in maiuscolo:** il maiuscolo fornisce indizi sul significato della parola. Ad esempio, se scrivi "BILL", il motore della machine translation non può determinare se tu intendi il nome "Bill" o la parola "bill."
@@ -40,7 +40,7 @@ In aggiunta, chiedi a dei madrelingua di controllare e modificare la machine tra
 * **Evita slogan di marketing:** gli slogan di marketing spesso fanno affidamento sulla comprensione di un pubblico di una cultura in particolare. Evita questi tipi di slogan perché i motori della machine translation possono avere problemi a tradurli correttamente.
 * **Assicurati che gli elementi elencati siano completi e simili:** ad esempio, se un elemento inizia con un verbo, assicurati che tutti gli elementi inizino con un verbo.
 * **Evita l'utilizzo di prego o grazie:** queste parole possono essere fuori luogo o paternalistiche in alcune culture.
-* **Scrivi le date in formato non numerico:** i formati delle date numerici sono diversi a seconda del paese. Scrivi il nome del mese, giorno e anno. Ad esempio utilizza 1 September 2003 invece di 9/01/03, che potrebbe essere interpretato sia come 1 September 2003 che come 9 January 2003.
+* **Scrivi le date in formato non numerico:** i formati di data numerici variano a seconda del paese. Scrivi il nome del mese, giorno e anno. Ad esempio utilizza 1 September 2003 invece di 9/01/03, che potrebbe essere interpretato sia come 1 September 2003 che come 9 January 2003.
 
 ## Suggerimenti sulla grammatica
 {: #grammartips}
@@ -57,7 +57,7 @@ In aggiunta, chiedi a dei madrelingua di controllare e modificare la machine tra
 * **Assicurati che gli elementi di una frase siano simili:** ad esempio, utilizza tutti i nomi o tutti i verbi in un elenco nella frase; non mischiare nomi e verbi.
 * **Non omettere le parole necessarie:** ad esempio, invece di "The file names are displayed in uppercase characters and the file extensions in lowercase," utilizza "The file names are displayed in uppercase characters and the file extensions are displayed in lowercase characters." Utilizza la parola "that" per essere chiaro. Ad esempio, sostituisci "If you determine the problem is a missing file" con "If you determine that the problem is a missing file."
 * **Non utilizzare un trattino in modo parentetico:** ad esempio, non scrivere "When you get to this point - the point when all data has been loaded - you need to test the system." Sostituisci i trattini con virgole o riscrivi la frase.
- 
+
 ## Suggerimenti sulla terminologia
 {: #terminologytips}
 

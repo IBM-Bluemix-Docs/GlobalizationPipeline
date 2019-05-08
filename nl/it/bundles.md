@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2017-06-16"
 
 ---
 
@@ -58,7 +58,7 @@ define({
        appExitMsg: "Are you sure you want to quit the application?"
     }
 });
-``` 
+```
 * Tipo di file: *JSON (.json)*<br>
 Esempio:
 ```js
@@ -77,16 +77,16 @@ Esempio:
   "topics": "Topics",
   "appExitMsg": "Are you sure you want to quit the application?"
 }
-``` 
+```
 
 In aggiunta, un file di risorsa deve anche rispettare queste linee guida:
 * Ogni chiave può essere di 1023 caratteri massimo.
 * Ogni valore può essere di 8191 caratteri massimo.
 * Ogni bundle può contenere al massimo 1000 coppie chiave / valore.
 
-Come hai creato i bundle, saranno aggiunti alla scheda **Bundles** in cui puoi eseguire ulteriori attività come l'aggiunta o l'eliminazione di lingue, la visualizzazione del contenuto tradotto ed effettuare piccole modifiche al contenuto tradotto. 
+Man mano che crei i bundle, questi vengono aggiunti alla scheda **Bundles** in cui puoi eseguire attività aggiuntive come l'aggiunta o l'eliminazione di lingue, la visualizzazione del contenuto tradotto e l'esecuzione di modifiche minori al contenuto tradotto. 
 
-{{site.data.keyword.GlobalizationPipeline_short}} traduce il tuo contenuto del bundle nelle lingue utilizzando il motore della machine translation predefinito. Facoltativamente puoi scegliere un motore della machine translation alternativo come descritto nella sezione [Configurazione di Machine translation](managetranslations.html#machineconfig). Il motore predefinito supporta le seguenti lingue di destinazione: 
+{{site.data.keyword.GlobalizationPipeline_short}} traduce il tuo contenuto del bundle nelle lingue utilizzando il motore della machine translation predefinito. Facoltativamente puoi scegliere un motore della machine translation alternativo come descritto nella sezione [Configurazione di Machine translation](/docs/services/GlobalizationPipeline/managetranslations.html#machineconfig). Il motore predefinito supporta le seguenti lingue di destinazione:
 
 <table>
 <thead>
@@ -127,7 +127,7 @@ Come hai creato i bundle, saranno aggiunti alla scheda **Bundles** in cui puoi e
 
 **Nota:** il motore della machine translation predefinito di {{site.data.keyword.GlobalizationPipeline_short}} fornisce supporto solo per l'inglese come lingua di origine. Tuttavia, i motori della machine translation alternativi disponibili per la configurazione in {{site.data.keyword.GlobalizationPipeline_short}} supportano la traduzione di altre coppie di lingue di origine non in inglese/lingua.
 
-Una volta che hai tradotto il contenuto del bundle utilizzando la machine translation, puoi effettuare piccole modifiche in {{site.data.keyword.GlobalizationPipeline_short}} o puoi inviare i bundle per un controllo umano e la modifica da parte di traduttori professionisti. Per i dettagli sull'invio di una richiesta di revisione umana e modifica, consulta [Creazione di una richiesta di traduzione umana a pagamento](managetranslations.html#humantranslation). 
+Una volta che hai tradotto il contenuto del bundle utilizzando la machine translation, puoi effettuare piccole modifiche in {{site.data.keyword.GlobalizationPipeline_short}} o puoi inviare i bundle per un controllo umano e la modifica da parte di traduttori professionisti. Per i dettagli sull'invio di una richiesta di revisione umana e modifica, consulta [Creazione di una richiesta di traduzione umana a pagamento](/docs/services/GlobalizationPipeline/managetranslations.html#humantranslation).
 
 
 
@@ -143,5 +143,3 @@ Una volta che hai tradotto il contenuto del bundle utilizzando la machine transl
 Dopo che hai selezionato un bundle da utilizzare, puoi visualizzare lo stato delle relative traduzioni, aggiungere o rimuovere le lingue, modificare le traduzioni o fornire gli aggiornamenti al file di risorsa.
 
 Se non hai più bisogno di un bundle, puoi eliminarlo dalla scheda **Bundles**. Saranno inoltre eliminate tutte le traduzioni associate con il bundle.
-
-

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2017-05-26"
 
 
 ---
@@ -54,7 +54,7 @@ Quando elimini una lingua di destinazione da un bundle, rimuovi la lingua di des
 
 ## Scaricamento delle traduzioni generate per una lingua di destinazione.
 
-{{site.data.keyword.GlobalizationPipeline_short}} fornisce varie opzioni per incorporare la traduzione di una una lingua di destinazione nella tua applicazione. Puoi scaricare la traduzione come un file di risorsa e includerlo nella creazione della tua applicazione. Puoi anche fare riferimento alla traduzione dinamica dalla {{site.data.keyword.GlobalizationPipeline_short}} utilizzando uno degli [SDK](https://github.com/IBM-Bluemix/gp-common) open source. 
+{{site.data.keyword.GlobalizationPipeline_short}} fornisce varie opzioni per incorporare la traduzione di una lingua di destinazione nella tua applicazione. Puoi scaricare la traduzione come un file di risorsa e includerlo nella creazione della tua applicazione. Puoi anche fare riferimento alla traduzione dinamica dalla {{site.data.keyword.GlobalizationPipeline_short}} utilizzando uno degli [SDK](https://github.com/IBM-Bluemix/gp-common) open source. 
 
 <!-- For information on {{site.data.keyword.GlobalizationPipeline_full}} SDKs, see <link>. -->
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2016-08-25"
 
 ---
 
@@ -12,7 +12,7 @@ lastupdated: "2017-07-19"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Risoluzione dei problemi di {{site.data.keyword.GlobalizationPipeline_short}}
+# Domande frequenti (FAQ)
 {: #globalizationpipelinets}
 
 Qui trovi alcune risposte a domande comuni sull'utilizzo di {{site.data.keyword.GlobalizationPipeline_full}}. 
@@ -31,7 +31,7 @@ Quando un file di risorsa viene tradotto, le stringhe che contengono i nomi dei 
 Molte volte, i nomi dei prodotti e i nomi propri non vengono tradotti correttamente in altre lingue, specialmente se il nome contiene parole reali. Quando vengono tradotti questi tipi di parole o frasi, a seconda del significato di tali parole in una lingua specifica, il testo tradotto può avere un significato differente rispetto al nome inglese.
 {: tsCauses}
 
-Verifica la traduzione dei nomi dei prodotti prima di utilizzarli e se riscontri dei problemi, modifica il testo o la traduzione di conseguenza. Per i suggerimenti sugli stili di scrittura quando utilizzi la machine translation, consulta [Suggerimenti sulla machine translation](./tips.html#globalizationpipeline_tips).
+Verifica la traduzione dei nomi dei prodotti prima di utilizzarli e se riscontri dei problemi, modifica il testo o la traduzione di conseguenza. Per i suggerimenti sugli stili di scrittura quando utilizzi la machine translation, consulta [Suggerimenti sulla machine translation](/docs/services/GlobalizationPipeline/tips.html#globalizationpipeline_tips).
 {: tsResolve}
 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2017-05-26"
 
 
 ---
@@ -15,7 +15,7 @@ lastupdated: "2017-07-19"
 # Creazione di un bundle
 {: #createbundles}
 
-Per iniziare a tradurre, devi creare i bundle e caricare i file di risorsa della tua applicazione che devono essere tradotti da {{site.data.keyword.GlobalizationPipeline_short}}. I file di risorsa possono essere file Java Properties, AMD I18N o JSON e devono avere il contenuto nel formato di coppie chiave/valore che rappresentano le stringhe IU dalla tua applicazione.  Per ulteriori dettagli e esempi di tipi di file supportati, consulta [Gestione dei bundle](./bundles.html){: new_window}.
+Per iniziare a tradurre, devi creare i bundle e caricare i file di risorsa della tua applicazione che devono essere tradotti da {{site.data.keyword.GlobalizationPipeline_short}}. I file di risorsa possono essere file Java Properties, AMD I18N o JSON e devono avere il contenuto nel formato di coppie chiave/valore che rappresentano le stringhe IU dalla tua applicazione.  Per ulteriori dettagli e esempi di tipi di file supportati, consulta [Gestione dei bundle](/docs/services/GlobalizationPipeline/bundles.html){: new_window}.
 
 Per creare un bundle, completa la seguente procedura:
 
@@ -60,7 +60,7 @@ Per creare un bundle, completa la seguente procedura:
 </tbody>
 </table>
 
-<p><strong>Nota:</strong> per modificare il servizio della lingua che fornisce la machine translation per i tuoi bundle, fai clic sulla scheda <a href=https://new-console.stage1.ng.bluemix.net/docs/services/GlobalizationPipeline/managing_translations.html#globalizationpipeline_service_to_service>MT Configuration</a> per visualizzare gli altri motori machine translation supportati.</p></li>
+<p><strong>Nota:</strong> per modificare il servizio della lingua che fornisce la machine translation per i tuoi bundle, fai clic sulla scheda <strong>Machine Translation Configuration</strong> per visualizzare altri motori di machine translation supportati.</p></li>
 
 <li>Fai clic su <strong>salva</strong></li></ol>
 
