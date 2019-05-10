@@ -2,9 +2,10 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2017-05-26"
 
-  ---
+
+---
 
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -14,14 +15,15 @@ lastupdated: "2017-07-19"
 # Creación de un paquete
 {: #createbundles}
 
-Para empezar con la traducción, cree paquetes y cargue archivos de recursos de su app que tenga que traducir {{site.data.keyword.GlobalizationPipeline_short}}. Los archivos de recursos pueden ser archivos Properties de Java, AMD I18N o JSON y deben tener contenido en la forma de pares clave/valor que representen las series de interfaz de usuario de la app. Para obtener más detalles y ejemplos de tipos de archivos soportados, consulte [Cómo trabajar con paquetes](./bundles.html){: new_window}.
+Para empezar con la traducción, cree paquetes y cargue archivos de recursos de su app que tenga que traducir {{site.data.keyword.GlobalizationPipeline_short}}. Los archivos de recursos pueden ser archivos Properties de Java, AMD I18N o JSON y deben tener contenido en la forma de pares clave/valor que representen las series de interfaz de usuario de la app.  Para obtener más detalles y ejemplos de tipos de archivos soportados, consulte [Cómo trabajar con paquetes](/docs/services/GlobalizationPipeline/bundles.html){: new_window}.
 
 Para crear un paquete, siga estos pasos:
 
 <ol>
 <li>En el separador <strong>Visión general</strong>, pulse <strong>Nuevo paquete</strong>.</li>
 
-<li>Proporcione información sobre el paquete:<table>
+<li>Proporcione información sobre el paquete:
+<table>
 <thead>
 <tr>
 <th>Campo</th>
@@ -58,7 +60,7 @@ Para crear un paquete, siga estos pasos:
 </tbody>
 </table>
 
-<p><strong>Nota:</strong> Para cambiar el servicio de idiomas que proporciona la traducción automática para los paquetes, pulse el separador <a href=https://new-console.stage1.ng.bluemix.net/docs/services/GlobalizationPipeline/managing_translations.html#globalizationpipeline_service_to_service>Configuración de MT</a> para ver otros motores de traducción automática soportados.</p></li>
+<p><strong>Nota:</strong> Para cambiar el servicio de idiomas que proporciona la traducción automática para los paquetes, pulse el separador <strong>Configuración de traducción automática</strong> para ver otros motores de traducción automática soportados.</p></li>
 
 <li>Pulse <strong>guardar</strong></li></ol>
 

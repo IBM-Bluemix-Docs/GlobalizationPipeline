@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2017-05-26"
 
 
 ---
@@ -60,6 +60,6 @@ Lorsque vous supprimez une langue cible d'un bundle, vous retirez du projet la l
 
 Pour télécharger la traduction d'un fichier de ressources : 
 
-1. Dans la colonne **Actions** de la langue cible ou source à télécharger, cliquez sur l'icône **Download the translations** ![Sélectionnez l'icône de téléchargement pour télécharger les clés source ou les traductions pour une langue cible](images/downloadIcon.png).
+1. Dans la colonne **Actions** de la langue cible ou source à télécharger, cliquez sur l'icône de téléchargement des traductions ![Sélectionnez l'icône de téléchargement pour télécharger les clés source ou les traductions pour une langue cible](images/downloadIcon.png).
 2. Sélectionnez un format de fichier.
 3. Cliquez sur **Download**.

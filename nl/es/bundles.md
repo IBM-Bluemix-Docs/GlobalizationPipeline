@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2017-06-16"
 
-  ---
+---
 
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -43,7 +43,7 @@ Ejemplo:
 ```js
 define({
     "root": {
- logout: "Logout",
+       logout: "Logout",
        back: "Back",
        examples: "Menu",
        home: "Home",
@@ -58,7 +58,7 @@ define({
        appExitMsg: "Are you sure you want to quit the application?"
     }
 });
-``` 
+```
 * Tipo de archivo: *JSON (.json)*<br>
 Ejemplo:
 ```js
@@ -77,16 +77,16 @@ Ejemplo:
   "topics": "Topics",
   "appExitMsg": "Are you sure you want to quit the application?"
 }
-``` 
+```
 
 Además, un archivo de recursos también se debe ajustar a estas directrices:
 * Cada clave puede tener un máximo de 1023 caracteres.
 * Cada valor puede tener un máximo de 8191 caracteres.
 * Cada paquete puede tener un máximo de 1000 pares clave/valor.
 
-A medida que cree paquetes, estos se irán añadiendo al separador **Paquetes**, donde puede realizar tareas adicionales como la adición o la supresión de idiomas, la visualización del contenido traducido y la realización de ediciones del supervisor en el contenido traducido. 
+A medida que cree paquetes, estos se irán añadiendo al separador **Paquetes**, donde puede realizar tareas adicionales como la adición o la supresión de idiomas, la visualización del contenido traducido y la realización de pequeñas ediciones en el contenido traducido. 
 
-{{site.data.keyword.GlobalizationPipeline_short}} traduce el contenido del paquete en los idiomas con el motor de traducción de automática predeterminado. Opcionalmente, puede elegir un motor de traducción automática alternativo tal como se describe en la sección [Configuración de la traducción automática](managetranslations.html#machineconfig). El motor predeterminado da soporte a los siguientes idiomas de destino:
+{{site.data.keyword.GlobalizationPipeline_short}} traduce el contenido del paquete en los idiomas con el motor de traducción de automática predeterminado. Opcionalmente, puede elegir un motor de traducción automática alternativo tal como se describe en la sección [Configuración de la traducción automática](/docs/services/GlobalizationPipeline/managetranslations.html#machineconfig). El motor predeterminado da soporte a los siguientes idiomas de destino:
 
 <table>
 <thead>
@@ -127,7 +127,7 @@ A medida que cree paquetes, estos se irán añadiendo al separador **Paquetes**,
 
 **Nota:** El motor de traducción automática predeterminado de {{site.data.keyword.GlobalizationPipeline_short}} solo proporciona soporte para inglés como idioma de origen. Sin embargo, los motores de traducción automática alternativos disponibles para configurar dentro de {{site.data.keyword.GlobalizationPipeline_short}} dan soporte a la traducción de otras combinaciones de idiomas distintas del inglés.
 
-Una vez que haya traducido el contenido del paquete con la traducción automática, puede realizar pequeñas ediciones dentro de {{site.data.keyword.GlobalizationPipeline_short}} o puede enviar paquetes para que los revisen y editen traductores profesionales. Para obtener detalles sobre el envío de una solicitud para su revisión y edición por parte de personas, consulte [Creación de solicitud de traducción humana cargable](managetranslations.html#humantranslation). 
+Una vez que haya traducido el contenido del paquete con la traducción automática, puede realizar pequeñas ediciones dentro de {{site.data.keyword.GlobalizationPipeline_short}} o puede enviar paquetes para que los revisen y editen traductores profesionales. Para obtener detalles sobre el envío de una solicitud para su revisión y edición por parte de personas, consulte [Creación de solicitud de traducción humana cargable](/docs/services/GlobalizationPipeline/managetranslations.html#humantranslation).
 
 
 
@@ -143,5 +143,3 @@ Una vez que haya traducido el contenido del paquete con la traducción automáti
 Después de seleccionar un paquete con el que trabajar, puede ver el estado de sus traducciones, añadir o eliminar idiomas, editar las traducciones o proporcionar actualizaciones para el archivo de recursos.
 
 Si ya no necesita un paquete, puede suprimirlo desde el separador **Paquetes**. Todas las traducciones asociadas con el paquete también se suprimirán.
-
-

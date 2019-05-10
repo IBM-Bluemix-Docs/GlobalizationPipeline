@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2019
+lastupdated: "2019-04-16"
 
 
 ---
@@ -15,7 +15,7 @@ lastupdated: "2017-07-19"
 # Liens connexes
 {: #relatedlinks}
 
-Cette section présente les liens connexes nécessaires pour référence. 
+Cette section présente les liens connexes nécessaires pour référence.
 
 ## Tutoriels et exemples
 {: #samples}
@@ -27,5 +27,4 @@ Cette section présente les liens connexes nécessaires pour référence.
 {: #general}
 
 * [Intégrer Globalization Pipeline à Delivery Pipeline](https://hub.jazz.net/docs/deploy_ext/#globalize)
-* [Fiche des prix IBM Bluemix](https://www.ng.bluemix.net/#/pricing)
-* [Prérequis IBM Bluemix](https://developer.ibm.com/bluemix/support/#prereqs)
+* [Fiche de prix {{site.data.keyword.Bluemix_notm}}](https://www.ng.bluemix.net/#/pricing)

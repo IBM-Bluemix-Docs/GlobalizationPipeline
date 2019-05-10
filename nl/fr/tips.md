@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2016-03-27"
 
 ---
 
@@ -39,8 +39,8 @@ De plus, demandez à des interlocuteurs natifs de la langue cible de réviser et
 * **Assurez-vous que toutes les informations sont écrites dans une seule langue : ** Les moteurs de traduction automatique peuvent considérer que toutes les informations sont écrites dans une seule langue, même si le texte inclut un ou deux mots dans une autre langue. Par exemple, si le texte comporte l'expression "en route", le moteur de traduction automatique va tout de même essayer de traduire ces mots comme s'il s'agissait de mots anglais.
 * **Evitez les slogans marketing :** Les slogans marketing reposent souvent sur la compréhension d'une culture spécifique de la part d'un public donné. Evitez ces types de slogan car les moteurs de traduction automatique ont souvent des difficultés à les traduire correctement.
 * **Assurez-vous que les éléments de liste sont complets et parallèles : ** Par exemple, si un élément commence par un verbe, assurez-vous que tous les autres éléments commencent également par un verbe.
-* **Evitez les termes please et thank you :** Ces mots peuvent sembler déplacés voir même condescendants dans certaines cultures.
-* **Ecrivez les dates dans un format non numérique :** Les formats de date numériques varient selon les pays. Ecrivez le nom du mois, le jour et l'année. Par exemple, utilisez 1er septembre 2003 au lieu de 9/01/03, car cette représentation peut être interprétée par 1er septembre 2003 ou 9 janvier 2003.
+* **Evitez les termes please et thank you :** Ces mots peuvent sembler déplacés voire même condescendants dans certaines cultures.
+* **Ecrivez les dates dans un format non numérique :** Les formats de date numériques varient en fonction des pays. Ecrivez le nom du mois, le jour et l'année. Par exemple, utilisez 1er septembre 2003 au lieu de 9/01/03, car cette représentation peut être interprétée par 1er septembre 2003 ou 9 janvier 2003.
 
 ## Conseils en matière de grammaire
 {: #grammartips}
@@ -57,7 +57,7 @@ De plus, demandez à des interlocuteurs natifs de la langue cible de réviser et
 * **Assurez-vous que les éléments énumérés dans une phrase sont parallèles :** Par exemple, n'utilisez que des noms ou que des verbes pour les éléments énumérés dans une phrase ; ne mélangez pas des noms et des verbes.
 * **N'omettez pas les mots qui sont nécessaires :** Par exemple, à la place de "The file names are displayed in uppercase characters and the file extensions in lowercase," utilisez "The file names are displayed in uppercase characters and the file extensions are displayed in lowercase characters." Utilisez le mot "that" pour apporter une clarification si besoin est. Par exemple, remplacez "If you determine the problem is a missing file" par "If you determine that the problem is a missing file."
 * **N'utilisez pas un tiret pour marquer une pause :** Par exemple, n'écrivez pas "When you get to this point - the point when all data has been loaded - you need to test the system." Remplacez les tirets par des virgules ou reformulez la phrase.
- 
+
 ## Conseils en matière de terminologie
 {: #terminologytips}
 

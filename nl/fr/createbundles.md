@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2017-05-26"
 
 
 ---
@@ -15,7 +15,7 @@ lastupdated: "2017-07-19"
 # Création d'un bundle
 {: #createbundles}
 
-Pour entamer votre traduction, créez des bundles et téléchargez des fichiers de ressources de votre application devant être traduits par {{site.data.keyword.GlobalizationPipeline_short}}. Les fichiers de ressources peuvent être des fichiers de propriétés Java, des fichiers AMD I18N ou des fichiers JSON et leur contenu doit se présenter sous la forme de paires clé/valeur qui représentent les chaînes d'interface utilisateur de votre application.  Pour obtenir plus d'informations et des exemples des types de fichiers pris en charge, voir [Utilisation de bundles](./bundles.html){: new_window}.
+Pour entamer votre traduction, créez des bundles et téléchargez des fichiers de ressources de votre application devant être traduits par {{site.data.keyword.GlobalizationPipeline_short}}. Les fichiers de ressources peuvent être des fichiers de propriétés Java, des fichiers AMD I18N ou des fichiers JSON et leur contenu doit se présenter sous la forme de paires clé/valeur qui représentent les chaînes d'interface utilisateur de votre application.  Pour obtenir plus d'informations et des exemples des types de fichiers pris en charge, voir [Utilisation de bundles](/docs/services/GlobalizationPipeline/bundles.html){: new_window}.
 
 Pour créer un bundle, procédez comme suit :
 
@@ -60,9 +60,9 @@ Pour créer un bundle, procédez comme suit :
 </tbody>
 </table>
 
-<p><strong>Remarque :</strong> Pour modifier le service de langue qui fournit la traduction automatique pour vos bundles, cliquez sur l'onglet <a href=https://new-console.stage1.ng.bluemix.net/docs/services/GlobalizationPipeline/managing_translations.html#globalizationpipeline_service_to_service>MT Configuration</a> pour afficher les autres moteurs de traduction automatique pris en charge.</p></li>
+<p><strong>Remarque :</strong> pour modifier le service de langage qui fournit la traduction automatique à vos bundles, cliquez sur l'onglet de configuration de la traduction automatique pour afficher les autres moteurs de traduction automatique pris en charge.</p></li>
 
-<li>Cliquez sur <strong>Sauvegarder</strong></li></ol>
+<li>Cliquez sur <strong>Save</strong>.</li></ol>
 
 
 Une fois le bundle créé, le fichier de ressources téléchargé est traduit dans toutes les langues cible que vous avez spécifiées. Le nouveau bundle est ajouté à l'onglet Bundles à partir duquel vous pouvez effectuer les actions suivantes :

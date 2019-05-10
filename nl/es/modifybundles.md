@@ -1,10 +1,11 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2017-05-26"
 
-  ---
+
+---
 
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -20,11 +21,11 @@ Cuando abra un paquete, puede ver todos los detalles sobre el mismo. Todos los i
 
 El estado para cada idioma del paquete puede ser En curso, Error o Traducido:
 
-| Estado| Descripción|
+| Estado | Descripción |
 |--------|-------------|
-| En curso| La traducción automática aún está en curso.|
-| Error| Se ha producido un error mientras que el archivo de recursos se estaba traduciendo al idioma de destino.|
-| Traducido| La traducción al idioma de destino está completa.|
+| En curso | La traducción automática aún está en curso. |
+| Error | Se ha producido un error mientras que el archivo de recursos se estaba traduciendo al idioma de destino. |
+| Traducido | La traducción al idioma de destino está completa. |
 
 Puede actualizar el archivo de recursos que utiliza el paquete, añadir un idioma de destino a un paquete, suprimir un idioma de destino desde un paquete y descargar las traducciones generadas para un idioma de destino.
 

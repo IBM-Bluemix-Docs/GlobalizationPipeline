@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-07-19"
+  years: 2015, 2018
+lastupdated: "2017-06-16"
 
 ---
 
@@ -58,7 +58,7 @@ define({
        appExitMsg: "Are you sure you want to quit the application?"
     }
 });
-``` 
+```
 * Type de fichier : *JSON (.json)*<br>
 Exemple :
 ```js
@@ -77,16 +77,16 @@ Exemple :
   "topics": "Topics",
   "appExitMsg": "Are you sure you want to quit the application?"
 }
-``` 
+```
 
 De plus, un fichier de ressources doit également être conforme aux instructions suivantes :
 * Chaque clé peut comporter au maximum 1023 caractères.
 * Chaque valeur peut comporter 8191 caractères maximum.
 * Chaque bundle peut contenir au maximum 1000 paires clé / valeur.
 
-Lorsque vous créez des bundles, ils sont ajoutés à l'onglet **Bundles** depuis lequel vous pouvez effectuer des tâches supplémentaires comme l'ajout ou la suppression de langues, l'affichage du contenu traduit et apporter des modifications mineures à ce contenu. 
+A mesure que vous créez des bundles, ils sont ajoutés dans l'onglet **Bundles** où vous pouvez effectuer des tâches supplémentaires, telles qu'ajouter ou supprimer des langues, afficher du contenu traduit et apporter des modifications mineures au contenu traduit. 
 
-{{site.data.keyword.GlobalizationPipeline_short}} traduit le contenu de votre bundle vers les langues désignées à l'aide du moteur de traduction automatique par défaut. Vous pouvez éventuellement choisir un autre moteur de traduction automatique, comme indiqué dans la section [Configuration de la traduction automatique](managetranslations.html#machineconfig). Le moteur par défaut est compatible avec les langues cible suivantes :
+{{site.data.keyword.GlobalizationPipeline_short}} traduit le contenu de votre bundle vers les langues désignées à l'aide du moteur de traduction automatique par défaut. Vous pouvez éventuellement choisir un autre moteur de traduction automatique, comme indiqué dans la section [Configuration de la traduction automatique](/docs/services/GlobalizationPipeline/managetranslations.html#machineconfig). Le moteur par défaut est compatible avec les langues cible suivantes :
 
 <table>
 <thead>
@@ -127,7 +127,7 @@ Lorsque vous créez des bundles, ils sont ajoutés à l'onglet **Bundles** depui
 
 **Remarque : ** le moteur de traduction automatique par défaut de {{site.data.keyword.GlobalizationPipeline_short}} ne fournit une prise en charge que pour l'anglais comme langue source. Toutefois, d'autres moteurs de traduction automatique disponibles pour configuration au sein de {{site.data.keyword.GlobalizationPipeline_short}} prennent en charge la traduction d'autres paires de langues, avec une langue source différente de l'anglais.
 
-Une fois que vous avez traduit le contenu de votre bundle via la traduction automatique, vous pouvez apporter des modifications mineures à ce contenu dans {{site.data.keyword.GlobalizationPipeline_short}} ou soumettre les bundles pour revue et édition humaine par des traducteurs professionnels. Pour plus d'informations sur la soumission d'une demande de revue et d'édition humaine, voir [Création d'une demande de traduction humaine facturable](managetranslations.html#humantranslation). 
+Une fois que vous avez traduit le contenu de votre bundle via la traduction automatique, vous pouvez apporter des modifications mineures à ce contenu dans {{site.data.keyword.GlobalizationPipeline_short}} ou soumettre les bundles pour revue et édition humaine par des traducteurs professionnels. Pour plus d'informations sur la soumission d'une demande de revue et d'édition humaine, voir [Création d'une demande de traduction humaine facturable](/docs/services/GlobalizationPipeline/managetranslations.html#humantranslation).
 
 
 
@@ -143,5 +143,3 @@ Une fois que vous avez traduit le contenu de votre bundle via la traduction auto
 Après avoir sélectionné un bundle à gérer, vous pouvez afficher le statut de ses traductions, ajouter ou retirer des langues, éditer les traductions ou appliquer des mises à jour au fichier de ressources.
 
 Si vous n'avez plus besoin d'un bundle, vous pouvez le supprimer à partir de l'onglet **Bundles**. Toutes les traductions qui sont associées au bundle sont également supprimées.
-
-

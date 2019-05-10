@@ -2,9 +2,9 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-19"
+lastupdated: "2016-03-27"
 
-  ---
+---
 
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
@@ -57,7 +57,7 @@ Además, solicite a un hablante nativo del idioma que revise y edite la traducci
 * **Asegúrese de que los elementos de una frase sean paralelos:** Por ejemplo, utilice todos los nombres o todos los verbos en una lista dentro de la frase; no mezcle nombres y verbos.
 * **No omita palabras necesarias:** Por ejemplo, en lugar de "The file names are displayed in uppercase characters and the file extensions in lowercase", utilice "The file names are displayed in uppercase characters and the file extensions are displayed in lowercase characters". Utilice la palabra "that" para proporcionar aclaración según sea necesario. Por ejemplo, sustituya "If you determine the problem is a missing file" por "If you determine that the problem is a missing file".
 * **No utilice un guión como paréntesis:** Por ejemplo, no escriba "When you get to this point - the point when all data has been loaded - you need to test the system". Sustituya guiones por comas, o reescriba la frase.
- 
+
 ## Consejos de terminología
 {: #terminologytips}
 
