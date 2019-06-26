@@ -3,7 +3,7 @@
 copyright:
   years: 2016, 2019
 
-lastupdated: "2019-03-20"
+lastupdated: "2019-06-26"
 
 ---
 
@@ -23,7 +23,7 @@ lastupdated: "2019-03-20"
 {{site.data.keyword.Bluemix}}에서 사용자 및 애플리케이션이 IBM {{site.data.keyword.GlobalizationPipeline_short}}과 어떻게 상호작용하는지 추적하려면 {{site.data.keyword.cloudaccesstrailfull}} 서비스를 사용하십시오.
 {:shortdesc}
 
-{{site.data.keyword.cloudaccesstrailfull_notm}} 서비스는 {{site.data.keyword.Bluemix_notm}} 내 서비스의 상태를 변경하는 사용자 시작 활동을 기록합니다. 자세한 정보는 [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started)의 내용을 참조하십시오. 
+{{site.data.keyword.cloudaccesstrailfull_notm}} 서비스는 {{site.data.keyword.Bluemix_notm}} 내 서비스의 상태를 변경하는 사용자 시작 활동을 기록합니다. 자세한 정보는 [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started)의 내용을 참조하십시오.
 
 
 
@@ -31,7 +31,7 @@ lastupdated: "2019-03-20"
 ## 이벤트의 목록: 번들 이벤트
 {: #gpevents_bundle}
 
-다음 표에는 번들과 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다. 
+다음 표에는 번들과 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다.
 
 |조치|설명|
 |---|---|  
@@ -49,7 +49,7 @@ lastupdated: "2019-03-20"
 ## 이벤트의 목록: 번들 번역 요청 이벤트
 {: #gpevents_bundle_tr_req}
 
-다음 표에는 번들 번역 요청과 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다. 
+다음 표에는 번들 번역 요청과 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다.
 
 |조치|설명|
 |---|---|  
@@ -66,7 +66,7 @@ lastupdated: "2019-03-20"
 ## 이벤트의 목록: 번들 xliff 이벤트
 {: #gpevents_bundle_xliff}
 
-다음 표에는 번들 xliff와 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다. 
+다음 표에는 번들 xliff와 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다.
 
 |조치|설명|
 |---|---|  
@@ -78,7 +78,7 @@ lastupdated: "2019-03-20"
 ## 이벤트의 목록: 파트너 이벤트
 {: #gpevents_partner}
 
-다음 표에는 파트너와 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다. 
+다음 표에는 파트너와 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다.
 
 |조치|설명|
 |---|---|  
@@ -106,7 +106,7 @@ lastupdated: "2019-03-20"
 ## 이벤트의 목록: 관리자 이벤트
 {: #gpevents_admin}
 
-다음 표에는 관리자와 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다. 
+다음 표에는 관리자와 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다.
 
 |조치|설명|
 |---|---|  
@@ -125,7 +125,7 @@ lastupdated: "2019-03-20"
 ## 이벤트의 목록: 사용자 이벤트
 {: #gpevents_user}
 
-다음 표에는 사용자와 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다. 
+다음 표에는 사용자와 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다.
 
 |조치|설명|
 |---|---|  
@@ -139,7 +139,7 @@ lastupdated: "2019-03-20"
 ## 이벤트의 목록: 구성 이벤트
 {: #gpevents_config}
 
-다음 표에는 번역 구성과 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다. 
+다음 표에는 번역 구성과 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다.
 
 |조치|설명|
 |---|---|  
@@ -156,7 +156,7 @@ lastupdated: "2019-03-20"
 ## 이벤트의 목록: 인스턴스 이벤트
 {: #gpevents_instance}
 
-다음 표에는 인스턴스와 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다. 
+다음 표에는 인스턴스와 관련되어 있으며 이벤트를 생성하는 조치가 나열되어 있습니다.
 
 |조치|설명|
 |---|---|  
@@ -166,6 +166,6 @@ lastupdated: "2019-03-20"
 ## 이벤트를 찾을 위치
 {: #gp_at_ui}
 
-{{site.data.keyword.cloudaccesstrailshort}} 이벤트는 {{site.data.keyword.GlobalizationPipeline_short}} 서비스가 프로비저닝된 {{site.data.keyword.Bluemix_notm}} 지역의 {{site.data.keyword.cloudaccesstrailshort}} **영역 도메인**에 있습니다. {{site.data.keyword.cloudaccesstrailshort}} 서비스와 {{site.data.keyword.GlobalizationPipeline_short}} 인스턴스는 동일한 CF 영역에서 프로비저닝되어야 합니다. 
+{{site.data.keyword.cloudaccesstrailshort}} 이벤트는 {{site.data.keyword.GlobalizationPipeline_short}} 서비스가 프로비저닝된 {{site.data.keyword.Bluemix_notm}} 지역의 {{site.data.keyword.cloudaccesstrailshort}} **영역 도메인**에 있습니다. {{site.data.keyword.cloudaccesstrailshort}} 서비스와 {{site.data.keyword.GlobalizationPipeline_short}} 인스턴스는 동일한 CF 영역에서 프로비저닝되어야 합니다.
 
-{{site.data.keyword.GlobalizationPipeline_short}}의 RC 인스턴스의 경우, Activity Tracker 이벤트는 {{site.data.keyword.Bluemix_notm}} 지역에서 이벤트가 생성되는 **계정** 도메인에 있습니다. 
+{{site.data.keyword.GlobalizationPipeline_short}}의 RC 인스턴스의 경우, Activity Tracker 이벤트는 {{site.data.keyword.Bluemix_notm}} 지역에서 이벤트가 생성되는 **계정** 도메인에 있습니다.
