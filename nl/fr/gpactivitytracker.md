@@ -23,7 +23,7 @@ lastupdated: "2019-03-20"
 Utilisez le service {{site.data.keyword.cloudaccesstrailfull}} pour suivre la façon dont les utilisateurs et les applications interagissent avec IBM {{site.data.keyword.GlobalizationPipeline_short}} dans {{site.data.keyword.Bluemix}}.
 {:shortdesc}
 
-Le service {{site.data.keyword.cloudaccesstrailfull_notm}} enregistre des activités initiées par l'utilisateur qui change l'état d'un service dans {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations, [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker/index.html).
+Le service {{site.data.keyword.cloudaccesstrailfull_notm}} enregistre des activités initiées par l'utilisateur qui change l'état d'un service dans {{site.data.keyword.Bluemix_notm}}. Pour plus d'informations, [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).
 
 
 

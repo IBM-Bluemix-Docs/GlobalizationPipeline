@@ -23,7 +23,7 @@ lastupdated: "2019-03-20"
 Mit dem {{site.data.keyword.cloudaccesstrailfull}}-Service können Sie die Interaktion von Benutzern und Anwendungen mit IBM {{site.data.keyword.GlobalizationPipeline_short}} in {{site.data.keyword.Bluemix}} verfolgen.
 {:shortdesc}
 
-Der {{site.data.keyword.cloudaccesstrailfull_notm}}-Service zeichnet die vom Benutzer initiierten Aktivitäten auf, die den Status eines Service in {{site.data.keyword.Bluemix_notm}} ändern. Weitere Informationen finden Sie in [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker/index.html). 
+Der {{site.data.keyword.cloudaccesstrailfull_notm}}-Service zeichnet die vom Benutzer initiierten Aktivitäten auf, die den Status eines Service in {{site.data.keyword.Bluemix_notm}} ändern. Weitere Informationen finden Sie in [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started). 
 
 
 
@@ -31,7 +31,7 @@ Der {{site.data.keyword.cloudaccesstrailfull_notm}}-Service zeichnet die vom Ben
 ## Ereignisliste: Bundle-Ereignisse
 {: #gpevents_bundle}
 
-In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit Bundles generieren: 
+In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit Bundles generieren:
 
 |Aktion|Beschreibung|
 |---|---|  
@@ -49,7 +49,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusa
 ## Ereignisliste: Übersetzungsanforderungsereignisse für Bundles
 {: #gpevents_bundle_tr_req}
 
-In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit Übersetzungsanforderungen für Bundles generieren: 
+In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit Übersetzungsanforderungen für Bundles generieren:
 
 |Aktion|Beschreibung|
 |---|---|  
@@ -66,7 +66,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusa
 ## Ereignisliste: XLIFF-Ereignisse für Bundles
 {: #gpevents_bundle_xliff}
 
-In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit Bundle-XLIFF-Daten generieren: 
+In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit Bundle-XLIFF-Daten generieren:
 
 |Aktion|Beschreibung|
 |---|---|  
@@ -78,7 +78,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusa
 ## Ereignisliste: Partnerereignisse
 {: #gpevents_partner}
 
-In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit Partnern generieren: 
+In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit Partnern generieren:
 
 |Aktion|Beschreibung|
 |---|---|  
@@ -106,7 +106,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusa
 ## Ereignisliste: Administratorereignisse
 {: #gpevents_admin}
 
-In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit dem Administrator generieren: 
+In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit dem Administrator generieren:
 
 |Aktion|Beschreibung|
 |---|---|  
@@ -125,7 +125,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusa
 ## Ereignisliste: Benutzerereignisse
 {: #gpevents_user}
 
-In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit Benutzern generieren: 
+In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit Benutzern generieren:
 
 |Aktion|Beschreibung|
 |---|---|  
@@ -139,7 +139,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusa
 ## Ereignisliste: Konfigurationsereignisse
 {: #gpevents_config}
 
-In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit der Übersetzungskonfiguration generieren: 
+In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit der Übersetzungskonfiguration generieren:
 
 |Aktion|Beschreibung|
 |---|---|  
@@ -156,7 +156,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusa
 ## Ereignisliste: Instanzereignisse
 {: #gpevents_instance}
 
-In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit Instanzen generieren: 
+In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusammenhang mit Instanzen generieren:
 
 |Aktion|Beschreibung|
 |---|---|  
@@ -166,6 +166,6 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, die ein Ereignis im Zusa
 ## Position der Ereignisse
 {: #gp_at_ui}
 
-{{site.data.keyword.cloudaccesstrailshort}}-Ereignisse sind in der **Bereichsdomäne** von {{site.data.keyword.cloudaccesstrailshort}} verfügbar, die in der {{site.data.keyword.Bluemix_notm}}-Region zur Verfügung steht, in der der {{site.data.keyword.GlobalizationPipeline_short}}-Service bereitgestellt wird. Die {{site.data.keyword.cloudaccesstrailshort}}-Serviceinstanz und die {{site.data.keyword.GlobalizationPipeline_short}}-Instanz müssen im selben CF-Bereich bereitgestellt werden. 
+{{site.data.keyword.cloudaccesstrailshort}}-Ereignisse sind in der **Bereichsdomäne** von {{site.data.keyword.cloudaccesstrailshort}} verfügbar, die in der {{site.data.keyword.Bluemix_notm}}-Region zur Verfügung steht, in der der {{site.data.keyword.GlobalizationPipeline_short}}-Service bereitgestellt wird. Die {{site.data.keyword.cloudaccesstrailshort}}-Serviceinstanz und die {{site.data.keyword.GlobalizationPipeline_short}}-Instanz müssen im selben CF-Bereich bereitgestellt werden.
 
-Für RC-Instanzen von {{site.data.keyword.GlobalizationPipeline_short}} stehen die Activity Tracker-Ereignisse in der Activity Tracker-**Kontodomäne** zur Verfügung, in der die Ereignisse in der {{site.data.keyword.Bluemix_notm}}-Region generiert werden. 
+Für RC-Instanzen von {{site.data.keyword.GlobalizationPipeline_short}} stehen die Activity Tracker-Ereignisse in der Activity Tracker-**Kontodomäne** zur Verfügung, in der die Ereignisse in der {{site.data.keyword.Bluemix_notm}}-Region generiert werden.

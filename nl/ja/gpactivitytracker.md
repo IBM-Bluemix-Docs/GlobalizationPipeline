@@ -23,7 +23,7 @@ lastupdated: "2019-03-20"
 ユーザーとアプリケーションが {{site.data.keyword.Bluemix}} 内の IBM {{site.data.keyword.GlobalizationPipeline_short}} とどのように対話するのかを  {{site.data.keyword.cloudaccesstrailfull}} サービスを使用して追跡します。
 {:shortdesc}
 
-{{site.data.keyword.cloudaccesstrailfull_notm}} サービスは、{{site.data.keyword.Bluemix_notm}} のサービスの状態を変更するアクティビティーをユーザーが開始すると、そのアクティビティーを記録します。詳細については、[{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker/index.html)を参照してください。
+{{site.data.keyword.cloudaccesstrailfull_notm}} サービスは、{{site.data.keyword.Bluemix_notm}} のサービスの状態を変更するアクティビティーをユーザーが開始すると、そのアクティビティーを記録します。詳細については、[{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started)を参照してください。
 
 
 

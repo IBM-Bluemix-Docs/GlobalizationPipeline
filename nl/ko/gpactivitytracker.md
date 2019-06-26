@@ -23,7 +23,7 @@ lastupdated: "2019-03-20"
 {{site.data.keyword.Bluemix}}에서 사용자 및 애플리케이션이 IBM {{site.data.keyword.GlobalizationPipeline_short}}과 어떻게 상호작용하는지 추적하려면 {{site.data.keyword.cloudaccesstrailfull}} 서비스를 사용하십시오.
 {:shortdesc}
 
-{{site.data.keyword.cloudaccesstrailfull_notm}} 서비스는 {{site.data.keyword.Bluemix_notm}} 내 서비스의 상태를 변경하는 사용자 시작 활동을 기록합니다. 자세한 정보는 [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker/index.html)의 내용을 참조하십시오. 
+{{site.data.keyword.cloudaccesstrailfull_notm}} 서비스는 {{site.data.keyword.Bluemix_notm}} 내 서비스의 상태를 변경하는 사용자 시작 활동을 기록합니다. 자세한 정보는 [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started)의 내용을 참조하십시오. 
 
 
 

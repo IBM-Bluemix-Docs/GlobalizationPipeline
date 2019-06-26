@@ -24,7 +24,7 @@ Use o serviço {{site.data.keyword.cloudaccesstrailfull}} para controlar como os
 {:shortdesc}
 
 O serviço {{site.data.keyword.cloudaccesstrailfull_notm}} registra as atividades iniciadas pelo usuário que mudam
-o estado de um serviço no {{site.data.keyword.Bluemix_notm}}. Para obter informações adicionais, consulte [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker/index.html).
+o estado de um serviço no {{site.data.keyword.Bluemix_notm}}. Para obter informações adicionais, consulte [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).
 
 
 
