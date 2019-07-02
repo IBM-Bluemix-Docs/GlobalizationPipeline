@@ -2,7 +2,7 @@
 
 copyright:
   years:  2015, 2019
-lastupdated: "2019-03-25"
+lastupdated: "2019-07-02"
 
 ---
 
@@ -50,7 +50,7 @@ Dopo aver definito l'ambito della politica di accesso, assegna un ruolo. La segu
 
 Attualmente agli utenti IAM viene concesso l'accesso a livello di istanza del servizio e non può essere consentito o negato l'accesso a livello di bundle. Per il controllo dettagliato, utilizza l'autenticazione {{site.data.keyword.GlobalizationPipeline_short}}.
 
-Per informazioni sull'assegnazione dei ruoli utente nell'IU, vedi [Gestione dell'accesso IAM](/docs/iam/iammanidaccser.html#iammanidaccser).
+Per informazioni sull'assegnazione dei ruoli utente nell'IU, vedi [Gestione dell'accesso IAM](/docs/iam?topic=iam-iammanidaccser).
 
 ### Generazione di chiamate API
 {: #gp_iam_apicalls}
@@ -58,7 +58,7 @@ Per informazioni sull'assegnazione dei ruoli utente nell'IU, vedi [Gestione dell
 Per generare o per ottenere le credenziali del servizio, attieniti alla seguente procedura.
 1. Accedi al tuo account {{site.data.keyword.Bluemix}} nel [dashboard {{site.data.keyword.Bluemix}}](https://cloud.ibm.com/).
 2. Fai clic sull'istanza del servizio nel [dashboard {{site.data.keyword.Bluemix}}](https://cloud.ibm.com/).
-3. Fai clic su **Credenziale del servizio** per aprire la tua istanza del servizio. 
+3. Fai clic su **Credenziale del servizio** per aprire la tua istanza del servizio.
 4. Fai clic su **Nuova credenziale** per seguire la richiesta per la creazione di nuove credenziali.
 5. Fai clic su **Visualizza credenziali** dopo aver creato la credenziale.
 ![La schermata mostra informazioni su una chiave API di esempio](images/gp_iam_apicalls.gif)

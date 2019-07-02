@@ -2,7 +2,7 @@
 
 copyright:
   years:  2015, 2019
-lastupdated: "2019-03-25"
+lastupdated: "2019-07-02"
 
 ---
 
@@ -50,7 +50,7 @@ lastupdated: "2019-03-25"
 
 目前是在服务实例级别向 IAM 用户授予访问权，无法在束级别允许或拒绝 IAM 用户的访问权。要进行细颗粒度控制，请使用 {{site.data.keyword.GlobalizationPipeline_short}} 认证。
 
-有关在 UI 中分配用户角色的信息，请参阅[管理 IAM 访问权](/docs/iam/iammanidaccser.html#iammanidaccser)。
+有关在 UI 中分配用户角色的信息，请参阅[管理 IAM 访问权](/docs/iam?topic=iam-iammanidaccser)。
 
 ### 生成 API 调用
 {: #gp_iam_apicalls}
@@ -58,7 +58,7 @@ lastupdated: "2019-03-25"
 要生成或获取服务凭证，请执行以下步骤。
 1. 在 [{{site.data.keyword.Bluemix}} 仪表板](https://cloud.ibm.com/)中登录到您的 {{site.data.keyword.Bluemix}} 帐户。
 2. 在 [{{site.data.keyword.Bluemix}} 仪表板](https://cloud.ibm.com/)中单击服务实例。
-3. 单击**服务凭证**以打开服务实例。 
+3. 单击**服务凭证**以打开服务实例。
 4. 单击**新建凭证**并遵循提示来创建新凭证。
 5. 创建凭证后，单击**查看凭证**。![屏幕快照显示了有关样本 API 密钥的信息。](images/gp_iam_apicalls.gif)
 

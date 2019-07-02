@@ -2,7 +2,7 @@
 
 copyright:
   years:  2015, 2019
-lastupdated: "2019-03-25"
+lastupdated: "2019-07-02"
 
 ---
 
@@ -50,7 +50,7 @@ lastupdated: "2019-03-25"
 
 目前是在服務實例層次向 IAM 使用者授權存取權，無法在組合層次容許或拒絕 IAM 使用者的存取權。要進行精細控制，請使用 {{site.data.keyword.GlobalizationPipeline_short}} 鑑別。
 
-如需在使用者介面中指派使用者角色的相關資訊，請參閱[管理 IAM 存取](/docs/iam/iammanidaccser.html#iammanidaccser)。
+如需在使用者介面中指派使用者角色的相關資訊，請參閱[管理 IAM 存取](/docs/iam?topic=iam-iammanidaccser)。
 
 ### 產生 API 呼叫
 {: #gp_iam_apicalls}
@@ -58,7 +58,7 @@ lastupdated: "2019-03-25"
 要產生或取得服務認證，請執行下列步驟。
 1. 在 [{{site.data.keyword.Bluemix}} 儀表板](https://cloud.ibm.com/)中登入到您的 {{site.data.keyword.Bluemix}} 帳戶。
 2. 在 [{{site.data.keyword.Bluemix}} 儀表板](https://cloud.ibm.com/)中按一下服務實例。
-3. 按一下**服務認證**以開啟服務實例。 
+3. 按一下**服務認證**以開啟服務實例。
 4. 按一下**新建認證**並遵循提示來建立新認證。
 5. 建立認證後，按一下**檢視認證**。![擷取畫面顯示了有關範例 API 金鑰的資訊。](images/gp_iam_apicalls.gif)
 

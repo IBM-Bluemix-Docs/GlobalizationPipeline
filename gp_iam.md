@@ -2,7 +2,7 @@
 
 copyright:
   years:  2015, 2019
-lastupdated: "2019-03-25"
+lastupdated: "2019-07-02"
 
 ---
 
@@ -50,7 +50,7 @@ After you define the scope of the access policy, you assign a role. The followin
 
 Currently, IAM users are granted access at the service instance level, and IAM users cannot be be allowed or denied access at the bundle level. For fine-grained control, use {{site.data.keyword.GlobalizationPipeline_short}} Authentication.
 
-For information about assigning user roles in the UI, see [Managing IAM access](/docs/iam/iammanidaccser.html#iammanidaccser).
+For information about assigning user roles in the UI, see [Managing IAM access](/docs/iam?topic=iam-iammanidaccser).
 
 ### Generating API calls
 {: #gp_iam_apicalls}
@@ -58,7 +58,7 @@ For information about assigning user roles in the UI, see [Managing IAM access](
 To generate or to get the service credentials, follow the following steps.
 1. Log on to your {{site.data.keyword.Bluemix}} account in [{{site.data.keyword.Bluemix}} dashboard](https://cloud.ibm.com/).
 2. Click the service instance in [{{site.data.keyword.Bluemix}} dashboard](https://cloud.ibm.com/).
-3. Click **Service credentials** to open your service instance. 
+3. Click **Service credentials** to open your service instance.
 4. Click **New Credential** to follow the prompt to create new credentials.
 5. Click **View credentials** after creating the credential.
 ![The screenshot shows information about a sample API key](images/gp_iam_apicalls.gif)

@@ -2,7 +2,7 @@
 
 copyright:
   years:  2015, 2019
-lastupdated: "2019-03-25"
+lastupdated: "2019-07-02"
 
 ---
 
@@ -51,7 +51,7 @@ Après avoir défini la portée de la règle d'accès, vous lui affectez un rôl
 
 Actuellement, vous pouvez accorder aux utilisateurs IAM l'accès au niveau instance de service mais vous ne pouvez pas leur accorder ou leur refuser l'accès au niveau bundle. Pour un contrôle à granularité fine, utilisez l'authentification {{site.data.keyword.GlobalizationPipeline_short}}.
 
-Pour plus d'informations sur l'affectation de rôles utilisateur dans l'interface utilisateur, voir [Gestion de l'accès IAM](/docs/iam/iammanidaccser.html#iammanidaccser).
+Pour plus d'informations sur l'affectation de rôles utilisateur dans l'interface utilisateur, voir [Gestion de l'accès IAM](/docs/iam?topic=iam-iammanidaccser).
 
 ### Génération d'appels d'API
 {: #gp_iam_apicalls}
@@ -59,7 +59,7 @@ Pour plus d'informations sur l'affectation de rôles utilisateur dans l'interfac
 Pour générer ou obtenir des données d'identification de service, procédez comme suit :
 1. Connectez-vous à votre compte {{site.data.keyword.Bluemix}} dans le [tableau de bord {{site.data.keyword.Bluemix}}](https://cloud.ibm.com/).
 2. Cliquez sur l'instance de service dans le [tableau de bord {{site.data.keyword.Bluemix}}](https://cloud.ibm.com/).
-3. Cliquez sur **Données d'identification pour le service** pour ouvrir votre instance de service. 
+3. Cliquez sur **Données d'identification pour le service** pour ouvrir votre instance de service.
 4. Cliquez sur **Nouvelles données d'identification** et suivez les instructions de création de nouvelles données d'identification.
 5. Cliquez sur **Afficher les données d'identification** après les avoir créées.
 ![Le capture d'écran affiche les informations relatives à un exemple de clé d'API](images/gp_iam_apicalls.gif)

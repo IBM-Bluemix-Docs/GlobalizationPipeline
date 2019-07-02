@@ -2,7 +2,7 @@
 
 copyright:
   years:  2015, 2019
-lastupdated: "2019-03-25"
+lastupdated: "2019-07-02"
 
 ---
 
@@ -50,7 +50,7 @@ lastupdated: "2019-03-25"
 
 現在、IAM ユーザーにはサービス・インスタンス・レベルでのアクセス権限が付与されており、IAM ユーザーに対しバンドル・レベルでのアクセスの許可または拒否は実行できません。細かく制御する場合は、{{site.data.keyword.GlobalizationPipeline_short}} 認証を使用してください。
 
-UI でのユーザー役割の割り当てについては、[IAM アクセス権限の管理](/docs/iam/iammanidaccser.html#iammanidaccser)を参照してください。
+UI でのユーザー役割の割り当てについては、[IAM アクセス権限の管理](/docs/iam?topic=iam-iammanidaccser)を参照してください。
 
 ### API 呼び出しの生成
 {: #gp_iam_apicalls}
@@ -58,7 +58,7 @@ UI でのユーザー役割の割り当てについては、[IAM アクセス権
 サービス資格情報を生成または取得するには、以下の手順に従います。
 1. [{{site.data.keyword.Bluemix}} ダッシュボード](https://cloud.ibm.com/)で {{site.data.keyword.Bluemix}} アカウントにログオンします。
 2. [{{site.data.keyword.Bluemix}} ダッシュボード](https://cloud.ibm.com/) でサービス・インスタンスをクリックします。
-3. **「サービス資格情報」**をクリックしてサービス・インスタンスを開きます。 
+3. **「サービス資格情報」**をクリックしてサービス・インスタンスを開きます。
 4. **「新規資格情報」**をクリックし、プロンプトに従って新規資格情報を作成します。
 5. 資格情報の作成が完了したら**「資格情報の表示」**をクリックします。
 ![サンプル API キーに関する情報を示すスクリーン・ショット](images/gp_iam_apicalls.gif)

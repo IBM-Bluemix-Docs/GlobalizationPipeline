@@ -2,7 +2,7 @@
 
 copyright:
   years:  2015, 2019
-lastupdated: "2019-03-25"
+lastupdated: "2019-07-02"
 
 ---
 
@@ -50,7 +50,7 @@ Después de definir el ámbito de la política de acceso, debe asignar un rol. E
 
 Actualmente, a los usuarios de IAM se les otorga a nivel de instancia de servicio, y no se les puede permitir ni denegar el acceso a nivel de paquete. Para aplicar un control preciso, utilice la autenticación de {{site.data.keyword.GlobalizationPipeline_short}}.
 
-Para obtener información sobre la asignación de roles de usuario en la interfaz de usuario, consulte [Gestión del acceso de IAM](/docs/iam/iammanidaccser.html#iammanidaccser).
+Para obtener información sobre la asignación de roles de usuario en la interfaz de usuario, consulte [Gestión del acceso de IAM](/docs/iam?topic=iam-iammanidaccser).
 
 ### Generación de llamadas de API
 {: #gp_iam_apicalls}
@@ -58,7 +58,7 @@ Para obtener información sobre la asignación de roles de usuario en la interfa
 Para generar u obtener las credenciales de servicio, siga estos pasos.
 1. Inicie sesión en la cuenta de {{site.data.keyword.Bluemix}} en el [panel de control de {{site.data.keyword.Bluemix}}](https://cloud.ibm.com/).
 2. Pulse la instancia de servicio en el [panel de control de {{site.data.keyword.Bluemix}}](https://cloud.ibm.com/).
-3. Pulse **Credenciales de servicio** para abrir la instancia de servicio. 
+3. Pulse **Credenciales de servicio** para abrir la instancia de servicio.
 4. Pulse **Nueva credencial** para seguir la solicitud para crear nuevas credenciales.
 5. Pulse **Ver credenciales** después de crear la credencial.
 ![La captura de pantalla muestra información sobre una clave de API de ejemplo](images/gp_iam_apicalls.gif)

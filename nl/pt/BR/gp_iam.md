@@ -2,7 +2,7 @@
 
 copyright:
   years:  2015, 2019
-lastupdated: "2019-03-25"
+lastupdated: "2019-07-02"
 
 ---
 
@@ -50,7 +50,7 @@ Depois de definir o escopo da política de acesso, você designa uma função. A
 
 Atualmente, os usuários do IAM recebem acesso no nível da instância de serviço, e os usuários do IAM não podem ter acesso permitido ou negado no nível do pacote configurável. Para controle de baixa granularidade, use a autenticação do {{site.data.keyword.GlobalizationPipeline_short}}.
 
-Para obter informações sobre como designar funções de usuário na IU, consulte [Gerenciando o acesso ao IAM](/docs/iam/iammanidaccser.html#iammanidaccser).
+Para obter informações sobre como designar funções de usuário na IU, consulte [Gerenciando o acesso ao IAM](/docs/iam?topic=iam-iammanidaccser).
 
 ### Gerando chamadas API
 {: #gp_iam_apicalls}
@@ -58,7 +58,7 @@ Para obter informações sobre como designar funções de usuário na IU, consul
 Para gerar ou obter as credenciais de serviço, siga as etapas a seguir.
 1. Efetue logon em sua conta do {{site.data.keyword.Bluemix}} no [ painel do {{site.data.keyword.Bluemix}}](https://cloud.ibm.com/).
 2. Clique na instância de serviço no [ painel do {{site.data.keyword.Bluemix}}](https://cloud.ibm.com/).
-3. Clique em **Credenciais de serviço** para abrir sua instância de serviço. 
+3. Clique em **Credenciais de serviço** para abrir sua instância de serviço.
 4. Clique em **Nova credencial** para seguir o prompt para criar novas credenciais.
 5. Clique em **Visualizar credenciais** depois de criar a credencial.
 ![A captura de tela mostra informações sobre uma chave de API de amostra](images/gp_iam_apicalls.gif)
