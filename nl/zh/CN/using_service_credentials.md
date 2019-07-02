@@ -11,7 +11,7 @@ lastupdated: "2016-07-13"
 {:screen:.screen}
 {:codeblock:.codeblock}
 
-# 在 {{site.data.keyword.GlobalizationPipeline_short}} 以外使用 {{site.data.keyword.Bluemix_notm}}
+# 在 {{site.data.keyword.Bluemix_notm}} 以外使用 {{site.data.keyword.GlobalizationPipeline_short}}
 {: #globalizationpipeline_external}
 上次更新时间：2016 年 7 月 13 日
 {: .last-updated}
