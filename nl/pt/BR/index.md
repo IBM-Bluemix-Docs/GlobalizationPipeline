@@ -13,7 +13,7 @@ lastupdated: "2017-12-13"
 {:codeblock:.codeblock}
 
 
-# Introdução do {{site.data.keyword.GlobalizationPipeline_short}}
+# Introdução ao {{site.data.keyword.GlobalizationPipeline_short}}
 {: #globalizationpipeline}
 
 O {{site.data.keyword.GlobalizationPipeline_full}} é um serviço {{site.data.keyword.Bluemix}} que permite que os desenvolvedores de aplicativo liberem rapidamente os aplicativos traduzidos para clientes globais. O {{site.data.keyword.GlobalizationPipeline_short}} serve como um repositório de tradução que fornece tradução de máquina, revisão e edição humana e APIs e SDKs para integrar perfeitamente a tradução em sua infraestrutura do DevOps and Continuous Development, eliminando operações manuais e isoladas associadas ao processo de tradução tradicional.

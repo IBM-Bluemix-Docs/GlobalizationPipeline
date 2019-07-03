@@ -31,7 +31,7 @@ Para criar um pacote configurável, conclua as etapas a seguir:
 <tr>
 <th>Campo</th>
 <th>Obrigatória</th>
-<th>Descri‡Æo</th>
+<th>Descrição</th>
 </tr>
 </thead>
 <tbody>
@@ -49,17 +49,17 @@ Para criar um pacote configurável, conclua as etapas a seguir:
 </tr>
 <tr>
 <td><strong>Arquivo de Recursos</strong></td>
-<td>NÃO</td>
+<td>Não</td>
 <td>Um <a href=https://new-console.stage1.ng.bluemix.net/docs/services/GlobalizationPipeline/bundles.html>arquivo de recursos</a> a ser traduzido. O tamanho máximo do arquivo é limitado a 2MB. Os arquivos de recursos especificados serão transferidos por upload.</td>
 </tr>
 <tr>
 <td><strong>Formato de arquivo </strong></td>
-<td>NÃO</td>
+<td>Não</td>
 <td>O tipo de arquivo que está sendo transferido por upload.</td>
 </tr>
 <tr>
 <td><strong>Idioma de destino</strong></td>
-<td>NÃO</td>
+<td>Não</td>
 <td>Os idiomas para os quais você deseja traduções.</td>
 </tr>
 </tbody>

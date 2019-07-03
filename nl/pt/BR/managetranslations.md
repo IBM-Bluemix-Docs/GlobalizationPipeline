@@ -116,7 +116,7 @@ Para criar uma solicitação de tradução, conclua as etapas a seguir:
 
 | Barra de Status | Notificação por email | Explicação do status |
 |--------|--------------------|--------------------|
-| Rascunho  | NÃO | A solicitação de tradução foi criada, mas não enviada ainda. Ainda é possível modificar o conteúdo da solicitação de tradução ou excluir a solicitação de tradução. |
+| Rascunho  | Não | A solicitação de tradução foi criada, mas não enviada ainda. Ainda é possível modificar o conteúdo da solicitação de tradução ou excluir a solicitação de tradução. |
 | Submetidos | Sim | A solicitação de tradução foi enviada e não é possível modificar o conteúdo da solicitação de tradução. |
 | Edição iniciada | Sim | O trabalho de pós-edição humana para a solicitação de tradução foi iniciado. |
 | Edição concluída | Sim | O trabalho de pós-edição humana para a solicitação de tradução foi concluído. Ainda é necessário aguardar que as sequências traduzidas sejam mescladas de volta com as sequências de caracteres de recursos principais. |
@@ -137,8 +137,8 @@ Para gerar um relatório *JSON (.json)* ou XLIFF para sua solicitação, clique 
 
 | **Tipo de função** | **Visualizar traduções** | **Editar traduções** | **Modificar informações do pacote configurável** | **Criar solicitações de tradução profissional** | **Visualizar solicitações de tradução profissional** |
 |-----------|--------------------|--------------------|----------------------------|
-| Reader    | Sim | NÃO | NÃO | NÃO | NÃO |
-| Translator | Sim | Sim | NÃO | NÃO | Sim |
+| Leitor        | Sim | Não | Não | Não | Não |
+| Tradutor      | Sim | Sim | Não | Não | Sim |
 | Administrador | Sim | Sim | Sim | Sim | Sim |
 
 Se você criar mais usuários da API, será possível restringir seu acesso a um ou mais pacotes configuráveis específicos ou conceder a eles acesso a todos os pacotes configuráveis disponíveis usando a autenticação do {{site.data.keyword.GlobalizationPipeline_short}}.

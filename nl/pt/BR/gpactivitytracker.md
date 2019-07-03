@@ -34,7 +34,7 @@ o estado de um serviço no {{site.data.keyword.Bluemix_notm}}. Para obter inform
 
 A tabela a seguir lista as ações que estão relacionadas a pacotes configuráveis e geram um evento:
 
-|Ações|Descri‡Æo|
+|Ações|Descrição|
 |---|---|  
 |g11n-pipeline.bundles.read|Obtém uma lista de IDs de pacote configurável.|
 |g11n-pipeline.bundle.create|Cria um novo pacote configurável.|
@@ -52,7 +52,7 @@ A tabela a seguir lista as ações que estão relacionadas a pacotes configuráv
 
 A tabela a seguir lista as ações que estão relacionadas às solicitações de tradução de pacote configurável e geram um evento:
 
-|Ações|Descri‡Æo|
+|Ações|Descrição|
 |---|---|  
 |g11n-pipeline.trs.read|Obtém uma lista de solicitações de tradução.|
 |g11n-pipeline.tr.read|Obtém as informações da solicitação de tradução especificada.|
@@ -69,7 +69,7 @@ A tabela a seguir lista as ações que estão relacionadas às solicitações de
 
 A tabela a seguir lista as ações que estão relacionadas ao pacote configurável xliff e geram um evento:
 
-|Ações|Descri‡Æo|
+|Ações|Descrição|
 |---|---|  
 |g11n-pipeline.xliff-bundles.read|Obtém dados de recurso no idioma especificado por meio dos pacotes configuráveis no formato XLIFF 2.0.|
 |g11n-pipeline.xliff-bundles.update|Atualiza os pacotes configuráveis na instância de serviço com os dados XLIFF.|
@@ -81,7 +81,7 @@ A tabela a seguir lista as ações que estão relacionadas ao pacote configuráv
 
 A tabela a seguir lista as ações que estão relacionadas a parceiros e geram um evento:
 
-|Ações|Descri‡Æo|
+|Ações|Descrição|
 |---|---|  
 |g11n-pipeline.partner.read|Obtém as informações do parceiro.|
 |g11n-pipeline.partner.update|Atualiza as informações do parceiro.|
@@ -109,7 +109,7 @@ A tabela a seguir lista as ações que estão relacionadas a parceiros e geram u
 
 A tabela a seguir lista as ações que estão relacionadas ao administrador e geram um evento:
 
-|Ações|Descri‡Æo|
+|Ações|Descrição|
 |---|---|  
 |g11n-pipeline.instances.read|Obtém uma lista de instâncias de serviço.|
 |g11n-pipeline.instance.read|Obtém as informações da instância de serviço.|
@@ -128,7 +128,7 @@ A tabela a seguir lista as ações que estão relacionadas ao administrador e ge
 
 A tabela a seguir lista as ações que estão relacionadas aos usuários e geram um evento:
 
-|Ações|Descri‡Æo|
+|Ações|Descrição|
 |---|---|  
 |g11n-pipeline.instance-users.read|Obtém os usuários nessa instância de serviço.|
 |g11n-pipeline.instance-user.read|Obtém as informações do usuário especificado.|
@@ -142,7 +142,7 @@ A tabela a seguir lista as ações que estão relacionadas aos usuários e geram
 
 A tabela a seguir lista as ações que estão relacionadas à configuração de tradução e geram um evento:
 
-|Ações|Descri‡Æo|
+|Ações|Descrição|
 |---|---|  
 |g11n-pipeline.config-mts.read|Obtém todas as ligações de serviço de MT.|
 |g11n-pipeline.config-mt.read|Obtém os dados de ligação de serviço de MT.|
@@ -159,7 +159,7 @@ A tabela a seguir lista as ações que estão relacionadas à configuração de 
 
 A tabela a seguir lista as ações que estão relacionadas a instâncias e geram um evento:
 
-|Ações|Descri‡Æo|
+|Ações|Descrição|
 |---|---|  
 |g11n-pipeline.instance.read|Obtém as informações dessa instância de serviço de tradução.|
 

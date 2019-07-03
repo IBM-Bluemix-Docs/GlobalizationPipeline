@@ -21,7 +21,7 @@ Ao abrir um pacote configurável, é possível visualizar todos os detalhes sobr
 
 O status de cada idioma no pacote configurável pode ser Em andamento, Com falha ou Traduzido:
 
-| Barra de Status | Descri‡Æo |
+| Barra de Status | Descrição |
 |--------|-------------|
 | Em Progresso | A tradução de máquina ainda está em andamento. |
 | Reprovado | Ocorreu um erro enquanto o arquivo de recursos estava sendo traduzido para o idioma de destino. |

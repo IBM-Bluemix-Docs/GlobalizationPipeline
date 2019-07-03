@@ -43,8 +43,8 @@ Depois de definir o escopo da política de acesso, você designa uma função. A
 
 | **Tipo de função** | **Visualizar traduções** | **Editar traduções** | **Modificar informações do pacote configurável** | **Criar solicitações de tradução profissional** | **Visualizar solicitações de tradução profissional** |
 |---------------|-----------------------|-----------------------|-------------------------------|----------------------------------------------|--------------------------------------------|
-| Reader        | Sim | NÃO | NÃO | NÃO | NÃO |
-| Gravador        | Sim | Sim | NÃO | NÃO | Sim |
+| Leitor        | Sim | Não | Não | Não | Não |
+| Gravador        | Sim | Sim | Não | Não | Sim |
 | Gerente       | Sim | Sim | Sim | Sim | Sim |
 {: caption="Tabela 1. Funções e ações do usuário do IAM" caption-side="top"}
 
