@@ -3,7 +3,7 @@
 copyright:
   years: 2016, 2019
 
-lastupdated: "2019-06-26"
+lastupdated: "2019-08-30"
 
 ---
 
@@ -17,13 +17,13 @@ lastupdated: "2019-06-26"
 {:download: .download}
 
 
-# {{site.data.keyword.GlobalizationPipeline_short}} {{site.data.keyword.cloudaccesstrailshort}} events
+# {{site.data.keyword.GlobalizationPipeline_short}} {{site.data.keyword.at_short}} events
 {: #gpat_events}
 
-Use the {{site.data.keyword.cloudaccesstrailfull}} service to track how users and applications interact with the IBM {{site.data.keyword.GlobalizationPipeline_short}} in the {{site.data.keyword.Bluemix}}.
+Use the {{site.data.keyword.at_full}} service to track how users and applications interact with the IBM {{site.data.keyword.GlobalizationPipeline_short}} in the {{site.data.keyword.Bluemix}}.
 {:shortdesc}
 
-The {{site.data.keyword.cloudaccesstrailfull_notm}} service records user-initiated activities that change the state of a service in the {{site.data.keyword.Bluemix_notm}}. For more information, see [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).
+The {{site.data.keyword.at_full_notm}} service records user-initiated activities that change the state of a service in the {{site.data.keyword.Bluemix_notm}}. For more information, see [{{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).
 
 
 
@@ -166,6 +166,6 @@ The following table lists the actions that are related to instances and generate
 ## Where to look for the events
 {: #gp_at_ui}
 
-{{site.data.keyword.cloudaccesstrailshort}} events are available in the {{site.data.keyword.cloudaccesstrailshort}} **space domain** that is available in the {{site.data.keyword.Bluemix_notm}} region where the {{site.data.keyword.GlobalizationPipeline_short}} service is provisioned. The {{site.data.keyword.cloudaccesstrailshort}} service instance and the {{site.data.keyword.GlobalizationPipeline_short}} instance must be provisioned in the same CF space.
+{{site.data.keyword.at_short}} events are available in the {{site.data.keyword.at_short}} **space domain** that is available in the {{site.data.keyword.Bluemix_notm}} region where the {{site.data.keyword.GlobalizationPipeline_short}} service is provisioned. The {{site.data.keyword.at_short}} service instance and the {{site.data.keyword.GlobalizationPipeline_short}} instance must be provisioned in the same CF space.
 
-For RC instances of {{site.data.keyword.GlobalizationPipeline_short}}, the Activity Tracker events are available in the Activity Tracker **account** domain where the events are generated in the {{site.data.keyword.Bluemix_notm}} region.
+For RC instances of {{site.data.keyword.GlobalizationPipeline_short}}, the {{site.data.keyword.at_short}} events are available in the {{site.data.keyword.at_short}} **account** domain where the events are generated in the {{site.data.keyword.Bluemix_notm}} region.
