@@ -4,6 +4,9 @@ copyright:
   years: 2015, 2018
 lastupdated: "2017-05-26"
 
+keywords: bundle details, modify bundles, bundle details page, resource file, target language, current translation status, source language, associated translations
+
+subcollection: GlobalizationPipeline
 
 ---
 
@@ -11,6 +14,8 @@ lastupdated: "2017-05-26"
 {:shortdesc: .shortdesc}
 {:screen:.screen}
 {:codeblock:.codeblock}
+{:external: target="_blank" .external}
+
 
 # Modifying bundle details
 {: #modifybundles}
@@ -54,11 +59,11 @@ When you delete a target language from a bundle, you remove the target language 
 
 ## Downloading the generated translations for a target language
 
-{{site.data.keyword.GlobalizationPipeline_short}} provides several ways to incorporate the translation for a target language into your application. You can download the translation as a resource file and include it in your application build. You can also reference the translation dynamically from {{site.data.keyword.GlobalizationPipeline_short}} using one of the open source [SDKs](https://github.com/IBM-Bluemix/gp-common). 
+{{site.data.keyword.GlobalizationPipeline_short}} provides several ways to incorporate the translation for a target language into your application. You can download the translation as a resource file and include it in your application build. You can also reference the translation dynamically from {{site.data.keyword.GlobalizationPipeline_short}} using one of the open source [SDKs](https://github.com/IBM-Bluemix/gp-common){: external}.
 
 <!-- For information on {{site.data.keyword.GlobalizationPipeline_full}} SDKs, see <link>. -->
 
-To download the translation as a resource file: 
+To download the translation as a resource file:
 
 1. In the **Actions** column of the target or source language to download, click the **Download the translations** icon ![Select the download icon to download the source keys or translations for a target language](images/downloadIcon.png).
 2. Select a file format.

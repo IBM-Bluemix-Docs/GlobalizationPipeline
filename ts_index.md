@@ -4,18 +4,22 @@ copyright:
   years: 2015, 2018
 lastupdated: "2016-08-25"
 
+keywords: faq, common questions, generated translations, product names, resource file
+
+subcollection: GlobalizationPipeline
+
 ---
 
-{:tsSymptoms: .tsSymptoms} 
-{:tsCauses: .tsCauses} 
-{:tsResolve: .tsResolve} 
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
 # FAQ
 {: #globalizationpipelinets}
 
-Here are some answers to common questions about using {{site.data.keyword.GlobalizationPipeline_full}}. 
+Here are some answers to common questions about using {{site.data.keyword.GlobalizationPipeline_full}}.
 {:shortdesc}
 
 
@@ -31,7 +35,7 @@ When a resource file is translated, strings that contain product names or other 
 Often times, product names or proper names do not translate properly into other languages, especially if the name contains real words. When these types of words and phrases are translated, depending on the meaning of those words in a specific language, the translated text may have a different meaning from the English name.
 {: tsCauses}
 
-Test the translation of product names before you use them, and if you find problems, modify the text or translation accordingly. For writing style tips when using machine translation, see [Machine translation tips](/docs/services/GlobalizationPipeline/tips.html#globalizationpipeline_tips).
+Test the translation of product names before you use them, and if you find problems, modify the text or translation accordingly. For writing style tips when using machine translation, see [Machine translation tips](/docs/GlobalizationPipeline?topic=GlobalizationPipeline-globalizationpipeline_tips).
 {: tsResolve}
 
 

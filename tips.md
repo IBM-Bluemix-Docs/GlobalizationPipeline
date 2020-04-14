@@ -4,6 +4,10 @@ copyright:
   years: 2015, 2017
 lastupdated: "2016-03-27"
 
+keywords: machine translation tips, source text, target language, machine translation engine, key factors, incorrect punctuation
+
+subcollection: GlobalizationPipeline
+
 ---
 
 {:new_window: target="_blank"}

@@ -4,6 +4,9 @@ copyright:
   years: 2015, 2018
 lastupdated: "2017-12-13"
 
+keywords: globalization pipeline, translation repository, machine translation, translation process, human review, restful api, translation plan
+
+subcollection: GlobalizationPipeline
 
 ---
 
@@ -11,6 +14,7 @@ lastupdated: "2017-12-13"
 {:shortdesc: .shortdesc}
 {:screen:.screen}
 {:codeblock:.codeblock}
+{:external: target="_blank" .external}
 
 
 # Getting started with {{site.data.keyword.GlobalizationPipeline_short}}
@@ -21,7 +25,7 @@ lastupdated: "2017-12-13"
 
 You can use the {{site.data.keyword.GlobalizationPipeline_short}} service to translate any app deployed and hosted on {{site.data.keyword.Bluemix_notm}}, or unbound to translate apps hosted on other cloud platforms.
 
-{{site.data.keyword.GlobalizationPipeline_short}} offers both a dashboard interface to manage your app translation and a RESTful API that fully automates the translation process. For information about the {{site.data.keyword.GlobalizationPipeline_short}} API, see [API Reference](https://gp-rest.ng.bluemix.net/translate/swagger/index.html){: new_window}.
+{{site.data.keyword.GlobalizationPipeline_short}} offers both a dashboard interface to manage your app translation and a RESTful API that fully automates the translation process. For information about the {{site.data.keyword.GlobalizationPipeline_short}} API, see [API Reference](https://gp-rest.ng.bluemix.net/translate/swagger/index.html){: external}.
 
 ## Choosing a translation plan
 {: #globalizationpipeline_chooseplan}
@@ -42,6 +46,6 @@ According to the formula, the size of a typical bundle is `(length of key + leng
 
 For example, if you have 100 key/value pairs and translate them to 9 languages, the estimated storage size is 0.0005 100 (9+1) = 0.5 MB. The actual size may be different depending on actual key/value size and metadata stored along with the translation.
 
-Use the {{site.data.keyword.Bluemix_notm}} [pricing calculator](https://console.ng.bluemix.net/?direct=classic/#/pricing/cloudOEPaneId=pricing&paneId=pricingSheet&orgGuid=127a45f4-4461-4d5b-a26b-6dc2fdd1a3a2&spaceGuid=208fb1ff-413b-4fd9-9615-e8226062d0f3) to determine your monthly service costs.
+Use the {{site.data.keyword.Bluemix_notm}} [pricing calculator](https://cloud.ibm.com/estimator/review){: external} to determine your monthly service costs.
 
 **Note**: Using the Professional plan review feature will increase your data usage beyond what is previously stated.

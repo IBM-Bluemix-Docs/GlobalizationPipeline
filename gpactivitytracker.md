@@ -5,6 +5,10 @@ copyright:
 
 lastupdated: "2019-08-30"
 
+keywords: activity tracker, bundle events, monitor interactions, resource entry, specified bundle
+
+subcollection: GlobalizationPipeline
+
 ---
 
 {:new_window: target="_blank"}
@@ -15,6 +19,7 @@ lastupdated: "2019-08-30"
 {:codeblock: .codeblock}
 {:tip: .tip}
 {:download: .download}
+{:external: target="_blank" .external}
 
 
 # {{site.data.keyword.GlobalizationPipeline_short}} {{site.data.keyword.at_short}} events
@@ -23,10 +28,7 @@ lastupdated: "2019-08-30"
 Use the {{site.data.keyword.at_full}} service to track how users and applications interact with the IBM {{site.data.keyword.GlobalizationPipeline_short}} in the {{site.data.keyword.Bluemix}}.
 {:shortdesc}
 
-The {{site.data.keyword.at_full_notm}} service records user-initiated activities that change the state of a service in the {{site.data.keyword.Bluemix_notm}}. For more information, see [{{site.data.keyword.at_full_notm}}](/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).
-
-
-
+The {{site.data.keyword.at_full_notm}} service records user-initiated activities that change the state of a service in the {{site.data.keyword.Bluemix_notm}}. For more information, see [{{site.data.keyword.at_full_notm}}](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started){: external}.
 
 ## List of events: Bundle events
 {: #gpevents_bundle}
@@ -34,7 +36,7 @@ The {{site.data.keyword.at_full_notm}} service records user-initiated activities
 The following table lists the actions that are related to bundles and generate an event:
 
 |Action|Description|
-|---|---|  
+|---|---|
 |g11n-pipeline.bundles.read|Gets a list of bundle IDs.|
 |g11n-pipeline.bundle.create|Creates a new bundle.|
 |g11n-pipeline.bundle.read|Gets the bundle's information.|
@@ -52,7 +54,7 @@ The following table lists the actions that are related to bundles and generate a
 The following table lists the actions that are related to bundle translation requests and generate an event:
 
 |Action|Description|
-|---|---|  
+|---|---|
 |g11n-pipeline.trs.read|Gets a list of translation requests.|
 |g11n-pipeline.tr.read|Gets the specified translation request's information.|
 |g11n-pipeline.tr.update|Updates the specified translation request's information.|
@@ -69,7 +71,7 @@ The following table lists the actions that are related to bundle translation req
 The following table lists the actions that are related to bundle xliff and generate an event:
 
 |Action|Description|
-|---|---|  
+|---|---|
 |g11n-pipeline.xliff-bundles.read|Gets resource data in the specified language from the bundles in XLIFF 2.0 format.|
 |g11n-pipeline.xliff-bundles.update|Updates bundles in the service instance with the XLIFF data.|
 |g11n-pipeline.xliff-tr-bundles.read|Gets resource data in the specified language in the translation request in XLIFF 2.0 format.|
@@ -81,7 +83,7 @@ The following table lists the actions that are related to bundle xliff and gener
 The following table lists the actions that are related to partners and generate an event:
 
 |Action|Description|
-|---|---|  
+|---|---|
 |g11n-pipeline.partner.read|Gets the partner's information.|
 |g11n-pipeline.partner.update|Updates the partner's information.|
 |g11n-pipeline.partner-trs.read|Gets a list of translation requests assigned to the partner.|
@@ -109,7 +111,7 @@ The following table lists the actions that are related to partners and generate 
 The following table lists the actions that are related to administrator and generate an event:
 
 |Action|Description|
-|---|---|  
+|---|---|
 |g11n-pipeline.instances.read|Gets a list of service instances.|
 |g11n-pipeline.instance.read|Gets the service instance's information.|
 |g11n-pipeline.instance.update|Updates the service instance's configuration.|
@@ -128,7 +130,7 @@ The following table lists the actions that are related to administrator and gene
 The following table lists the actions that are related to users and generate an event:
 
 |Action|Description|
-|---|---|  
+|---|---|
 |g11n-pipeline.instance-users.read|Gets users in this service instance.|
 |g11n-pipeline.instance-user.read|Gets the specified user's information.|
 |g11n-pipeline.instance-user.update|Update a user's information.|
@@ -142,7 +144,7 @@ The following table lists the actions that are related to users and generate an 
 The following table lists the actions that are related to translation configuration and generate an event:
 
 |Action|Description|
-|---|---|  
+|---|---|
 |g11n-pipeline.config-mts.read|Gets all MT service bindings.|
 |g11n-pipeline.config-mt.read|Gets the MT service binding data.|
 |g11n-pipeline.config-translations.read|Gets all translation configurations.|
@@ -159,7 +161,7 @@ The following table lists the actions that are related to translation configurat
 The following table lists the actions that are related to instances and generate an event:
 
 |Action|Description|
-|---|---|  
+|---|---|
 |g11n-pipeline.instance.read|Gets this translation service instance's information.|
 
 

@@ -4,12 +4,18 @@ copyright:
   years: 2015, 2018
 lastupdated: "2017-06-21"
 
+keywords: machine translation, human translation, created bundles, generated content, translation request, access restrictions, user roles, manage translations
+
+subcollection: GlobalizationPipeline
+
 ---
 
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen:.screen}
 {:codeblock:.codeblock}
+{:external: target="_blank" .external}
+
 
 # Managing translations
 {: #managetranslations}
@@ -148,7 +154,7 @@ To grant an API user access to bundles in a {{site.data.keyword.GlobalizationPip
 
 ![Complete the forum in order to create a new API user.](images/newUser.png)
 
-An API user ID and password are generated and displayed. Copy and save those credentials; after you close the window, you cannot access them again. The credentials can be used for RESTful service via [SDKs](https://github.com/IBM-Bluemix/gp-common).
+An API user ID and password are generated and displayed. Copy and save those credentials; after you close the window, you cannot access them again. The credentials can be used for RESTful service via [SDKs](https://github.com/IBM-Bluemix/gp-common){: external}.
 
 To reset the API user password:
 

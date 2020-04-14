@@ -1,8 +1,12 @@
 ---
 
 copyright:
-  years:  2015, 2019
-lastupdated: "2019-07-02"
+  years:  2015, 2020
+lastupdated: "2020-04-14"
+
+keywords: service instance for users, authentication mechanism, api users, iam user roles, allowable actions, bundle information, service access roles, access management
+
+subcollection: GlobalizationPipeline
 
 ---
 
@@ -14,6 +18,7 @@ lastupdated: "2019-07-02"
 {:codeblock: .codeblock}
 {:tip: .tip}
 {:download: .download}
+{:external: target="_blank" .external}
 
 
 # IBM Cloud IAM for {{site.data.keyword.GlobalizationPipeline_short}}
@@ -25,7 +30,7 @@ Access to {{site.data.keyword.GlobalizationPipeline_short}} RC enabled service i
 
 ## {{site.data.keyword.GlobalizationPipeline_short}} authentication
 {: #gp_iam_ca}
-To use the authentication mechanism, see [Add API users](/docs/services/GlobalizationPipeline/managetranslations.html#adduser).
+To use the authentication mechanism, see [Add API users](/docs/GlobalizationPipeline?topic=GlobalizationPipeline-managetranslations#adduser).
 
 
 ## Identity Access Management (IAM)
@@ -56,8 +61,8 @@ For information about assigning user roles in the UI, see [Managing IAM access](
 {: #gp_iam_apicalls}
 
 To generate or to get the service credentials, follow the following steps.
-1. Log on to your {{site.data.keyword.Bluemix}} account in [{{site.data.keyword.Bluemix}} dashboard](https://cloud.ibm.com/).
-2. Click the service instance in [{{site.data.keyword.Bluemix}} dashboard](https://cloud.ibm.com/).
+1. Log on to your {{site.data.keyword.Bluemix}} account in [{{site.data.keyword.Bluemix}} dashboard](https://cloud.ibm.com/){: external}.
+2. Click the service instance in [{{site.data.keyword.Bluemix}} dashboard](https://cloud.ibm.com/){: external}.
 3. Click **Service credentials** to open your service instance.
 4. Click **New Credential** to follow the prompt to create new credentials.
 5. Click **View credentials** after creating the credential.
@@ -68,20 +73,20 @@ The following are examples of calling {{site.data.keyword.GlobalizationPipeline_
 * Using IAM bearer token
 ```
 curl -X GET \
-  https://gp-rest.us-south.g11n-pipeline.test.cloud.ibm.com/translate/rest/50341556337c581c208188ff8908ebc7/v2/bundles \
+  https://gp-rest.us-south.g11n-pipeline.cloud.ibm.com/translate/rest/50341556337c581c208188ff8908ebc7/v2/bundles \
   -H 'Authorization: Bearer eyJjsksd…w'
 ```
 
 * Using API key
 ```
 curl -X GET \
-  https://gp-rest.us-south.g11n-pipeline.test.cloud.ibm.com/translate/rest/50341556337c581c208188ff8908ebc7/v2/bundles \
+  https://gp-rest.us-south.g11n-pipeline.cloud.ibm.com/translate/rest/50341556337c581c208188ff8908ebc7/v2/bundles \
   -H 'Authorization: API-KEY MklfrP…ACem'
 ```
 In the previous example, you can get the following information:
-* “50341556337c581c208188ff8908ebc7” is the instanceId (from credentials section)
-* “https://gp-rest.us-south.g11n-pipeline.test.cloud.ibm.com/translate/rest” is the url (from credentials section)
-* “MklfrP…ACem” is the apikey (from credentials section)
+* “50341556337c581c208188ff8908ebc7” is the instance ID (from credentials section)
+* “https://gp-rest.us-south.g11n-pipeline.cloud.ibm.com/translate/rest” is the URL (from credentials section)
+* “MklfrP…ACem” is the API key (from credentials section)
 * “eyJjsksd…w” is the IAM bearer token
 
-For instructions to get IAM bearer token from apikey see [Getting an {{site.data.keyword.Bluemix_notm}} IAM token by using an API key](/docs/iam?topic=iam-iamtoken_from_apikey#iamtoken_from_apikey).
+For instructions to get IAM bearer token from API key see [Getting an {{site.data.keyword.Bluemix_notm}} IAM token by using an API key](/docs/iam?topic=iam-iamtoken_from_apikey#iamtoken_from_apikey){: external}.

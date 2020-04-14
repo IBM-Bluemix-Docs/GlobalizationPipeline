@@ -1,8 +1,12 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2017-06-16"
+  years: 2015, 2020
+lastupdated: "2020-04-13"
+
+keywords: bundle, key value pairs, resource file, translation, machine translation engine
+
+subcollection: GlobalizationPipeline
 
 ---
 
@@ -21,72 +25,80 @@ Each bundle you create contains the key value pairs from your resource file and 
 The resource files you upload can be of any of the following formats and must contain content in the form of key/value pairs that represent the UI strings from your app.
 
 
-* File type: *Java™ Properties files (.properties)*<br>
-Example:
-```js
-logout=Logout
-back=Back
-examples=Menu
-home=Home
-web=Web
-enterprise=Enterprise
-extra=Resources
-about=About
-settings=Settings
-help=Help
-support=Support
-topics=Topics
-appExitMsg=Are you sure you want to quit the application?
-```
-* File type: *AMD I18N (.js)*<br>
-Example:
-```js
-define({
-    "root": {
-       logout: "Logout",
-       back: "Back",
-       examples: "Menu",
-       home: "Home",
-       web: "Web",
-       enterprise: "Enterprise",
-       extra: "Resources",
-       about: "About",
-       settings: "Settings",
-       help: "Help",
-       support: "Support",
-       topics: "Topics",
-       appExitMsg: "Are you sure you want to quit the application?"
-    }
-});
-```
-* File type: *JSON (.json)*<br>
-Example:
-```js
-{
-  "logout": "Logout",
-  "back": "Back",
-  "examples": "Menu",
-  "home": "Home",
-  "web": "Web",
-  "enterprise": "Enterprise",
-  "extra": "Resources",
-  "about": "About",
-  "settings": "Settings",
-  "help": "Help",
-  "support": "Support",
-  "topics": "Topics",
-  "appExitMsg": "Are you sure you want to quit the application?"
-}
-```
+* File type: *Java™ Properties files (.properties)*
+
+  Example:
+
+  ```
+  logout=Logout
+  back=Back
+  examples=Menu
+  home=Home
+  web=Web
+  enterprise=Enterprise
+  extra=Resources
+  about=About
+  settings=Settings
+  help=Help
+  support=Support
+  topics=Topics
+  appExitMsg=Are you sure you want to quit the application?
+  ```
+
+* File type: *AMD I18N (.js)*
+
+  Example:
+
+  ```js
+  define({
+      "root": {
+         logout: "Logout",
+         back: "Back",
+         examples: "Menu",
+         home: "Home",
+         web: "Web",
+         enterprise: "Enterprise",
+         extra: "Resources",
+         about: "About",
+         settings: "Settings",
+         help: "Help",
+         support: "Support",
+         topics: "Topics",
+         appExitMsg: "Are you sure you want to quit the application?"
+      }
+  });
+  ```
+
+* File type: *JSON (.json)*
+
+  Example:
+
+  ```json
+  {
+    "logout": "Logout",
+    "back": "Back",
+    "examples": "Menu",
+    "home": "Home",
+    "web": "Web",
+    "enterprise": "Enterprise",
+    "extra": "Resources",
+    "about": "About",
+    "settings": "Settings",
+    "help": "Help",
+    "support": "Support",
+    "topics": "Topics",
+    "appExitMsg": "Are you sure you want to quit the application?"
+  }
+  ```
 
 In addition, a resource file must also adhere to these guidelines:
 * Each key can be a maximum of 1023 characters.
 * Each value can be a maximum of 8191 characters.
 * Each bundle can contain a maximum of 1000 key / value pairs.
 
-As you create bundles, they are added to the **Bundles** tab where you can perform additional tasks such as adding or deleting languages, viewing the translated content, and making minor edits to the translated content. 
+As you create bundles, they are added to the **Bundles** tab where you can perform additional tasks such as adding or deleting languages, viewing the translated content, and making minor edits to the translated content.
 
-{{site.data.keyword.GlobalizationPipeline_short}} translates your bundle contents into the languages by using the default machine translation engine. Optionally you can choose an alternative machine translation engine as described in the [Machine translation configuration](/docs/services/GlobalizationPipeline/managetranslations.html#machineconfig) section. The default engine supports the following target languages:
+{{site.data.keyword.GlobalizationPipeline_short}} translates your bundle contents into the languages by using the default machine translation engine. Optionally you can choose an alternative machine translation engine as described in the [Machine translation configuration](/docs/GlobalizationPipeline?topic=GlobalizationPipeline-managetranslations#machineconfig) section. The default engine supports the following target languages:
 
 <table>
 <thead>
@@ -127,9 +139,7 @@ As you create bundles, they are added to the **Bundles** tab where you can perfo
 
 **Note:** {{site.data.keyword.GlobalizationPipeline_short}}'s default machine translation engine only provides support for English as a source language. However, alternative machine translation engines available for configuration within {{site.data.keyword.GlobalizationPipeline_short}} support the translation of other non-English source languages/language pairs.
 
-Once you have translated your bundle contents using machine translation, you can make minor edits within {{site.data.keyword.GlobalizationPipeline_short}} or you can submit bundles for human review and editing by professional translators. For details about submitting a request for human review and editing, see [Creating chargeable human translation request](/docs/services/GlobalizationPipeline/managetranslations.html#humantranslation).
-
-
+Once you have translated your bundle contents using machine translation, you can make minor edits within {{site.data.keyword.GlobalizationPipeline_short}} or you can submit bundles for human review and editing by professional translators. For details about submitting a request for human review and editing, see [Creating chargeable human translation request](/docs/GlobalizationPipeline?topic=GlobalizationPipeline-managetranslations#humantranslation).
 
 
 ## Selecting a bundle to work with

@@ -1,30 +1,11 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="GlobalizationPipeline" category="devops" audience="service" href="/docs/services/GlobalizationPipeline/index.html" path="services/GlobalizationPipeline"}
+{: .toc subcollection="GlobalizationPipeline" category="devops" audience="service" href="/docs/GlobalizationPipeline?topic=GlobalizationPipeline-globalizationpipeline" console-page="/catalog/services/globalization-pipeline" product-page="https://www.ibm.com/cloud/globalization-pipeline" path="GlobalizationPipeline"}
 GlobalizationPipeline
 
     {: .navgroup id="learn"}
     index.md
-    {: .navgroup-end}
-
-    {: .navgroup id="reference"}
-    [REST API](https://gp-rest.ng.bluemix.net/translate/swagger/index.html)
-	
-    {: .topicgroup}
-    SDKs
-        [Java Client](https://github.com/IBM-Bluemix/gp-java-client)
-        [Java Tools](https://github.com/IBM-Bluemix/gp-java-tools)
-        [JavaScript Client](https://github.com/IBM-Bluemix/gp-js-client)
-        [AngularJS Client](https://github.com/IBM-Bluemix/gp-angular-client)
-        [Ruby Client](https://github.com/IBM-Bluemix/gp-ruby-client)
-        [Python Client](https://github.com/IBM-Bluemix/gp-python-client)
-	
-    gpactivitytracker.md
-    gp_iam.md
-    cmd_line.md
-    tutorial.md
-    relatedlinks.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -34,13 +15,32 @@ GlobalizationPipeline
     importetrbundles.md
     bundles.md
     modifybundles.md
-    managetranslations.md	
+    managetranslations.md
     using_service_credentials.md
     integratewithgh.md
     integratingmaven.md
     integratingjenkins.md
     integratingdevops.md
     integratingtoms.md
+    {: .navgroup-end}
+    
+    {: .navgroup id="reference"}
+    [REST API](https://gp-rest.ng.bluemix.net/translate/swagger/index.html)
+
+    {: .topicgroup}
+    SDKs
+        [Java Client](https://github.com/IBM-Bluemix/gp-java-client)
+        [Java Tools](https://github.com/IBM-Bluemix/gp-java-tools)
+        [JavaScript Client](https://github.com/IBM-Bluemix/gp-js-client)
+        [AngularJS Client](https://github.com/IBM-Bluemix/gp-angular-client)
+        [Ruby Client](https://github.com/IBM-Bluemix/gp-ruby-client)
+        [Python Client](https://github.com/IBM-Bluemix/gp-python-client)
+
+    gpactivitytracker.md
+    gp_iam.md
+    cmd_line.md
+    tutorial.md
+    relatedlinks.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
